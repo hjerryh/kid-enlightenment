@@ -1,0 +1,2576 @@
+{
+  "language": "en-US",
+  "engine": "edge",
+  "voice": "en-US-JennyNeural",
+  "rate": "-10%",
+  "pitch": "+0Hz",
+  "processing": "silenceremove=start_periods=1:start_duration=0.02:start_threshold=-55dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_duration=0.02:start_threshold=-55dB:start_silence=0.08,areverse,loudnorm=I=-18:TP=-2:LRA=7,apad=pad_dur=0.12",
+  "sampleRate": 24000,
+  "bitrate": "96k",
+  "loudnessCorrection": "measured-gain-v1",
+  "profile": "dc34e0779d334473",
+  "clips": {
+    "apple": {
+      "text": "Apple",
+      "duration": 0.639333,
+      "bytes": 8684,
+      "sha256": "c0c14ac36bb10ae0a8c7b7beac9c955c3b438ab4b55fc304ea328f1886af6a45"
+    },
+    "banana": {
+      "text": "Banana",
+      "duration": 0.776458,
+      "bytes": 10412,
+      "sha256": "0c4e3d889448c19fff7c3dff72081e33eca31d5457964a707b40d2e1517be3a1"
+    },
+    "orange": {
+      "text": "Orange",
+      "duration": 0.75425,
+      "bytes": 10124,
+      "sha256": "e55a7b17ec7a6e186d796cfdc28f13865d239bfd29da1d94d20e35e04d2c6df6"
+    },
+    "strawberry": {
+      "text": "Strawberry",
+      "duration": 0.9175,
+      "bytes": 12140,
+      "sha256": "ad1c82215ed4dcb41457b6a11d7aeb05351d830ebdf165b8d504b88f22314ae5"
+    },
+    "grapes": {
+      "text": "Grapes",
+      "duration": 0.754583,
+      "bytes": 10124,
+      "sha256": "0b34791201e47363fc15423f182e74caa9be6766f83eb4fa2080e00bac783f13"
+    },
+    "pear": {
+      "text": "Pear",
+      "duration": 0.631875,
+      "bytes": 8684,
+      "sha256": "0e804d422610a5a81398be3e202c24f0b522d1268e9cb160fbc14bec51d89d82"
+    },
+    "rat": {
+      "text": "Rat",
+      "duration": 0.692625,
+      "bytes": 9260,
+      "sha256": "87c858a6015dca0bdd189447127c813fd7429d87f5096bb521e510d28a649d39"
+    },
+    "ox": {
+      "text": "Ox",
+      "duration": 0.645208,
+      "bytes": 8684,
+      "sha256": "42e4c2594532e05b8605980046dd1402d0c6fe45ae739b6e81258345aececa1c"
+    },
+    "tiger": {
+      "text": "Tiger",
+      "duration": 0.735333,
+      "bytes": 9836,
+      "sha256": "9b6bfe1473a57e5ae113d975466be83452a2ced5f867896d118eea060a14fc72"
+    },
+    "rabbit": {
+      "text": "Rabbit",
+      "duration": 0.73975,
+      "bytes": 9836,
+      "sha256": "fbcf6b5872c485555a57e3b5e75ecab472e3c1c7cb9513fe48cbe5a0d66eadd5"
+    },
+    "dragon": {
+      "text": "Dragon",
+      "duration": 0.7465,
+      "bytes": 10124,
+      "sha256": "b8f720fed45b32d4aff6c69d29ca0e3fcff8514a684f33ab756b106b8c6ac914"
+    },
+    "snake": {
+      "text": "Snake",
+      "duration": 0.755875,
+      "bytes": 10124,
+      "sha256": "8f27c5c2df96b02d74e23aea586ae8320912558be60bf513e80e915f5b7a5e68"
+    },
+    "horse": {
+      "text": "Horse",
+      "duration": 0.699875,
+      "bytes": 9548,
+      "sha256": "10a6a23dbf63c4438b6febf0f9a81eefc3e7c9f0af74a854068857509cceb73d"
+    },
+    "goat": {
+      "text": "Goat",
+      "duration": 0.615542,
+      "bytes": 8396,
+      "sha256": "bbeba5a173573043495cc21c9f682db2760015582b4d29edf8c36918ab0badd6"
+    },
+    "monkey": {
+      "text": "Monkey",
+      "duration": 0.769958,
+      "bytes": 10412,
+      "sha256": "d4bc7e24746c69bd74d51573a2bfabd3ad42bf7f5abc1a1adc30c0f0b817088c"
+    },
+    "rooster": {
+      "text": "Rooster",
+      "duration": 0.796833,
+      "bytes": 10700,
+      "sha256": "282f4e067a849800db38bfd22845b905b317837b62d01ff50f896911c0b38c7a"
+    },
+    "dog": {
+      "text": "Dog",
+      "duration": 0.642125,
+      "bytes": 8684,
+      "sha256": "d33abf27c0b3f558f40f3e3d86f51602ac4d9c61db7eca8cf7ce1e49bfaf1d76"
+    },
+    "pig": {
+      "text": "Pig",
+      "duration": 0.589417,
+      "bytes": 8108,
+      "sha256": "bf2c3aa97eece4e4dc4300fbb038e863abc4e6379f5738e3c2158f8b657466e1"
+    },
+    "cat": {
+      "text": "Cat",
+      "duration": 0.680583,
+      "bytes": 9260,
+      "sha256": "c63279cf2eba9142e4c99a250b58e659f7149274e6df64a733f7432a06be9ad1"
+    },
+    "lion": {
+      "text": "Lion",
+      "duration": 0.683333,
+      "bytes": 9260,
+      "sha256": "611b82e8c48025b242562c3ee90da5e41c19fe6980e82fc5d17093c5c9d651d3"
+    },
+    "elephant": {
+      "text": "Elephant",
+      "duration": 0.880583,
+      "bytes": 11564,
+      "sha256": "293c2dadb797e2cd0272f77cdbd28fabffe2b34cd194c21af163e7da92803269"
+    },
+    "panda": {
+      "text": "Panda",
+      "duration": 0.706208,
+      "bytes": 9548,
+      "sha256": "ac80fb3f47a78eb30b1a7ff329f89f66fd7830059998137b8148cb7333254b38"
+    },
+    "bear": {
+      "text": "Brown bear",
+      "duration": 0.9025,
+      "bytes": 11852,
+      "sha256": "90b7efc099565e77c35a92b551b7905fa55d7fc510e4fdf81fd6051bd2aab939"
+    },
+    "polar-bear": {
+      "text": "Polar bear",
+      "duration": 0.98125,
+      "bytes": 12716,
+      "sha256": "3180b8604550341f595aa2f7825fb30741b3d1cfa5c78a1e6ab3767fdd79a9fd"
+    },
+    "fox": {
+      "text": "Fox",
+      "duration": 0.781,
+      "bytes": 10412,
+      "sha256": "00e41bb2712953c37b34dde14c2a2e38d3aad473fc5012260d9237ffca76e98e"
+    },
+    "wolf": {
+      "text": "Wolf",
+      "duration": 0.718958,
+      "bytes": 9548,
+      "sha256": "02cf33f99e02e361023d68f1cad3d4b3efada9015965d58cf262887b35efb47d"
+    },
+    "giraffe": {
+      "text": "Giraffe",
+      "duration": 0.777583,
+      "bytes": 10412,
+      "sha256": "2d623442e18be5217f27ca4a7a64b8462147c0438de20d409e779e7d2641f28f"
+    },
+    "zebra": {
+      "text": "Zebra",
+      "duration": 0.733042,
+      "bytes": 9836,
+      "sha256": "a3f7099b7f6f922d7482e3262cc3efca5b0b5d17a9007bb51840c6bf3d96fd8a"
+    },
+    "rhinoceros": {
+      "text": "Rhinoceros",
+      "duration": 1.10175,
+      "bytes": 14156,
+      "sha256": "a4d7d3887a79001b01ea3d3b6798ee45ba1c269862387555de42cd7e4c042065"
+    },
+    "hippopotamus": {
+      "text": "Hippopotamus",
+      "duration": 1.210167,
+      "bytes": 15596,
+      "sha256": "5424a53ab910f568ab473458d2df448d47594dd5aa9e0e7519429f889b7468ab"
+    },
+    "kangaroo": {
+      "text": "Kangaroo",
+      "duration": 0.920417,
+      "bytes": 12140,
+      "sha256": "9ec96b8b6445c813ca8cdb6d8e4deb30fa6f97505655f494c2e5e3c2ddf126c3"
+    },
+    "koala": {
+      "text": "Koala",
+      "duration": 0.761625,
+      "bytes": 10124,
+      "sha256": "c1c125062a49a270580a00a85c7acae80902cd6710e80b5a0698a0f47ec4888a"
+    },
+    "deer": {
+      "text": "Deer",
+      "duration": 0.594833,
+      "bytes": 8108,
+      "sha256": "8adc4b7e971b7a3e415edb14e9dcce5ebb8c71167e5f6bbbdf135192fbfcf899"
+    },
+    "camel": {
+      "text": "Camel",
+      "duration": 0.677375,
+      "bytes": 9260,
+      "sha256": "07d71e467dac347dca67b8db1ca5c9cd6561b59a298997d038efe511b1486d8c"
+    },
+    "squirrel": {
+      "text": "Squirrel",
+      "duration": 0.805083,
+      "bytes": 10700,
+      "sha256": "84d126550f0df3d1f98c385a34ee9e41c70861f7c468728da76a446247224e18"
+    },
+    "hedgehog": {
+      "text": "Hedgehog",
+      "duration": 0.820458,
+      "bytes": 10988,
+      "sha256": "13745692b53f93cfba2f5780c28aaacfebb22e23cd8169564e83b1d2eb1f0055"
+    },
+    "bat": {
+      "text": "Bat",
+      "duration": 0.673958,
+      "bytes": 9260,
+      "sha256": "58f119a43d5c90b41826140c955e39c9734f96405f5de15c007199d1b160719e"
+    },
+    "otter": {
+      "text": "Otter",
+      "duration": 0.609583,
+      "bytes": 8396,
+      "sha256": "5555d42393af01d49c6a164c6501ebcda6c371ce89cf4e7acd6b8dce749ec51f"
+    },
+    "beaver": {
+      "text": "Beaver",
+      "duration": 0.649958,
+      "bytes": 8972,
+      "sha256": "1393950659bc812080c491cf63a652f9ea6949439adefaec99a466dae6ba7e62"
+    },
+    "raccoon": {
+      "text": "Raccoon",
+      "duration": 0.826167,
+      "bytes": 10988,
+      "sha256": "b1e3e03dc6e662fc18e15339b155a9b832b4079bb739dbe437e4793845ac8e0f"
+    },
+    "gorilla": {
+      "text": "Gorilla",
+      "duration": 0.763833,
+      "bytes": 10124,
+      "sha256": "78e4a3c58cd10353d223fc015b3e45861bc98541c2c44ded78753df6eddf471b"
+    },
+    "duck": {
+      "text": "Duck",
+      "duration": 0.642458,
+      "bytes": 8684,
+      "sha256": "1f10f3b3c191d17434d029df50889b5c7a93e3ecdae29cc481c3977e5f688c57"
+    },
+    "goose": {
+      "text": "Goose",
+      "duration": 0.662583,
+      "bytes": 8972,
+      "sha256": "74d8407be6db62eacbfbd56f812468cc9ba5ce8ae3eb6e2e71e36f20afdda3f0"
+    },
+    "penguin": {
+      "text": "Penguin",
+      "duration": 0.7895,
+      "bytes": 10412,
+      "sha256": "5ed83e07420fdef41e5da399396f01e778021fc1e7f160d24f357da898e91a04"
+    },
+    "owl": {
+      "text": "Owl",
+      "duration": 0.526958,
+      "bytes": 7244,
+      "sha256": "9b610c8e40d847516087bc6ceca747cd2a8ead132b7ffdc88f42fc470efadc03"
+    },
+    "eagle": {
+      "text": "Eagle",
+      "duration": 0.650125,
+      "bytes": 8972,
+      "sha256": "83a6f58923fe08f4a632075aeef57e7372303190a2a54f3a0e46cb862a363bc4"
+    },
+    "parrot": {
+      "text": "Parrot",
+      "duration": 0.681167,
+      "bytes": 9260,
+      "sha256": "b05ef3be567c0364223348c539ce859b38b0d43c55218ad42f1409a980fc563f"
+    },
+    "peacock": {
+      "text": "Peacock",
+      "duration": 0.828333,
+      "bytes": 10988,
+      "sha256": "543a74daa78acb7805ab6c4eb2a09d447cb3f921dd306ec710eee748f111f0a4"
+    },
+    "flamingo": {
+      "text": "Flamingo",
+      "duration": 1.012875,
+      "bytes": 13292,
+      "sha256": "8785e92d1f72fd28109c562f936f124ff475b55fd7ed25908dd4d2d1b2724537"
+    },
+    "ostrich": {
+      "text": "Ostrich",
+      "duration": 0.921292,
+      "bytes": 12140,
+      "sha256": "eb97ecb6fad2239e0368e712f53690bcab902bbc8716570eb1599eb9364a7512"
+    },
+    "woodpecker": {
+      "text": "Woodpecker",
+      "duration": 0.89475,
+      "bytes": 11852,
+      "sha256": "e892675f58e5feb4106627f94f999d571a54f92528fdac166a31d9be4952d60e"
+    },
+    "dolphin": {
+      "text": "Dolphin",
+      "duration": 0.790208,
+      "bytes": 10412,
+      "sha256": "306c8e3e87f17430e6e95c2277d7c86beb71c2680f14e7f98c1e78034ea84d32"
+    },
+    "whale": {
+      "text": "Whale",
+      "duration": 0.619583,
+      "bytes": 8396,
+      "sha256": "a9a214af7fd4d309bde6312d0b10cb7f6560d0e25d7defe6874a3de272aa11b9"
+    },
+    "shark": {
+      "text": "Shark",
+      "duration": 0.745958,
+      "bytes": 10124,
+      "sha256": "9c444208560671ae62af3a4777cf09982fc94c25b0e32638c9d075c048e14b80"
+    },
+    "octopus": {
+      "text": "Octopus",
+      "duration": 1.010458,
+      "bytes": 13292,
+      "sha256": "7270e6e67f350ee3897729843843f6677fe09b01654325ce51c644fa1b750d21"
+    },
+    "jellyfish": {
+      "text": "Jellyfish",
+      "duration": 1.000042,
+      "bytes": 13004,
+      "sha256": "9469d7c7a02130c215f8f6b357f6bc0f96d9dc885eec633f77b0a73cd2bfb63a"
+    },
+    "seahorse": {
+      "text": "Seahorse",
+      "duration": 0.903208,
+      "bytes": 11852,
+      "sha256": "e32a767779ac82d94e13dc964653603961807d48e16bd2cbcccb348a616fab05"
+    },
+    "seal": {
+      "text": "Seal",
+      "duration": 0.687375,
+      "bytes": 9260,
+      "sha256": "ed4162521abf4f03cca929922cee2562940192f2fa5f836e4f56a1bbcb97c392"
+    },
+    "crab": {
+      "text": "Crab",
+      "duration": 0.625958,
+      "bytes": 8684,
+      "sha256": "7d67f160c50dd5808475acb53d1d9867405bf3ef39cef44be55a9e415225788d"
+    },
+    "starfish": {
+      "text": "Starfish",
+      "duration": 0.980333,
+      "bytes": 12716,
+      "sha256": "df7bec4614c42e0067f31cda78e56c82c95047e1e5407bd25a2892bda96287d9"
+    },
+    "turtle": {
+      "text": "Turtle",
+      "duration": 0.657917,
+      "bytes": 8972,
+      "sha256": "3824d6332035e30535a6722fa8f16caa5fc18389cba0a4da2a4e8beddb3c1e6e"
+    },
+    "crocodile": {
+      "text": "Crocodile",
+      "duration": 0.886208,
+      "bytes": 11564,
+      "sha256": "8702e615c5c0a7ddb5c81ed27f6e675d70cb65596fdbba7eec74ab28092f616a"
+    },
+    "frog": {
+      "text": "Frog",
+      "duration": 0.724542,
+      "bytes": 9836,
+      "sha256": "dc0ea30e994697f56ae41c8b414b1734db42a9c45a935b4832e9a043064eb6e0"
+    },
+    "lizard": {
+      "text": "Lizard",
+      "duration": 0.711417,
+      "bytes": 9548,
+      "sha256": "1c17e1ed1b75131046688266524b9e8e4f7e336a35f1d8c0ce64d226134bb1d8"
+    },
+    "butterfly": {
+      "text": "Butterfly",
+      "duration": 0.934625,
+      "bytes": 12140,
+      "sha256": "35242dd0c1a13d64603ffa22131b9b876e966ea07da409408066d6564616c8a3"
+    },
+    "bee": {
+      "text": "Bee",
+      "duration": 0.52775,
+      "bytes": 7244,
+      "sha256": "7f8ab741367b26dc96f2de1ec8ec233141bf6bfa3c2ababdd70c9f2e8485b4e3"
+    },
+    "ladybug": {
+      "text": "Ladybug",
+      "duration": 0.892583,
+      "bytes": 11852,
+      "sha256": "4e1bc76af1e8abb7cddf420a6e6583673b1f0b20c724ec3153e8a4c04398dc21"
+    },
+    "ant": {
+      "text": "Ant",
+      "duration": 0.615083,
+      "bytes": 8396,
+      "sha256": "742e4b39ae4a17ffd540648a35c711c2740ce737b7560977abf6db8cf5e4f401"
+    },
+    "red": {
+      "text": "Red",
+      "duration": 0.623708,
+      "bytes": 8396,
+      "sha256": "c55e8789cd774600617390300981833bd6789bc7c98afea676ce22aab5b62133"
+    },
+    "orange-color": {
+      "text": "Orange",
+      "duration": 0.75425,
+      "bytes": 10124,
+      "sha256": "e55a7b17ec7a6e186d796cfdc28f13865d239bfd29da1d94d20e35e04d2c6df6"
+    },
+    "yellow": {
+      "text": "Yellow",
+      "duration": 0.729458,
+      "bytes": 9836,
+      "sha256": "206fe6d67b43027d6b846951250cd436263c61c545813f2bda2cb27cbd360aa4"
+    },
+    "green": {
+      "text": "Green",
+      "duration": 0.68375,
+      "bytes": 9260,
+      "sha256": "e1df7c59065908a566efc0b6c555c0be28a78799cdbad5484909554e38e8cf29"
+    },
+    "blue": {
+      "text": "Blue",
+      "duration": 0.629042,
+      "bytes": 8684,
+      "sha256": "9d7a9d1cf8690bbd0fca49147dd091107f2477272746c9b79a13c2f83a2fdd30"
+    },
+    "purple": {
+      "text": "Purple",
+      "duration": 0.69575,
+      "bytes": 9260,
+      "sha256": "ed4770f85ce27f987f011ec335a4d997c29d72ea6b6c349b49db70255c7e4412"
+    },
+    "zero": {
+      "text": "Zero",
+      "duration": 0.759708,
+      "bytes": 10124,
+      "sha256": "d36b75d32d94c3af0da6745db33357d55251fc814c48797673d59a30e6f24f49"
+    },
+    "one": {
+      "text": "One",
+      "duration": 0.611042,
+      "bytes": 8396,
+      "sha256": "8ebf51935081c76eb7d8702063c3f56ac5a2eb732e1338d64398cb335ecc77be"
+    },
+    "two": {
+      "text": "Two",
+      "duration": 0.60825,
+      "bytes": 8396,
+      "sha256": "d14c61a571c3c22ea80cbc8b028640fe71abfc1fd5dd6150d93345ccf4b4fbb8"
+    },
+    "three": {
+      "text": "Three",
+      "duration": 0.588083,
+      "bytes": 8108,
+      "sha256": "1a28ce2e10cc18390d04b6a506128b2c559dd7e191ba999a0a7bf0110cf53b61"
+    },
+    "four": {
+      "text": "Four",
+      "duration": 0.712042,
+      "bytes": 9548,
+      "sha256": "ef8065b5503eb66a411571cc62669bdffc893448689d08655aed08aa5987fca3"
+    },
+    "five": {
+      "text": "Five",
+      "duration": 0.751625,
+      "bytes": 10124,
+      "sha256": "8f6755a16c73982870f87caa8961fb08e77e98d2212e142aed5b67d20b4baefa"
+    },
+    "six": {
+      "text": "Six",
+      "duration": 0.769958,
+      "bytes": 10412,
+      "sha256": "9f85f537da288f82e4415d9a122db683083fb1cdf3566cb43caef8230019fb73"
+    },
+    "seven": {
+      "text": "Seven",
+      "duration": 0.762375,
+      "bytes": 10124,
+      "sha256": "8f71eeb7d685a9aa552ac7e82a077ab342ccdd0d876272b78e85d9ad9f8d9a1b"
+    },
+    "eight": {
+      "text": "Eight",
+      "duration": 0.607292,
+      "bytes": 8396,
+      "sha256": "57d6adbec76485a75afe4804b52918bcd1bd92c49cf3d751468048cf07e7d3ae"
+    },
+    "nine": {
+      "text": "Nine",
+      "duration": 0.6865,
+      "bytes": 9260,
+      "sha256": "96d12a131891d51b46384ca65fcefa25f153bf16c9f1e3836594286d0398985f"
+    },
+    "ten": {
+      "text": "Ten",
+      "duration": 0.621292,
+      "bytes": 8396,
+      "sha256": "593d72b1e9af11988a81173f6c204cc7bc7c438f73e2957c2aa03059d2dc50a7"
+    },
+    "eleven": {
+      "text": "Eleven",
+      "duration": 0.829458,
+      "bytes": 10988,
+      "sha256": "3b62c6fc8e9a17c529f6a5e4312520de66d04386d132ddda1b335fb396afa06a"
+    },
+    "twelve": {
+      "text": "Twelve",
+      "duration": 0.692833,
+      "bytes": 9260,
+      "sha256": "fe20a4a8aeae675d0ead552cfd73c90ef442824b3e4d46b1b3c36a7f742e045d"
+    },
+    "thirteen": {
+      "text": "Thirteen",
+      "duration": 0.836792,
+      "bytes": 10988,
+      "sha256": "010866f1a3644c8272737016143435227cb8ffd381aac27c115331547cb482c2"
+    },
+    "fourteen": {
+      "text": "Fourteen",
+      "duration": 0.900167,
+      "bytes": 11852,
+      "sha256": "9577839947fa6d1754d099b6c772c92108dd7ac2e9c0c87e6df2bd2aea47ba8c"
+    },
+    "fifteen": {
+      "text": "Fifteen",
+      "duration": 0.860833,
+      "bytes": 11276,
+      "sha256": "6aa048e4d13f3931c91c17489569526637086dffc41b79af236ace24ca1f9a8f"
+    },
+    "sixteen": {
+      "text": "Sixteen",
+      "duration": 0.99175,
+      "bytes": 13004,
+      "sha256": "b24c9bdef2265c1ea1c162108a05362db8659ba6e08d8bf75f841de5d8f3ec18"
+    },
+    "seventeen": {
+      "text": "Seventeen",
+      "duration": 1.033958,
+      "bytes": 13580,
+      "sha256": "15e98fa2bbb467865e8fd3c6f9ad73164be74c98b1d8ab25565ae1e4f26ecaf9"
+    },
+    "eighteen": {
+      "text": "Eighteen",
+      "duration": 0.769958,
+      "bytes": 10412,
+      "sha256": "a4a2cd0038694ee991e9708e98b17e15956b6707eaaedaddffbe5ff1b75c1fdc"
+    },
+    "nineteen": {
+      "text": "Nineteen",
+      "duration": 0.866333,
+      "bytes": 11564,
+      "sha256": "e6e9489272f46c946cb3aff4de5693c0515ed58fa5a3a777dfcbb5be6cba136b"
+    },
+    "circle": {
+      "text": "Circle",
+      "duration": 0.769958,
+      "bytes": 10412,
+      "sha256": "77be8372bc29d83503eedf3cccdfd2b3851d281b3fc9d744b6430f1dbea868ae"
+    },
+    "square": {
+      "text": "Square",
+      "duration": 0.77725,
+      "bytes": 10412,
+      "sha256": "19cc7f5b9025dbe5732c97c52b870e1ab44754d449dc26e4f814d52d2ee05b60"
+    },
+    "triangle": {
+      "text": "Triangle",
+      "duration": 0.890125,
+      "bytes": 11852,
+      "sha256": "f1535ed909d634307b4469f9c06e9ea78d8a8aa81865057dc6a988561a6c1084"
+    },
+    "rectangle": {
+      "text": "Rectangle",
+      "duration": 0.961958,
+      "bytes": 12716,
+      "sha256": "857e5cd8deb42946053d9b18334a463310c75869a270bac0c20413c970db01e2"
+    },
+    "star": {
+      "text": "Star",
+      "duration": 0.756875,
+      "bytes": 10124,
+      "sha256": "24df11108cf4fa434d638ded5223c9c2bc406f2f2ccbacb321ef69f5a8202fb7"
+    },
+    "heart": {
+      "text": "Heart",
+      "duration": 0.654,
+      "bytes": 8972,
+      "sha256": "cf7933f4eda0285b8e2bf520b1934ab2dd371c91ac184dc76221f960bf12510b"
+    },
+    "sun": {
+      "text": "Sun",
+      "duration": 0.704125,
+      "bytes": 9548,
+      "sha256": "29ddaa6129cb1738173cf83b3424b351c1cef47ad6d5189c57c36600f8269968"
+    },
+    "moon": {
+      "text": "Moon",
+      "duration": 0.649958,
+      "bytes": 8972,
+      "sha256": "577e9e4fbcca29d7cccf56599acad144e45b0938ae1023e0fdcad90a240cd4a4"
+    },
+    "tree": {
+      "text": "Tree",
+      "duration": 0.643542,
+      "bytes": 8684,
+      "sha256": "f3e275f2a50eff734c680f1e36fc3272fd891b00026da5663fd503aa607b254f"
+    },
+    "flower": {
+      "text": "Flower",
+      "duration": 0.76275,
+      "bytes": 10124,
+      "sha256": "dffd1f4d4093478e162178ac6fa178c75e88f31c2c7e196d79e4fc95b993e0e0"
+    },
+    "house": {
+      "text": "House",
+      "duration": 0.572167,
+      "bytes": 7820,
+      "sha256": "e2385a4bb69246e466ad6d6f457172a18e2a38708e1ccf1d641b2b5e61597fa3"
+    },
+    "car": {
+      "text": "Car",
+      "duration": 0.607958,
+      "bytes": 8396,
+      "sha256": "2dd2b9b20be58ce70fc83038da75775a540a57fb91ffd040a120e5985c9e8a0b"
+    },
+    "welcome": {
+      "text": "Hello, little explorer! Let us discover something new.",
+      "duration": 4.583208,
+      "bytes": 55916,
+      "sha256": "4d4b32bd69bc3faf85e762c331bb562b3d319adebfc6aac8f0350b71062d974c"
+    },
+    "well-done": {
+      "text": "Wonderful! You did it.",
+      "duration": 2.61,
+      "bytes": 32300,
+      "sha256": "9dfd6808ca0bc20be52fa63fddd91aedfbce092fd5218882aa90ac1600279fb3"
+    },
+    "try-again": {
+      "text": "Good try! Let us listen again.",
+      "duration": 3.114375,
+      "bytes": 38348,
+      "sha256": "610e149376c06980f466dcaf83b7a4378bf1405d7a25d3c8c9dd39ff28921673"
+    },
+    "question-3-4-ant": {
+      "text": "Find the ant.",
+      "duration": 1.067583,
+      "bytes": 13868,
+      "sha256": "a5f07dcb72a14e3d2f0548aaac54a2cbf0d3762a33cca7a5c1319cca1591096b"
+    },
+    "question-3-4-apple": {
+      "text": "Find the apple.",
+      "duration": 1.110042,
+      "bytes": 14444,
+      "sha256": "eeea3f49e3c7f59e7ae62f7558bb18a91a4b5760090ea2833b4f41ebe62666d0"
+    },
+    "question-3-4-banana": {
+      "text": "Find the banana.",
+      "duration": 1.166583,
+      "bytes": 15020,
+      "sha256": "caae90962dc3e4e8583971ae81fc156a691335be847aad9f90dd61d8ab727e6f"
+    },
+    "question-3-4-bat": {
+      "text": "Find the bat.",
+      "duration": 1.069583,
+      "bytes": 13868,
+      "sha256": "aae7a1c5242c839efd679794a7339470f4c1d45ebe476adf212a826e497cc4e3"
+    },
+    "question-3-4-bear": {
+      "text": "Find the brown bear.",
+      "duration": 1.32625,
+      "bytes": 17036,
+      "sha256": "a5fb5ec05fb790d34ebe67e04cd6ad204d4bf22cf57b935e3de15d4f5a60664c"
+    },
+    "question-3-4-beaver": {
+      "text": "Find the beaver.",
+      "duration": 1.10025,
+      "bytes": 14156,
+      "sha256": "4269f4fab82f3c7d7e78ae366c1a5d7b5e22856f18d25c4f67aa2e0731a01424"
+    },
+    "question-3-4-bee": {
+      "text": "Find the bee.",
+      "duration": 0.981292,
+      "bytes": 12716,
+      "sha256": "f2ab79c8b7a9d0f844a265b3e7aa1348d2dd3931423e54be2c4c7c61fdd4f523"
+    },
+    "question-3-4-blue": {
+      "text": "Find the color blue.",
+      "duration": 1.369958,
+      "bytes": 17612,
+      "sha256": "96a28635c079b1e37cdfa5785fa877c0be8905330193bd5c03092efa637efdae"
+    },
+    "question-3-4-butterfly": {
+      "text": "Find the butterfly.",
+      "duration": 1.345958,
+      "bytes": 17324,
+      "sha256": "5f7b172f98c3c0b50619406cc6b39a8d10327b5e2b48150d0cfdd3cd70359c09"
+    },
+    "question-3-4-camel": {
+      "text": "Find the camel.",
+      "duration": 1.081958,
+      "bytes": 14156,
+      "sha256": "49fdca116a4620867811d280be364eed926eaa447417884a73f41ba95c7f84f5"
+    },
+    "question-3-4-car": {
+      "text": "Find the car.",
+      "duration": 1.094583,
+      "bytes": 14156,
+      "sha256": "8149f2ffc5a42983cf3051872417045ba76cb25d68107ea6d905a731b2c1fb45"
+    },
+    "question-3-4-cat": {
+      "text": "Find the cat.",
+      "duration": 1.138583,
+      "bytes": 14732,
+      "sha256": "da8cf70fd75492f7876f595f9d3790887f66dd06c0c2163f61611b1aa9c82830"
+    },
+    "question-3-4-circle": {
+      "text": "Find the circle.",
+      "duration": 1.136667,
+      "bytes": 14732,
+      "sha256": "63af7feb07f78df3c24c42a19dfbf91f21d5006e8b9721fb8b0773a6d43af9a0"
+    },
+    "question-3-4-crab": {
+      "text": "Find the crab.",
+      "duration": 1.058667,
+      "bytes": 13868,
+      "sha256": "c400cbdb53012e5e22b2cf7d142a41d391dd312f161bdd58aa52d326af30666f"
+    },
+    "question-3-4-crocodile": {
+      "text": "Find the crocodile.",
+      "duration": 1.330792,
+      "bytes": 17036,
+      "sha256": "42bfd59d66c87660eb032b8143b70fba822794e8e68e9dc16b310ef1126618cb"
+    },
+    "question-3-4-deer": {
+      "text": "Find the deer.",
+      "duration": 1.057958,
+      "bytes": 13868,
+      "sha256": "fd960d4dee434ecd08816fb161ce5a5a5b04d28fcb74c377ae6d48bc13ef804c"
+    },
+    "question-3-4-dog": {
+      "text": "Find the dog.",
+      "duration": 1.094625,
+      "bytes": 14156,
+      "sha256": "1086552d29f1577e6bd8e5c1b7c9f692b5699c3df06072ba72b552fd6246694c"
+    },
+    "question-3-4-dolphin": {
+      "text": "Find the dolphin.",
+      "duration": 1.237,
+      "bytes": 15884,
+      "sha256": "6cec60b5fa1b804e32928265487925bb606bb4a4d6b90d66496cd8d69b9ddcf8"
+    },
+    "question-3-4-dragon": {
+      "text": "Find the dragon.",
+      "duration": 1.150833,
+      "bytes": 14732,
+      "sha256": "76517803dd3a35006bd48e28b4c11c8a7c88a9ca607d6c33c68108fb58e9d857"
+    },
+    "question-3-4-duck": {
+      "text": "Find the duck.",
+      "duration": 1.07225,
+      "bytes": 13868,
+      "sha256": "174016d6cfaed36251fa86ba5d552d820b3f203a34942fa5fe54595fb9e8af9c"
+    },
+    "question-3-4-eagle": {
+      "text": "Find the eagle.",
+      "duration": 1.106125,
+      "bytes": 14444,
+      "sha256": "892ba29b2d9ef65c05581dde3928ac137c4768c687cbfb22e051b3a798f9ecdd"
+    },
+    "question-3-4-eight": {
+      "text": "Find the number eight.",
+      "duration": 1.366333,
+      "bytes": 17324,
+      "sha256": "f1fc30a5d5d2653c9978afa3e0530ba3d0b6ba77d671e1675b91b7957037e2de"
+    },
+    "question-3-4-eighteen": {
+      "text": "Find the number eighteen.",
+      "duration": 1.548042,
+      "bytes": 19628,
+      "sha256": "84339b3d39859e1cff73cfe947f1bb174f1bf714c303a782b8b7422fcebd5507"
+    },
+    "question-3-4-elephant": {
+      "text": "Find the elephant.",
+      "duration": 1.31775,
+      "bytes": 16748,
+      "sha256": "159c175e4a4b11f88368f07f4bdd57f05d94256b91849b623aa0a10f41b01315"
+    },
+    "question-3-4-eleven": {
+      "text": "Find the number eleven.",
+      "duration": 1.476333,
+      "bytes": 18764,
+      "sha256": "fffdacffdb131cee38c37d7ed7b29bd15a8b016858cf826dcc2ffefd34ff6b6f"
+    },
+    "question-3-4-fifteen": {
+      "text": "Find the number fifteen.",
+      "duration": 1.62475,
+      "bytes": 20492,
+      "sha256": "0d8da706e10fc16d5aa086a6681f991eabe3e07aef38c72403ba5f94eda1c766"
+    },
+    "question-3-4-five": {
+      "text": "Find the number five.",
+      "duration": 1.533833,
+      "bytes": 19340,
+      "sha256": "f10320722fef6b88e38d8c795a2b352a1844628d6e2f5ee414695be3ac8a576d"
+    },
+    "question-3-4-flamingo": {
+      "text": "Find the flamingo.",
+      "duration": 1.324292,
+      "bytes": 17036,
+      "sha256": "67ba892afb55fe9b5616517d927224216cd59355b20e714b2608421a00b028e4"
+    },
+    "question-3-4-flower": {
+      "text": "Find the flower.",
+      "duration": 1.207042,
+      "bytes": 15596,
+      "sha256": "2c544d41bbb74f6863a7bd9733c825aecb79d0cbe4a2fe8b5a22b3657a3a6188"
+    },
+    "question-3-4-four": {
+      "text": "Find the number four.",
+      "duration": 1.431333,
+      "bytes": 18188,
+      "sha256": "d8c1fdac59e22b94c81b0c09439da5ac53f7f645d194c0a9cd159848a3769b89"
+    },
+    "question-3-4-fourteen": {
+      "text": "Find the number fourteen.",
+      "duration": 1.652625,
+      "bytes": 20780,
+      "sha256": "dc667680f201aabb040a116cba33c7df936e394f33b33195f9e8c369fd46ced2"
+    },
+    "question-3-4-fox": {
+      "text": "Find the fox.",
+      "duration": 1.238417,
+      "bytes": 15884,
+      "sha256": "b342a81ac16f8e430617ea6a5352d8145cc807457c26d4af346992adc1c87162"
+    },
+    "question-3-4-frog": {
+      "text": "Find the frog.",
+      "duration": 1.146583,
+      "bytes": 14732,
+      "sha256": "22b1081621ff89f43669f8e9a635cee9f8078f59af967b146386118985de7149"
+    },
+    "question-3-4-giraffe": {
+      "text": "Find the giraffe.",
+      "duration": 1.213708,
+      "bytes": 15596,
+      "sha256": "e830d61afcbd1a030582c0b7878da9c78a62ddeb32546063e9bb5c5f5752982d"
+    },
+    "question-3-4-goat": {
+      "text": "Find the goat.",
+      "duration": 1.102625,
+      "bytes": 14156,
+      "sha256": "031b69361596d5157dfd375d8cdbf3de1e96af14e98ad0341af54aba94322e37"
+    },
+    "question-3-4-goose": {
+      "text": "Find the goose.",
+      "duration": 1.135208,
+      "bytes": 14732,
+      "sha256": "fe21e34abe7d98b9193f12aabada667d2951ede3b21cb018a150fe917a2c0ace"
+    },
+    "question-3-4-gorilla": {
+      "text": "Find the gorilla.",
+      "duration": 1.149708,
+      "bytes": 14732,
+      "sha256": "d0797ec36f87c826015396a63d3d33cd14e4e854c745a40f608db708ea64a431"
+    },
+    "question-3-4-grapes": {
+      "text": "Find the grapes.",
+      "duration": 1.173792,
+      "bytes": 15020,
+      "sha256": "c3ac1ca0f145b260f503b802fd505d9d82ab721535227d536d318ec113105794"
+    },
+    "question-3-4-green": {
+      "text": "Find the color green.",
+      "duration": 1.439625,
+      "bytes": 18188,
+      "sha256": "6cc9e18242623af725b93b97038c9c44954b4943e6c2da853a312957c2af5e59"
+    },
+    "question-3-4-heart": {
+      "text": "Find the heart.",
+      "duration": 1.079083,
+      "bytes": 13868,
+      "sha256": "de2e64a8050de1375ad6de9e769a50717a677984b9aa2c377a52301d96ef147e"
+    },
+    "question-3-4-hedgehog": {
+      "text": "Find the hedgehog.",
+      "duration": 1.204833,
+      "bytes": 15596,
+      "sha256": "c2c679954c496896c2cc7ab185d917632708137c27eb8fc31028b4e794fad4bd"
+    },
+    "question-3-4-hippopotamus": {
+      "text": "Find the hippopotamus.",
+      "duration": 1.5525,
+      "bytes": 19628,
+      "sha256": "da8aed379d76c6494e00914fdf8d680cabba1b130fecc5ce0099def91fa4c36b"
+    },
+    "question-3-4-horse": {
+      "text": "Find the horse.",
+      "duration": 1.171708,
+      "bytes": 15020,
+      "sha256": "6b24de295d6bbe4a2bf706c95d4e7fea09b9c5f7dc2ce0ea8336abd3b4938cc6"
+    },
+    "question-3-4-house": {
+      "text": "Find the house.",
+      "duration": 1.106417,
+      "bytes": 14444,
+      "sha256": "0f74fad0cdb3c49c96329ee50c0f74f388650567526e2ad7ea6660b6bcb555bc"
+    },
+    "question-3-4-jellyfish": {
+      "text": "Find the jellyfish.",
+      "duration": 1.424417,
+      "bytes": 18188,
+      "sha256": "1750cb89583acab5194a81be85729871637248cfb6ecde26a139450369b9f0f6"
+    },
+    "question-3-4-kangaroo": {
+      "text": "Find the kangaroo.",
+      "duration": 1.334417,
+      "bytes": 17036,
+      "sha256": "4a6c3dbe3e456f5cbe60540bd552b16e777e9691c2a90096fb4940fac4d0e3c5"
+    },
+    "question-3-4-koala": {
+      "text": "Find the koala.",
+      "duration": 1.201958,
+      "bytes": 15596,
+      "sha256": "14c83b602331f7ea0435babe927d4f14517b01506cfa6e8473903370de4b80bf"
+    },
+    "question-3-4-ladybug": {
+      "text": "Find the ladybug.",
+      "duration": 1.285125,
+      "bytes": 16460,
+      "sha256": "f5583b05db7712d569d6fedc5cda9affc02ebf56fdbbeb66da9456a87ec0d5fb"
+    },
+    "question-3-4-lion": {
+      "text": "Find the lion.",
+      "duration": 1.123917,
+      "bytes": 14444,
+      "sha256": "766b63cf7aa5d310e28bd26b308ec567d32791ad90be9326cfc9a276b9c22934"
+    },
+    "question-3-4-lizard": {
+      "text": "Find the lizard.",
+      "duration": 1.13125,
+      "bytes": 14732,
+      "sha256": "7bab649ee73d73b1fa0a8cb93d40088d9e8951dd995f328d922cf4f1647e9df0"
+    },
+    "question-3-4-monkey": {
+      "text": "Find the monkey.",
+      "duration": 1.159542,
+      "bytes": 15020,
+      "sha256": "2b42949a8806e628bc04a7c2c7d2ded058836ccb7e4679e21f86ee0bffaf9fbc"
+    },
+    "question-3-4-moon": {
+      "text": "Find the moon.",
+      "duration": 1.084083,
+      "bytes": 14156,
+      "sha256": "a0eb177df2b8dd1adbb30d97d9bf2286658ebdc362c38eee1860e3854d08387c"
+    },
+    "question-3-4-nine": {
+      "text": "Find the number nine.",
+      "duration": 1.425875,
+      "bytes": 18188,
+      "sha256": "9e62dfc81e007505d0b07c3e2b91391e58f93dcd3ebf08d00ffceb45bbb1224f"
+    },
+    "question-3-4-nineteen": {
+      "text": "Find the number nineteen.",
+      "duration": 1.627458,
+      "bytes": 20492,
+      "sha256": "f3b985ca080c8e94f415620c4fba787724bdaa79d0b122400dc1bcdc2771b512"
+    },
+    "question-3-4-octopus": {
+      "text": "Find the octopus.",
+      "duration": 1.454917,
+      "bytes": 18476,
+      "sha256": "af60d7e90cd0517af93d3e875a3e7d695f2225a663647f6c2325c2327acef403"
+    },
+    "question-3-4-one": {
+      "text": "Find the number one.",
+      "duration": 1.337167,
+      "bytes": 17036,
+      "sha256": "d39fdc0dfda98b357faebed41e892b7e9be0b011a2bc3993d4c853f5fff3af85"
+    },
+    "question-3-4-orange": {
+      "text": "Find the orange.",
+      "duration": 1.225958,
+      "bytes": 15884,
+      "sha256": "571aa29b954a7aca7796df8bcb38f6c965f5dd29da21f07f5771d633b037650b"
+    },
+    "question-3-4-orange-color": {
+      "text": "Find the color orange.",
+      "duration": 1.533292,
+      "bytes": 19340,
+      "sha256": "b38cbbd70d02e85f16641525f0a3a398a8a32ada03ae7db856205611849a5f2e"
+    },
+    "question-3-4-ostrich": {
+      "text": "Find the ostrich.",
+      "duration": 1.333042,
+      "bytes": 17036,
+      "sha256": "b5d38ac5e271d70528acec99e8a8bdc38a209ef4385e7abf97e71ab5619c54b5"
+    },
+    "question-3-4-otter": {
+      "text": "Find the otter.",
+      "duration": 1.07575,
+      "bytes": 13868,
+      "sha256": "e44ce46b5d5619a6bbf77b9575f065fb7bce04e8e6891939aece77d617ca5b25"
+    },
+    "question-3-4-owl": {
+      "text": "Find the owl.",
+      "duration": 1.01775,
+      "bytes": 13292,
+      "sha256": "d9bfee4aacd774a0e545ea3292f8123fdacd6a3e45580bb985fd7f1e56c98df5"
+    },
+    "question-3-4-ox": {
+      "text": "Find the ox.",
+      "duration": 1.142,
+      "bytes": 14732,
+      "sha256": "8d3ce541805885837236c750c4513300b082b5657237c356ca81b38ca2d87f03"
+    },
+    "question-3-4-panda": {
+      "text": "Find the panda.",
+      "duration": 1.142792,
+      "bytes": 14732,
+      "sha256": "9ccf47b6b9c8d0c926a33146423f341cb6521b0be0250e13711473120751cee5"
+    },
+    "question-3-4-parrot": {
+      "text": "Find the parrot.",
+      "duration": 1.119875,
+      "bytes": 14444,
+      "sha256": "fdd22afd09c740e44a5ed573e1d1c68b813afc5e3724394985f9b66e3a4b1571"
+    },
+    "question-3-4-peacock": {
+      "text": "Find the peacock.",
+      "duration": 1.242292,
+      "bytes": 15884,
+      "sha256": "5ab63b42757c86906eaf1ef583a777fa73341d0632b99c72555e23adecb40240"
+    },
+    "question-3-4-pear": {
+      "text": "Find the pear.",
+      "duration": 1.1015,
+      "bytes": 14156,
+      "sha256": "724faec35ce9c1631afe7d0a1aafe4b408d877b815f08d653577d6223669bafe"
+    },
+    "question-3-4-penguin": {
+      "text": "Find the penguin.",
+      "duration": 1.192708,
+      "bytes": 15308,
+      "sha256": "467e932e8dffd45566d1bd411069044c502d237eec253117b5affb6d09824c1e"
+    },
+    "question-3-4-pig": {
+      "text": "Find the pig.",
+      "duration": 1.095458,
+      "bytes": 14156,
+      "sha256": "41713c48462017421a478f219f21c2d04b485c01f507c01dc401efe76907e04f"
+    },
+    "question-3-4-polar-bear": {
+      "text": "Find the polar bear.",
+      "duration": 1.402958,
+      "bytes": 17900,
+      "sha256": "f00d7136bda2566ce804cf1f687c2c5a063ee1c2657263c4f267c907603f494b"
+    },
+    "question-3-4-purple": {
+      "text": "Find the color purple.",
+      "duration": 1.461708,
+      "bytes": 18476,
+      "sha256": "59f988ccd5a3779cbee2a8b7c438976197000324cd0b2ff2bbd46067e23ebb8f"
+    },
+    "question-3-4-rabbit": {
+      "text": "Find the rabbit.",
+      "duration": 1.158417,
+      "bytes": 15020,
+      "sha256": "14aaa3f5aa11362c1eccb9e10002a062ebb26cae26015c2b1d499a5b5d7fe65e"
+    },
+    "question-3-4-raccoon": {
+      "text": "Find the raccoon.",
+      "duration": 1.26325,
+      "bytes": 16172,
+      "sha256": "9a83b562719f2266d3c3c25d0ebb3769a2a9eb00aff86364b0f65cc6fff9fa68"
+    },
+    "question-3-4-rat": {
+      "text": "Find the rat.",
+      "duration": 1.102083,
+      "bytes": 14156,
+      "sha256": "2f47ec237bb5b2c9771d98cf278673dd2e319640c49e159507e7470c2836e55d"
+    },
+    "question-3-4-rectangle": {
+      "text": "Find the rectangle.",
+      "duration": 1.337917,
+      "bytes": 17036,
+      "sha256": "ec0ff24613c1af2bed62ca7bfb0cbff370862d4ffbd9361158c1a6905c2778a9"
+    },
+    "question-3-4-red": {
+      "text": "Find the color red.",
+      "duration": 1.3495,
+      "bytes": 17324,
+      "sha256": "0438e782b76e1bea5383f2a020035d9d1695df3e450179ee197e39287c8edd14"
+    },
+    "question-3-4-rhinoceros": {
+      "text": "Find the rhinoceros.",
+      "duration": 1.504708,
+      "bytes": 19052,
+      "sha256": "0a2c12c48bf58f90404da0652c7eda2eae349c47e12f094bd5f13f43d2857e3f"
+    },
+    "question-3-4-rooster": {
+      "text": "Find the rooster.",
+      "duration": 1.166917,
+      "bytes": 15020,
+      "sha256": "4bb04a93e902298b8c671742058250b95de86342af4535cd89a7dced15d3a860"
+    },
+    "question-3-4-seahorse": {
+      "text": "Find the seahorse.",
+      "duration": 1.306125,
+      "bytes": 16748,
+      "sha256": "27e1d8558ac66947722733b1b67e33b15e2ce909a88381c69b21d77d25bc1f45"
+    },
+    "question-3-4-seal": {
+      "text": "Find the seal.",
+      "duration": 1.087917,
+      "bytes": 14156,
+      "sha256": "8478aa3e08bea2637dbef4bf89ce95d17d4ec4f5fa9a3243e6839022c9fd9804"
+    },
+    "question-3-4-seven": {
+      "text": "Find the number seven.",
+      "duration": 1.44775,
+      "bytes": 18476,
+      "sha256": "2faf72a1da6646a16995ca392d69d239eb235e5d3f8ef48a3559f83e751ba214"
+    },
+    "question-3-4-seventeen": {
+      "text": "Find the number seventeen.",
+      "duration": 1.739042,
+      "bytes": 21932,
+      "sha256": "b45ba131d6e7c6371326b0bfcd3cb5b43a1f2178b115dc0e64fe527d02fccbd7"
+    },
+    "question-3-4-shark": {
+      "text": "Find the shark.",
+      "duration": 1.125458,
+      "bytes": 14444,
+      "sha256": "09bf2f148c9619dd9904fc19bba163bcf93a50b87314cc42c721ea0f445e993a"
+    },
+    "question-3-4-six": {
+      "text": "Find the number six.",
+      "duration": 1.527833,
+      "bytes": 19340,
+      "sha256": "cc81e21aa25fa8680ac9e4fe64cb386b9b5a73fe6f636fbe38b8c19a68ad9859"
+    },
+    "question-3-4-sixteen": {
+      "text": "Find the number sixteen.",
+      "duration": 1.695208,
+      "bytes": 21356,
+      "sha256": "7136cb13e4dbc3df8eac7a8aeb2778c434ea110b95e0d922bbbaad8a66f91060"
+    },
+    "question-3-4-snake": {
+      "text": "Find the snake.",
+      "duration": 1.140333,
+      "bytes": 14732,
+      "sha256": "cbaaa7e67e1b25bd8a8b1db693bcf55cb6f00a96b2e2957dc0e2949022d631e3"
+    },
+    "question-3-4-square": {
+      "text": "Find the square.",
+      "duration": 1.155417,
+      "bytes": 15020,
+      "sha256": "ab3f75076b4e9164de94ed43000a20a220981f2e2a2bca873fd747674d18cc7e"
+    },
+    "question-3-4-squirrel": {
+      "text": "Find the squirrel.",
+      "duration": 1.138125,
+      "bytes": 14732,
+      "sha256": "b8893d973281f4f1d024465c77b961e16e34ac841158339605bd4a2edb65f256"
+    },
+    "question-3-4-star": {
+      "text": "Find the star.",
+      "duration": 1.13925,
+      "bytes": 14732,
+      "sha256": "34231a330880d89b3bd5cc049f8c2a1faf9201b4d1993d472a945597a119a7c1"
+    },
+    "question-3-4-starfish": {
+      "text": "Find the starfish.",
+      "duration": 1.342458,
+      "bytes": 17036,
+      "sha256": "3a83bf69ddb2825ad0e41b584ac4110ae93806607e4399c310017f7f9d853a36"
+    },
+    "question-3-4-strawberry": {
+      "text": "Find the strawberry.",
+      "duration": 1.274042,
+      "bytes": 16460,
+      "sha256": "4e6aae635c79a28151f5c7f923d0087a9aa51953f5587441c984f71f186e4f6c"
+    },
+    "question-3-4-sun": {
+      "text": "Find the sun.",
+      "duration": 1.097083,
+      "bytes": 14156,
+      "sha256": "86df73e775b947249f54d7cd073884d67c00eb1f355ca1809bc7ba377018c716"
+    },
+    "question-3-4-ten": {
+      "text": "Find the number ten.",
+      "duration": 1.441958,
+      "bytes": 18476,
+      "sha256": "2acb78940040600bcaeb8ef81bccb51bb184d057fb2dc980178d97646d31e1f4"
+    },
+    "question-3-4-thirteen": {
+      "text": "Find the number thirteen.",
+      "duration": 1.679375,
+      "bytes": 21068,
+      "sha256": "9a551d62169c5d4018c59828194562ac3139e3512416d575bcb29ddfc412762b"
+    },
+    "question-3-4-three": {
+      "text": "Find the number three.",
+      "duration": 1.396083,
+      "bytes": 17900,
+      "sha256": "3a625fb2e91d319bb144ce1dfc5143984e28b5b91c7cdd3d82154316379a875e"
+    },
+    "question-3-4-tiger": {
+      "text": "Find the tiger.",
+      "duration": 1.1885,
+      "bytes": 15308,
+      "sha256": "5e28ce95b255b525c2cd8eb566587a594f3e1560c565daf4882df0e0d91d4cab"
+    },
+    "question-3-4-tree": {
+      "text": "Find the tree.",
+      "duration": 1.035875,
+      "bytes": 13580,
+      "sha256": "8d3b7978c9f78f40fd10512ba9bb3e744b1792d5fc9b0ca29c79426a92fef1c9"
+    },
+    "question-3-4-triangle": {
+      "text": "Find the triangle.",
+      "duration": 1.264375,
+      "bytes": 16172,
+      "sha256": "d287957ff58a28d9c8e6f3006ee610b512e5420827128eb35d5cc3b75e96b51e"
+    },
+    "question-3-4-turtle": {
+      "text": "Find the turtle.",
+      "duration": 1.061375,
+      "bytes": 13868,
+      "sha256": "f835191c77a842bbdf7cc59a5545469b95b9ea169886418dc77d0176588397d2"
+    },
+    "question-3-4-twelve": {
+      "text": "Find the number twelve.",
+      "duration": 1.49775,
+      "bytes": 19052,
+      "sha256": "8882bde1fe84e3c8d67cffe567ad1cfcca682395ef9b33c322576190e0971843"
+    },
+    "question-3-4-two": {
+      "text": "Find the number two.",
+      "duration": 1.366042,
+      "bytes": 17324,
+      "sha256": "d7e5a6af3a5475bd498babc9b8755d3c0e617bb96f91c1b21a310801135a3d33"
+    },
+    "question-3-4-whale": {
+      "text": "Find the whale.",
+      "duration": 1.07825,
+      "bytes": 13868,
+      "sha256": "ad3daf749d19a1a7b4edba3ba58c983dcf59afb3c715f04f4ea731ebb48f8a82"
+    },
+    "question-3-4-wolf": {
+      "text": "Find the wolf.",
+      "duration": 1.183708,
+      "bytes": 15308,
+      "sha256": "915231a5907b732a9b4b7c5ce3ff832cbb4069787e90d24cc05c273a6fbdefcd"
+    },
+    "question-3-4-woodpecker": {
+      "text": "Find the woodpecker.",
+      "duration": 1.314833,
+      "bytes": 16748,
+      "sha256": "990dc6fcedd469b057168ee6666bdc19cea3ffa62081e5e5438b975865fe9778"
+    },
+    "question-3-4-yellow": {
+      "text": "Find the color yellow.",
+      "duration": 1.442083,
+      "bytes": 18476,
+      "sha256": "ad3654cbd605e137352effd43c7066b01e1db0d7960249f1f1aaffc28032bfcc"
+    },
+    "question-3-4-zebra": {
+      "text": "Find the zebra.",
+      "duration": 1.129958,
+      "bytes": 14732,
+      "sha256": "c477aaf415f4ad2c92732602d444062bc908312ffb4175942092967035aecdd6"
+    },
+    "question-3-4-zero": {
+      "text": "Find the number zero.",
+      "duration": 1.463375,
+      "bytes": 18476,
+      "sha256": "932a741a75ebd014db935a371b7a3d23cff5bcccec87999db78e598775b23140"
+    },
+    "question-5-6-ant": {
+      "text": "It is a tiny insect with bent antennae and a narrow waist that often walks in a line.",
+      "duration": 5.162792,
+      "bytes": 63116,
+      "sha256": "36e7982eac1865e6e07f78e602219980bce81234c20cb02e19d91884207b60bc"
+    },
+    "question-5-6-apple": {
+      "text": "It is a round red fruit.",
+      "duration": 1.651958,
+      "bytes": 20780,
+      "sha256": "ea9dc1f058a93c13e127ddd3f6229b605f67c373236815d44b5c3c0045874c8d"
+    },
+    "question-5-6-banana": {
+      "text": "It is a long, curved yellow fruit.",
+      "duration": 2.429292,
+      "bytes": 30284,
+      "sha256": "9f57515dd5fefdd9f9196e71fe0b4a9783c158f83ef9d1c76c4527d81aa27ed9"
+    },
+    "question-5-6-bat": {
+      "text": "It is a furry mammal with wings made of thin skin.",
+      "duration": 2.908458,
+      "bytes": 36044,
+      "sha256": "c8d946143607aa90995396ba0ba35b92ce4cb902667c8977926a7a8d789a778b"
+    },
+    "question-5-6-bear": {
+      "text": "It is a large bear with brown fur, round ears, and big paws.",
+      "duration": 4.218417,
+      "bytes": 51596,
+      "sha256": "7286477c49a9968bf1d3da8531f7d215c919a28730bfcae550704854a2d97dfd"
+    },
+    "question-5-6-beaver": {
+      "text": "It has big front teeth and a wide, flat tail shaped like a paddle.",
+      "duration": 3.9305,
+      "bytes": 48140,
+      "sha256": "afecea10ded5e6154d73eafec21dc13b2a93aa06162f188d728ae8ce47253547"
+    },
+    "question-5-6-bee": {
+      "text": "It is a fuzzy, buzzing insect with yellow-and-dark stripes that visits flowers.",
+      "duration": 4.959583,
+      "bytes": 60524,
+      "sha256": "453d686b807877c5c668f3cc706436ddd123df83a0abf69398562359190ce1bb"
+    },
+    "question-5-6-blue": {
+      "text": "It is the color of a clear daytime sky.",
+      "duration": 2.450667,
+      "bytes": 30572,
+      "sha256": "b271eea5e0a130d467f61ed005fc70198ca7c03e9694dad722f42014e35c14e3"
+    },
+    "question-5-6-butterfly": {
+      "text": "It is an insect with four large, colorful wings and a thin body.",
+      "duration": 4.254042,
+      "bytes": 52172,
+      "sha256": "c036cedccc113f8683a9c626577e2b2c29ab50306d8a5645895891a55d8ea3a5"
+    },
+    "question-5-6-camel": {
+      "text": "It has long legs and humps on its back, and can travel through deserts.",
+      "duration": 4.270417,
+      "bytes": 52172,
+      "sha256": "48bd0ce024104cbb48f118b74e6b2bf2eb5e7013b3d823542422b4d2247f768d"
+    },
+    "question-5-6-car": {
+      "text": "It has four wheels and carries people.",
+      "duration": 2.282458,
+      "bytes": 28556,
+      "sha256": "566dec721c00c1a086109e91154969fe03558c83bdf45f337b165095cbd32da4"
+    },
+    "question-5-6-cat": {
+      "text": "It is a little pet that says meow.",
+      "duration": 2.166542,
+      "bytes": 27116,
+      "sha256": "13680e08e5d096ea05a973d0340417a2bb40734a12493200588b8d0c5a2392f8"
+    },
+    "question-5-6-circle": {
+      "text": "It is round, with no corners.",
+      "duration": 2.170167,
+      "bytes": 27116,
+      "sha256": "e540028badcef98c092ec7d4246a4ad267a50e1a65a50de342433cfaf4cdbf86"
+    },
+    "question-5-6-crab": {
+      "text": "It has a wide hard shell, ten legs, and two claws at the front.",
+      "duration": 4.506917,
+      "bytes": 55052,
+      "sha256": "54f145e453935ad3098e2167d8dc446aab272ff8ac94f507e1ddf3dc73d3d704"
+    },
+    "question-5-6-crocodile": {
+      "text": "It is a long, scaly reptile with a powerful tail and a long, toothy snout.",
+      "duration": 5.219417,
+      "bytes": 63692,
+      "sha256": "0dd8b374fef206f3e6b99782bf938d78887ce432c8e05e41434ce93c91918a2d"
+    },
+    "question-5-6-deer": {
+      "text": "It is a slim, hoofed animal; the one in our picture has branching antlers.",
+      "duration": 4.688375,
+      "bytes": 57356,
+      "sha256": "cbdb4a2a277bd625d267e88efebc306ebdb3c6eb90e1dedc982ea14c5f622b16"
+    },
+    "question-5-6-dog": {
+      "text": "It is a pet that says woof.",
+      "duration": 1.884625,
+      "bytes": 23660,
+      "sha256": "98bd4214767a39f24877337fbaa3fbe995c2464f0abcb56864768e1a11060511"
+    },
+    "question-5-6-dolphin": {
+      "text": "It is a sleek sea mammal with a beak-like snout and a curved mouth.",
+      "duration": 3.7305,
+      "bytes": 45836,
+      "sha256": "a11810d07b50cd7f332bd3570a8da807d28b0018cf7be0f2ab12be030c6079cf"
+    },
+    "question-5-6-dragon": {
+      "text": "It is a Chinese mythical creature with a long, winding body, horns, and claws.",
+      "duration": 5.513042,
+      "bytes": 67148,
+      "sha256": "35ac4bffd566b25b4b6abfa19f800fd81f24b6d5a014e1b5911b6c512d93346a"
+    },
+    "question-5-6-duck": {
+      "text": "It is a water bird with a broad, flat bill that says quack.",
+      "duration": 3.753,
+      "bytes": 46124,
+      "sha256": "2cc597ce018e3ae109c0c9cc004c073cb167e1f5800c5f1c922da28b98575983"
+    },
+    "question-5-6-eagle": {
+      "text": "The bird in our picture has a white head, broad brown wings, and a hooked yellow beak.",
+      "duration": 5.109458,
+      "bytes": 62252,
+      "sha256": "0aacd438fb7da7724a7400537a506ee3b12e75792bd873488158639c072f826e"
+    },
+    "question-5-6-eight": {
+      "text": "This is the number eight.",
+      "duration": 1.43175,
+      "bytes": 18188,
+      "sha256": "3e1e471661fedd389eac9c25c8a378a7331d94a9f1a30e0503acf01f204d36f2"
+    },
+    "question-5-6-eighteen": {
+      "text": "This is the number eighteen.",
+      "duration": 1.62225,
+      "bytes": 20492,
+      "sha256": "fecf53ade8c87bbe5cf78fd47bece9eccb35e77ca402633733ef70c4e6db4d22"
+    },
+    "question-5-6-elephant": {
+      "text": "It is a huge animal with a long trunk.",
+      "duration": 2.367458,
+      "bytes": 29420,
+      "sha256": "190a19ba55a4aaac121dc1ada64e94a9f6827343073fc5be2d2d170cccf05055"
+    },
+    "question-5-6-eleven": {
+      "text": "This is the number eleven.",
+      "duration": 1.540333,
+      "bytes": 19628,
+      "sha256": "2baa796f37c0e79010c4cb3006c00a2dba6aad88bf0fd767d48b302a30d92238"
+    },
+    "question-5-6-fifteen": {
+      "text": "This is the number fifteen.",
+      "duration": 1.694542,
+      "bytes": 21356,
+      "sha256": "66cea7c8e1ff2b74d3d1fdcacaa21a58a80345dfbf5bd99d9f5dd8d2281bf393"
+    },
+    "question-5-6-five": {
+      "text": "This is the number five.",
+      "duration": 1.574958,
+      "bytes": 19916,
+      "sha256": "60656745bb151b9dbdd79793a8424797da1ad5c38c57d3f5b584a71bce2d4210"
+    },
+    "question-5-6-flamingo": {
+      "text": "It is a pink bird with very long legs and a curved neck.",
+      "duration": 3.508208,
+      "bytes": 43244,
+      "sha256": "9d39d781b1e9dc78fffe8586c105223039bdabfe64c19dc622f68f8084ec3a03"
+    },
+    "question-5-6-flower": {
+      "text": "It has colorful petals and a stem.",
+      "duration": 2.218917,
+      "bytes": 27692,
+      "sha256": "68e4816a5e37bc08875002ceb6a667d96797bdffed3adaed335a598ed22f85cb"
+    },
+    "question-5-6-four": {
+      "text": "This is the number four.",
+      "duration": 1.483083,
+      "bytes": 18764,
+      "sha256": "b6b0036274db030c2712908989e29f1aaf2c3e21c79fdb57205094f137744575"
+    },
+    "question-5-6-fourteen": {
+      "text": "This is the number fourteen.",
+      "duration": 1.72525,
+      "bytes": 21644,
+      "sha256": "f9481c69b266952ae62c0ef9bfaf4b7bc35af7bd2ab3aad12b471e0f66dc465f"
+    },
+    "question-5-6-fox": {
+      "text": "It has pointed ears, orange fur, and a bushy tail with a white tip.",
+      "duration": 4.348125,
+      "bytes": 53324,
+      "sha256": "424323b0cc53a6471eb0ae58fab81393ab2e13283e177339cc0d3cd075ac5f18"
+    },
+    "question-5-6-frog": {
+      "text": "It has smooth, moist skin and long back legs for jumping near ponds.",
+      "duration": 4.579917,
+      "bytes": 55916,
+      "sha256": "c5e73744a452a1a44bdff2ec034c77283431dd63603c7b5557623382d3ad279f"
+    },
+    "question-5-6-giraffe": {
+      "text": "It has a very long neck and a coat covered in brown patches.",
+      "duration": 3.677375,
+      "bytes": 45260,
+      "sha256": "c659108f22bdaeb59175cd2a7fc7f7dd10839e8c56a6187d1d0310c22481f002"
+    },
+    "question-5-6-goat": {
+      "text": "It is a farm animal that often has a beard and curved horns.",
+      "duration": 3.50375,
+      "bytes": 42956,
+      "sha256": "7d8ca6443f6c691d76f2c5eebd5a33f72ff8c04eaa44fefe9a10126fef6c46a5"
+    },
+    "question-5-6-goose": {
+      "text": "It is a long-necked water bird that honks; our picture shows white feathers.",
+      "duration": 4.555375,
+      "bytes": 55628,
+      "sha256": "771e83bc396e5c2fdb301bbd25f36cddae45561fbfef7c269075c779a3fc1f00"
+    },
+    "question-5-6-gorilla": {
+      "text": "It is a large, dark-furred ape with a broad chest and no tail.",
+      "duration": 3.947208,
+      "bytes": 48428,
+      "sha256": "0991cade323bf69b581e134e1059d25fe37dca2859709fdd7618b60d8270fc2f"
+    },
+    "question-5-6-grapes": {
+      "text": "These small purple fruits grow in a bunch.",
+      "duration": 2.368,
+      "bytes": 29420,
+      "sha256": "af918205d82dc56b31eeeec370a87e2befca30bd8cf82680809eb26fce14528d"
+    },
+    "question-5-6-green": {
+      "text": "It is the color of fresh grass.",
+      "duration": 2.038542,
+      "bytes": 25388,
+      "sha256": "ef9523f0f882b169cc66013a21ccb4b27f672e244fdbb4d296e1f910b2fad3db"
+    },
+    "question-5-6-heart": {
+      "text": "It has two rounded bumps and a point at the bottom.",
+      "duration": 2.80325,
+      "bytes": 34604,
+      "sha256": "4692dc17848877ecec15b16539230f20b9e8bebd4a3db73b688a8242bfafc246"
+    },
+    "question-5-6-hedgehog": {
+      "text": "It is a small mammal with a back covered in short, sharp spines.",
+      "duration": 4.021917,
+      "bytes": 49292,
+      "sha256": "71907f5498309fa519485374337e87f06a49dd8c8e2cbac43ee4788a5f320e0a"
+    },
+    "question-5-6-hippopotamus": {
+      "text": "It has a huge round body and a very wide mouth, and rests in rivers.",
+      "duration": 4.609958,
+      "bytes": 56492,
+      "sha256": "9e54c953dbc67e323dfa2f23c6437215f87550c519689b59c06685ab74b2c868"
+    },
+    "question-5-6-horse": {
+      "text": "It is a hoofed animal with a flowing mane; our picture shows a plain brown coat.",
+      "duration": 4.6535,
+      "bytes": 56780,
+      "sha256": "41ee800938c24a5bba1c60cc0fca0dc557bd3fb974452bd8d722c280fb77828d"
+    },
+    "question-5-6-house": {
+      "text": "It is a building where people can live.",
+      "duration": 2.211583,
+      "bytes": 27692,
+      "sha256": "988765ab8eea03bd8d32d04f1dad8a815549f7a8a26add211ba2d5904f9eb620"
+    },
+    "question-5-6-jellyfish": {
+      "text": "It has a soft, jelly-like bell with tentacles hanging below it.",
+      "duration": 3.892917,
+      "bytes": 47852,
+      "sha256": "4109a501ecebd0a0ede7bd83dbfff631c5831a1c39b3ba4e4c92a89160bb6015"
+    },
+    "question-5-6-kangaroo": {
+      "text": "It has strong back legs for hopping, and the mother carries a baby in a pouch.",
+      "duration": 4.729958,
+      "bytes": 57932,
+      "sha256": "a8429f125978cdef04e84a08eb19c8f0cccaba55e67f94679646a5d19aab2ae2"
+    },
+    "question-5-6-koala": {
+      "text": "It has fluffy round ears and a big dark nose, and rests in eucalyptus trees.",
+      "duration": 5.154375,
+      "bytes": 62828,
+      "sha256": "9ef13c2e973cba22281e51a88c803c171809e0a9a8ebe42606d30785add48cba"
+    },
+    "question-5-6-ladybug": {
+      "text": "It is a small round beetle; our picture shows red wing covers with black spots.",
+      "duration": 4.956917,
+      "bytes": 60524,
+      "sha256": "7c519038bc8cbeff4f29abfd095f147048636844bbd88be64c4ff81ecc0b08a3"
+    },
+    "question-5-6-lion": {
+      "text": "It is a big wild cat with a mane.",
+      "duration": 2.174583,
+      "bytes": 27116,
+      "sha256": "af168f4f2693e012e20e59d85f3133a770eba896cb8ba1a60573ffdd6f19698e"
+    },
+    "question-5-6-lizard": {
+      "text": "It is a small reptile with dry scales, four legs, and a long tail.",
+      "duration": 4.571458,
+      "bytes": 55916,
+      "sha256": "97e8acaf2f6ec34467665486bf242fa372f361b4f9730b9ad2d1f5556156ecb4"
+    },
+    "question-5-6-monkey": {
+      "text": "It has grasping hands and a long tail, and it climbs trees.",
+      "duration": 3.971167,
+      "bytes": 48716,
+      "sha256": "8f81f5fbc06e1c92ddd90511b6f0d6d424912ea523e974a70ef90a966c95053f"
+    },
+    "question-5-6-moon": {
+      "text": "It looks like a crescent in this picture.",
+      "duration": 2.288958,
+      "bytes": 28556,
+      "sha256": "09958f6d01b52397f3ed5c8c756c43c516c376a496712a8d7c4f6325da88c012"
+    },
+    "question-5-6-nine": {
+      "text": "This is the number nine.",
+      "duration": 1.490208,
+      "bytes": 19052,
+      "sha256": "107aec818fb44c8415e5c611bcf3db8d4c3fe512e38480927762e9b6fc72cb97"
+    },
+    "question-5-6-nineteen": {
+      "text": "This is the number nineteen.",
+      "duration": 1.719583,
+      "bytes": 21644,
+      "sha256": "e74cf8a8bdfb3d463de39461507dfb226a22a83a86baaef6f9423a1e1964a032"
+    },
+    "question-5-6-octopus": {
+      "text": "It is a soft sea animal with eight arms covered in suckers.",
+      "duration": 3.428417,
+      "bytes": 42092,
+      "sha256": "3f385056a764be8bdb57749cf8ea0933e99335a20b64dca7b2e167d0d54814d7"
+    },
+    "question-5-6-one": {
+      "text": "This is the number one.",
+      "duration": 1.409917,
+      "bytes": 17900,
+      "sha256": "ee92803c80dbfe3e8fb01afed219acb09b1b99bcb48d7963ee738c16285e3aed"
+    },
+    "question-5-6-orange": {
+      "text": "It is a round fruit with an orange peel.",
+      "duration": 2.329958,
+      "bytes": 29132,
+      "sha256": "fc0eac423ee2c89161c4d7ed9ca40567fe7af86fe464f0f411698d28cbf7857e"
+    },
+    "question-5-6-orange-color": {
+      "text": "It is the color of a carrot.",
+      "duration": 1.674208,
+      "bytes": 21068,
+      "sha256": "d6d13ac3543aaf9dd6bb8068ec7f6146f8c9d4ea9c97e6954834c5ade32fa063"
+    },
+    "question-5-6-ostrich": {
+      "text": "It is a huge flightless bird with a long bare neck and powerful running legs.",
+      "duration": 4.533,
+      "bytes": 55340,
+      "sha256": "e92addaa3fb2251ca68187fc588f0d2f2f2e85cd7b23c202d852120f11b7e583"
+    },
+    "question-5-6-otter": {
+      "text": "It is a slim, furry swimmer with whiskers, short legs, and a long tapering tail.",
+      "duration": 5.49425,
+      "bytes": 66860,
+      "sha256": "91689d383c4c8f4f49610c44adad408b4f81e3d71a8a9c25911a9d8a3da9d2c4"
+    },
+    "question-5-6-owl": {
+      "text": "It is a bird with large forward-facing eyes and a round face.",
+      "duration": 3.690333,
+      "bytes": 45260,
+      "sha256": "1b88bc505eccb54b03674be63cce41a1ec211287531729efae25f5d9d42956c1"
+    },
+    "question-5-6-ox": {
+      "text": "It is a strong farm animal with hooves and horns, often used to pull a plow.",
+      "duration": 4.495167,
+      "bytes": 55052,
+      "sha256": "7d87de343461042d72b5b7eecb1fc679f9d2e37d3ab5c7c5a6db2e511ee81551"
+    },
+    "question-5-6-panda": {
+      "text": "It is a black-and-white bear that eats bamboo.",
+      "duration": 2.505125,
+      "bytes": 31148,
+      "sha256": "589eed2e729e92118064f3bff42b90afceafeef0bce03aa77367d781f74904e7"
+    },
+    "question-5-6-parrot": {
+      "text": "It is a colorful bird with a strong curved beak; some can copy human speech.",
+      "duration": 4.805625,
+      "bytes": 58796,
+      "sha256": "588d3ab9b0e186d0ba0bba3dadbbe1d6a11913bb57e08586d1869faa95dc7ba4"
+    },
+    "question-5-6-peacock": {
+      "text": "It is a bird that can spread long, eye-spotted feathers into a colorful fan.",
+      "duration": 4.637625,
+      "bytes": 56780,
+      "sha256": "ba6c21832cc3c26b41710609eb320360941741a0a1e77286b07f1d3d6ffea5a0"
+    },
+    "question-5-6-pear": {
+      "text": "It is a green fruit with a narrow top and a wide bottom.",
+      "duration": 3.15875,
+      "bytes": 38924,
+      "sha256": "378a200c44924bf64187b980822a50acf3635ad449b3aee9e4684657c35f55bf"
+    },
+    "question-5-6-penguin": {
+      "text": "It is a black-and-white bird that swims with flippers instead of flying.",
+      "duration": 3.945583,
+      "bytes": 48428,
+      "sha256": "2c2aedac4621af53103ab561e5f85f61bd93c62cab1d9b2b18a845644eee7064"
+    },
+    "question-5-6-pig": {
+      "text": "It is a farm animal with a round snout that says oink.",
+      "duration": 3.243583,
+      "bytes": 40076,
+      "sha256": "bc90ca08bf6bfcd1a270d05c94313c0214303e946b1f524bbf839ee32fea3725"
+    },
+    "question-5-6-polar-bear": {
+      "text": "It is a large white bear that lives near Arctic sea ice.",
+      "duration": 3.38875,
+      "bytes": 41804,
+      "sha256": "e12eaa65cdba56a3777659ff0210277d3b2480dc961d8aa62f2e759f1bce7c72"
+    },
+    "question-5-6-purple": {
+      "text": "It is the color of the grapes in our pictures.",
+      "duration": 2.536042,
+      "bytes": 31436,
+      "sha256": "c03b9422409dc47c91748ba65beb305f72a0e5633797869a016e04a7176648ee"
+    },
+    "question-5-6-rabbit": {
+      "text": "It has long ears and a little fluffy tail.",
+      "duration": 2.611583,
+      "bytes": 32300,
+      "sha256": "4ac2cab14fce2beae0a94eaf7035dd169f63f8fcf31186677c816f5db40fefcd"
+    },
+    "question-5-6-raccoon": {
+      "text": "It has a dark mask around its eyes and a tail with dark rings.",
+      "duration": 3.996042,
+      "bytes": 49004,
+      "sha256": "a06c087a966ab34cb996098d23d240e9d5c25a3c10516d7ef7fecf9ecb674851"
+    },
+    "question-5-6-rat": {
+      "text": "It is a small rodent with a pointed nose and a long, nearly bare tail.",
+      "duration": 4.34775,
+      "bytes": 53324,
+      "sha256": "aec84cd2a30820efa62257b6a68e08579051fcd3e494877f03172a087d6483e8"
+    },
+    "question-5-6-rectangle": {
+      "text": "This shape has two long sides and two short sides.",
+      "duration": 3.223208,
+      "bytes": 39788,
+      "sha256": "0a0dbc79dc2db11f27137babe809a1bd49529de4d9814645b53cbb0014256009"
+    },
+    "question-5-6-red": {
+      "text": "It is the color of a ripe strawberry.",
+      "duration": 2.09725,
+      "bytes": 26252,
+      "sha256": "5f02d90144904d0ae7bc733db4f92fca091a280bb580eb1aefdbef694249c3f1"
+    },
+    "question-5-6-rhinoceros": {
+      "text": "It is a heavy animal with thick skin and one or two horns on its nose.",
+      "duration": 4.256292,
+      "bytes": 52172,
+      "sha256": "ef382f927c9b9a4915a7bdafe2f0509bde16629afbdbca11b772779cd83bf555"
+    },
+    "question-5-6-rooster": {
+      "text": "It is a farm bird with a red comb that says cock-a-doodle-doo.",
+      "duration": 3.441292,
+      "bytes": 42380,
+      "sha256": "bebd837e3b17dbb496e56c3b4fde4cf4e02f5340c789216649efe34de40a5657"
+    },
+    "question-5-6-seahorse": {
+      "text": "It is a small upright fish with a horse-shaped head and a curled tail.",
+      "duration": 3.914208,
+      "bytes": 48140,
+      "sha256": "ce8ed43cc44b1db226748fe25834a730e7ea52571dc598ace650fef1938b7c8a"
+    },
+    "question-5-6-seal": {
+      "text": "It is a whiskered sea mammal with flippers and no outside ear flaps.",
+      "duration": 4.057958,
+      "bytes": 49868,
+      "sha256": "74ea2256a459a547a08b371a9da21e12fce566016571d70441dacf0e20596bb5"
+    },
+    "question-5-6-seven": {
+      "text": "This is the number seven.",
+      "duration": 1.526125,
+      "bytes": 19340,
+      "sha256": "89ee65161cc535d79accb6f36c46bd747161ba4eaa3464d50250f711ef3df52a"
+    },
+    "question-5-6-seventeen": {
+      "text": "This is the number seventeen.",
+      "duration": 1.816417,
+      "bytes": 22796,
+      "sha256": "8d6df42f523f25340706a9d1e7893f2eb8a35d8e96f7e0aa0e03bed8ce1adf1f"
+    },
+    "question-5-6-shark": {
+      "text": "It is a streamlined fish with gill slits and a pointed fin on its back.",
+      "duration": 4.322083,
+      "bytes": 53036,
+      "sha256": "0a8b63a064d645b503dcfab9ad7826c54cfa3f85c74d926c34be1b0707506d98"
+    },
+    "question-5-6-six": {
+      "text": "This is the number six.",
+      "duration": 1.628042,
+      "bytes": 20492,
+      "sha256": "32920868f478455a8096fb7581631eaaf0750304bf20cff2cc953fd2f1cc9e86"
+    },
+    "question-5-6-sixteen": {
+      "text": "This is the number sixteen.",
+      "duration": 1.748417,
+      "bytes": 21932,
+      "sha256": "42c53ca962ba8647f317add151d6070bbed3e0a5fba0235730ead4eed6dd752c"
+    },
+    "question-5-6-snake": {
+      "text": "It has a long body covered in scales and no legs.",
+      "duration": 3.230083,
+      "bytes": 39788,
+      "sha256": "c46350b01eb124667820a389be382f1202a1e76a794f9b6eff246694de85a75d"
+    },
+    "question-5-6-square": {
+      "text": "It has four equal straight sides and four corners.",
+      "duration": 3.065875,
+      "bytes": 37772,
+      "sha256": "4f1e71e3c7b083843ed0b29d8c7d22e7b270cef26bc4797f3fe817d9680846c8"
+    },
+    "question-5-6-squirrel": {
+      "text": "It is a small tree-climber with a bushy tail curled above its back.",
+      "duration": 3.812917,
+      "bytes": 46700,
+      "sha256": "8ffe60a4864f1ddecfafd5b68d9476e233302bac85c00e5a47b46b94b61f6a12"
+    },
+    "question-5-6-star": {
+      "text": "This shape has five points.",
+      "duration": 1.888625,
+      "bytes": 23660,
+      "sha256": "ac4fe14ba09b9c9b7c0234935d378bc69c1481bf24c93b340e3c7bcf946e9674"
+    },
+    "question-5-6-starfish": {
+      "text": "It is a sea animal shaped like a star, often with five arms.",
+      "duration": 3.979083,
+      "bytes": 48716,
+      "sha256": "f17ccf77feaf4adefc4c705ec685872b780583ce82f31253c4497b80f569a47e"
+    },
+    "question-5-6-strawberry": {
+      "text": "It is a red fruit with tiny dots on the outside.",
+      "duration": 3.084458,
+      "bytes": 38060,
+      "sha256": "a734d510f261ee5a80c219fddfe6bc2b68c4c41338a5ca7956ea70132054c373"
+    },
+    "question-5-6-sun": {
+      "text": "It is the bright star that gives us daylight.",
+      "duration": 2.50225,
+      "bytes": 31148,
+      "sha256": "f215de1d3b8d6710ed44e6cae2ae9e0149fd75e346348164faea48816dca276d"
+    },
+    "question-5-6-ten": {
+      "text": "This is the number ten.",
+      "duration": 1.5,
+      "bytes": 19052,
+      "sha256": "6f558e0b3cb34e139a1557f314e67a2dea3737ae6248f341a1f0040c6cc2e9d5"
+    },
+    "question-5-6-thirteen": {
+      "text": "This is the number thirteen.",
+      "duration": 1.714708,
+      "bytes": 21644,
+      "sha256": "b3426f5ccfc61cf881580548186a6c2e7974118bee636957801a146b53777751"
+    },
+    "question-5-6-three": {
+      "text": "This is the number three.",
+      "duration": 1.456917,
+      "bytes": 18476,
+      "sha256": "bcbe5239208d4eefaf3c40b6e0b79be2642da1380931807820e822b96eb3abf0"
+    },
+    "question-5-6-tiger": {
+      "text": "It is a big wild cat with orange fur and black stripes.",
+      "duration": 3.399167,
+      "bytes": 41804,
+      "sha256": "abb63c87a406b50f4abded4bc4caed44ccf720b4eed585a20b2efdc6d8871e41"
+    },
+    "question-5-6-tree": {
+      "text": "It has a tall trunk and leafy branches.",
+      "duration": 2.452292,
+      "bytes": 30572,
+      "sha256": "ec853d9c8a5c3eba88f60e6480ea59962494bb04dee6cbaedc3aed0d14d995de"
+    },
+    "question-5-6-triangle": {
+      "text": "It has three straight sides and three corners.",
+      "duration": 2.707917,
+      "bytes": 33452,
+      "sha256": "1a9a2c713c8e8b0be22043339983b6aa9eebb54125faeab9ec4562ca47b1c82b"
+    },
+    "question-5-6-turtle": {
+      "text": "It has four legs and a hard shell.",
+      "duration": 2.257958,
+      "bytes": 28268,
+      "sha256": "9430eaf0bfcd812bd146c89a230c33fd4d00a2b83007f010ba0cdba27f391986"
+    },
+    "question-5-6-twelve": {
+      "text": "This is the number twelve.",
+      "duration": 1.546833,
+      "bytes": 19628,
+      "sha256": "8b0baea6991d2af952045c9e78e8c747a97f95b48737b77ee39a0f85c6f24d8f"
+    },
+    "question-5-6-two": {
+      "text": "This is the number two.",
+      "duration": 1.452,
+      "bytes": 18476,
+      "sha256": "787bbec48914dfdd819e2ad1f5131842410f09667a015f715bb7fe482820930b"
+    },
+    "question-5-6-whale": {
+      "text": "It is an enormous sea mammal with flippers and a broad tail that lies flat.",
+      "duration": 4.364417,
+      "bytes": 53324,
+      "sha256": "ee2718cc1848ebd97a3533d224e3e8570c3fb0f69e87c9bbb05d0519a578b63f"
+    },
+    "question-5-6-wolf": {
+      "text": "It is a wild, gray member of the dog family that howls.",
+      "duration": 3.5445,
+      "bytes": 43532,
+      "sha256": "d79f5af1e3ced2a53700e4bfd7cc83f3062239f8415da099c930cc070714fb0f"
+    },
+    "question-5-6-woodpecker": {
+      "text": "It is a bird with a chisel-like bill that taps on tree trunks.",
+      "duration": 3.538292,
+      "bytes": 43532,
+      "sha256": "6219012a951c5a732f8ebb205e6fddf4736d2d96f367d4cabf8b3476e1e4454d"
+    },
+    "question-5-6-yellow": {
+      "text": "It is the color of a ripe banana peel.",
+      "duration": 2.32625,
+      "bytes": 28844,
+      "sha256": "27787c9df15598d00a6d85a07934b4eba0ba2b41c579a24245ce81c30d527f43"
+    },
+    "question-5-6-zebra": {
+      "text": "It looks like a horse with black-and-white stripes.",
+      "duration": 2.80025,
+      "bytes": 34604,
+      "sha256": "9e65350dfb083a47a677d1d684ff1968e515fa6ac84b293ce982863c372bc08f"
+    },
+    "question-5-6-zero": {
+      "text": "This is the number zero.",
+      "duration": 1.55,
+      "bytes": 19628,
+      "sha256": "ff86bb04cc397e0cac9a237fc9f3bdad7d9810cc76756d7e3d942ece1a22090f"
+    },
+    "question-7-8-ant": {
+      "text": "This narrow-waisted insect leaves scent trails to guide other members of its colony to food.",
+      "duration": 5.173708,
+      "bytes": 63116,
+      "sha256": "7c8a8b3c22e830a5db5c71f5a59e61dafb9c15140f968c6ebdf676fe6b849e8a"
+    },
+    "question-7-8-apple": {
+      "text": "This round, crunchy fruit has small seeds in a core.",
+      "duration": 3.323208,
+      "bytes": 40940,
+      "sha256": "89ac91f91121c34baeee0ddd459b16abadce001497f6b16678f61967207f283e"
+    },
+    "question-7-8-banana": {
+      "text": "Peel its long yellow skin to find soft fruit inside.",
+      "duration": 3.283292,
+      "bytes": 40364,
+      "sha256": "958cb3ca4e297c94bda81c8dc5b7c2b68d55eab34fd62c0c5842b47cd40dbf82"
+    },
+    "question-7-8-bat": {
+      "text": "This is the only kind of mammal capable of true powered flight.",
+      "duration": 3.705625,
+      "bytes": 45548,
+      "sha256": "26f6a470efea24dafe834945f60dff19a0693be1f06ea26633ca6bd63aa92464"
+    },
+    "question-7-8-bear": {
+      "text": "This brown-furred bear has strong shoulder muscles that help it dig for food.",
+      "duration": 4.210875,
+      "bytes": 51596,
+      "sha256": "ad8f5e93705e879f4a8f80df472b3bdd99b5953639e45ac0d97e4b750491cf5b"
+    },
+    "question-7-8-beaver": {
+      "text": "This flat-tailed rodent cuts branches with its teeth and can build dams.",
+      "duration": 4.166542,
+      "bytes": 51020,
+      "sha256": "b0c204ba46b19973340fcc9be8ebdf6d4b932cdccae5ecf20a175c71afbf6624"
+    },
+    "question-7-8-bee": {
+      "text": "This fuzzy, striped insect carries pollen between flowers, and honey-making kinds live in hives.",
+      "duration": 6.395042,
+      "bytes": 77804,
+      "sha256": "3d445d36068518bc0003cc9b5750811ed264497e4ef8f60f1c6c3ea7055b9176"
+    },
+    "question-7-8-blue": {
+      "text": "Mix this color with yellow paint to make green.",
+      "duration": 2.785958,
+      "bytes": 34604,
+      "sha256": "d5abf364bee9bd2f911bf795946e21568c799b16789f3d99fec904fc527e33f5"
+    },
+    "question-7-8-butterfly": {
+      "text": "This colorful-winged insect begins life as a caterpillar and changes inside a chrysalis.",
+      "duration": 5.211625,
+      "bytes": 63692,
+      "sha256": "f60ec8b2d26072e7fb230998f1bfb0eb5e56f611e7f0c3bccadf29b20408d9c2"
+    },
+    "question-7-8-camel": {
+      "text": "This desert traveler stores fat, not water, in its humps.",
+      "duration": 4.060833,
+      "bytes": 49868,
+      "sha256": "6a85cfa8509575bbabf5f3374beba216b562a1908a237e430c9a2be6ad514ca0"
+    },
+    "question-7-8-car": {
+      "text": "It carries people along roads on four wheels.",
+      "duration": 2.785958,
+      "bytes": 34604,
+      "sha256": "9e799365708e27155400e61a6b8dbe8f9fc1314f54c87d52302497e9c2d55c45"
+    },
+    "question-7-8-cat": {
+      "text": "This little pet has whiskers and can purr.",
+      "duration": 2.425958,
+      "bytes": 30284,
+      "sha256": "5011a1bc51ccd0f94518547e614e4c97de0cafcb60c7205346927ef727f4d326"
+    },
+    "question-7-8-circle": {
+      "text": "This round shape has no straight sides and no corners.",
+      "duration": 3.371708,
+      "bytes": 41516,
+      "sha256": "c00e98fd6ccf485d21dbea6810bb9098c949ef5448e8850de15d7c715f5bd78c"
+    },
+    "question-7-8-crab": {
+      "text": "This clawed crustacean often walks sideways and sheds its shell as it grows.",
+      "duration": 4.742542,
+      "bytes": 57932,
+      "sha256": "498f4ba8d2ba63b537ab0692df9c341076fc2044a06d65b468e9424a9fb5451b"
+    },
+    "question-7-8-crocodile": {
+      "text": "This long-jawed, toothy river reptile keeps its eyes and nostrils above water while most of its body stays hidden.",
+      "duration": 6.959208,
+      "bytes": 84428,
+      "sha256": "2b06555914fdf14834f2538a7a69eca51bb234271d55c222f5821024bf8eadb7"
+    },
+    "question-7-8-deer": {
+      "text": "The males of most kinds of this hoofed animal grow and shed branching antlers.",
+      "duration": 4.580167,
+      "bytes": 55916,
+      "sha256": "8a7438935a176eb6b6aa455b15b0af82907e8b97607a1a7377638a48c279b5b3"
+    },
+    "question-7-8-dog": {
+      "text": "This pet can bark and uses its strong sense of smell to explore.",
+      "duration": 3.891875,
+      "bytes": 47852,
+      "sha256": "8f31d0b617f83c53026043b8b63a9c7c3c9bbf4e47e3bb5859de80fe8a52e710"
+    },
+    "question-7-8-dolphin": {
+      "text": "This beak-snouted sea mammal uses clicks and echoes to help locate fish.",
+      "duration": 4.395625,
+      "bytes": 53900,
+      "sha256": "2f7a9ed70987e32de1f37946cfa1419eb10a916b2a4636b102609e190779aa5e"
+    },
+    "question-7-8-dragon": {
+      "text": "This Chinese mythical creature appears in stories and festival dances; it is not a real animal.",
+      "duration": 5.911083,
+      "bytes": 72044,
+      "sha256": "dab7c5ab1b36ba7b95586f0d2bdf32426f22dbbf64b2ecd92e4415836fd723e0"
+    },
+    "question-7-8-duck": {
+      "text": "This quacking bird has webbed feet that work like paddles when it swims.",
+      "duration": 4.158958,
+      "bytes": 51020,
+      "sha256": "d09bd3729313b9d28e97e4e845be247429c9f66450050a5698c898058e789a4c"
+    },
+    "question-7-8-eagle": {
+      "text": "This white-headed, brown-winged bird of prey uses sharp eyesight to spot food from high above.",
+      "duration": 5.363958,
+      "bytes": 65420,
+      "sha256": "977066e4a6f63502cbba5b879ffa69b713f8b7caee7a540187be8b79a41f3d6e"
+    },
+    "question-7-8-eight": {
+      "text": "What is four plus four?",
+      "duration": 1.527333,
+      "bytes": 19340,
+      "sha256": "21eab43a0587eba1d1005f6015b490f1fb52da1d7890058fb667ac1a9c907e06"
+    },
+    "question-7-8-eighteen": {
+      "text": "What is nine plus nine?",
+      "duration": 1.606417,
+      "bytes": 20204,
+      "sha256": "4668f91203747cda7771f8d69627d46a558a1188f324a67f7e3b076d6d46fdfc"
+    },
+    "question-7-8-elephant": {
+      "text": "This animal uses its trunk to smell, drink, and pick things up.",
+      "duration": 4.149833,
+      "bytes": 50732,
+      "sha256": "27fb3350149a7d90ae2593f671d2ef60e0784b5839b4bf3c7f6bd5ccd2022974"
+    },
+    "question-7-8-eleven": {
+      "text": "What is six plus five?",
+      "duration": 1.635917,
+      "bytes": 20780,
+      "sha256": "e39b3888e125a56f2986640b20402884b9a3b0f42d27d10112a83f833fdb1e82"
+    },
+    "question-7-8-fifteen": {
+      "text": "What is eight plus seven?",
+      "duration": 1.436083,
+      "bytes": 18188,
+      "sha256": "7f9e1e69447a9aa018b1b11e8dd34b027ef8a46c8071af4c830bad6845fa43b4"
+    },
+    "question-7-8-five": {
+      "text": "What is four plus one?",
+      "duration": 1.462917,
+      "bytes": 18476,
+      "sha256": "757de3256741585a9f4b304a0989b5ac002113b2eb079452f549d5a925871487"
+    },
+    "question-7-8-flamingo": {
+      "text": "This long-legged water bird gets its pink color from pigments in its food.",
+      "duration": 4.366167,
+      "bytes": 53324,
+      "sha256": "7a81e8829047b43fb02eccfe11a19e3c212396982b95f0c680a3424e50ecd4eb"
+    },
+    "question-7-8-flower": {
+      "text": "Its petals can help attract bees and butterflies.",
+      "duration": 3.08,
+      "bytes": 38060,
+      "sha256": "54e5c019756a4ce608b990853a7c07becf0bd1f2bb5c67ced24062475fe1446c"
+    },
+    "question-7-8-four": {
+      "text": "What is two plus two?",
+      "duration": 1.406792,
+      "bytes": 17900,
+      "sha256": "8708d94e7501ad27d7cb43c2fefa40668c2718b07ab8a9b8643f6a1fae6497ff"
+    },
+    "question-7-8-fourteen": {
+      "text": "What is seven plus seven?",
+      "duration": 1.569583,
+      "bytes": 19916,
+      "sha256": "b65d405b6383f787cc11867a6da1673495085dd8e3cb2af1cc69b308449495bf"
+    },
+    "question-7-8-fox": {
+      "text": "This orange member of the dog family can use its white-tipped bushy tail as a warm cover.",
+      "duration": 5.2465,
+      "bytes": 63980,
+      "sha256": "38fe370f8ce6129402f345c760f6b82a4d01ff8b1af2e3327e06df906163298f"
+    },
+    "question-7-8-frog": {
+      "text": "This jumping amphibian begins life as a tadpole with a tail and no legs.",
+      "duration": 4.550125,
+      "bytes": 55628,
+      "sha256": "f806a60430316178ed4507fb4f48563f6aa0c2baeb22515e450e28886c117864"
+    },
+    "question-7-8-giraffe": {
+      "text": "This tallest living land animal uses its long neck to reach leaves high in trees.",
+      "duration": 4.875333,
+      "bytes": 59660,
+      "sha256": "ac20453ad8d8e27d1651b4e8a37f0f324c9b7c5b328d56910c5a9cb64057f2e5"
+    },
+    "question-7-8-goat": {
+      "text": "This bearded farm animal has split hooves that help it climb rocky slopes.",
+      "duration": 4.348,
+      "bytes": 53324,
+      "sha256": "30f6e9ba7d1670237a5bc05ac1099ea129c0d01dc41455926cc73d265bbb2de1"
+    },
+    "question-7-8-goose": {
+      "text": "Many wild relatives of this long-necked, honking farm bird migrate in a V-shaped flock.",
+      "duration": 5.545958,
+      "bytes": 67724,
+      "sha256": "7227f60e8958584a6cec9bf52fb910c0c973135ed755b4cb3ae8f005b0f1bce3"
+    },
+    "question-7-8-gorilla": {
+      "text": "This largest living ape often walks on its knuckles and mainly eats plants.",
+      "duration": 4.557292,
+      "bytes": 55628,
+      "sha256": "d3097613a9fe4337b914f017323f1b60246006d610948b721c53b9375462731e"
+    },
+    "question-7-8-grapes": {
+      "text": "These small, round fruits grow together on a vine.",
+      "duration": 3.16375,
+      "bytes": 38924,
+      "sha256": "b7882a7fdf5b83dfae82d319c9ff7d9347c45f93bcfd384620cbe114e7233ed3"
+    },
+    "question-7-8-green": {
+      "text": "Mix blue and yellow paint to make this color.",
+      "duration": 2.723208,
+      "bytes": 33740,
+      "sha256": "8293def517105c1af5cf87932443c717f56cea56fafb5c0633e84d4cfe38c32f"
+    },
+    "question-7-8-heart": {
+      "text": "Its two rounded top parts meet above a single bottom point.",
+      "duration": 3.55825,
+      "bytes": 43820,
+      "sha256": "6c83ff1a05c69291756e16b521a906acf2d9de8b2b744c5c5727cb482f45f102"
+    },
+    "question-7-8-hedgehog": {
+      "text": "This small spiny mammal can curl into a ball to protect its soft belly.",
+      "duration": 4.311292,
+      "bytes": 52748,
+      "sha256": "cb90868076a86f1cc85eb69792dc88f2b60a73309010c656b12340091a68d843"
+    },
+    "question-7-8-hippopotamus": {
+      "text": "This wide-mouthed river mammal spends much of the day in water and grazes on land at night.",
+      "duration": 5.077792,
+      "bytes": 61964,
+      "sha256": "26f7ecefd4a6052baa978c536982b89c0555bebd19ca2e263e29c5eef4db5ee9"
+    },
+    "question-7-8-horse": {
+      "text": "This domesticated animal has hooves and a long mane; its young are called foals.",
+      "duration": 5.081167,
+      "bytes": 61964,
+      "sha256": "18a549a324b20338a9f93940ba1a7e526b949ade8cdcdb54bcaf27c05da7336d"
+    },
+    "question-7-8-house": {
+      "text": "This building has a roof, walls, and rooms for people to live in.",
+      "duration": 4.188667,
+      "bytes": 51308,
+      "sha256": "efcfabbc071c3e2f9d766ed5c3283ab635dcfc409b446bf12c6b447fe75bb9d8"
+    },
+    "question-7-8-jellyfish": {
+      "text": "This bell-shaped sea animal has no brain, heart, or bones.",
+      "duration": 3.970458,
+      "bytes": 48716,
+      "sha256": "6680f816d77b7f8ebd9f41a54d74cac2e8a5a999b470f12bcb44ab1cef3b9a7e"
+    },
+    "question-7-8-kangaroo": {
+      "text": "This Australian animal balances with its strong tail as it hops on large back legs.",
+      "duration": 5.41225,
+      "bytes": 65996,
+      "sha256": "2566050347054bbf8773a93c0ec0fc5c796865e48e6634379f8892408b927a90"
+    },
+    "question-7-8-koala": {
+      "text": "This Australian tree-dweller mainly eats eucalyptus leaves and is a marsupial, not a bear.",
+      "duration": 5.641958,
+      "bytes": 68876,
+      "sha256": "ee764bea500892152492445abf9a998b8138552a6686e6ab55f2e2c63a270cff"
+    },
+    "question-7-8-ladybug": {
+      "text": "Many kinds of this spotted beetle eat aphids that feed on garden plants.",
+      "duration": 4.082958,
+      "bytes": 50156,
+      "sha256": "723fe8f823c72a8e215ad0de343e7655503559e0c0eb083552d679655eba7d32"
+    },
+    "question-7-8-lion": {
+      "text": "The male of this big wild cat often has a thick mane.",
+      "duration": 3.364458,
+      "bytes": 41516,
+      "sha256": "04d8423681553a7cbfa6db13d807124f6de767358dc2a808385b33e00cd31a25"
+    },
+    "question-7-8-lizard": {
+      "text": "Some kinds of this small, four-legged, scaly reptile can drop their tails to escape danger.",
+      "duration": 5.854208,
+      "bytes": 71180,
+      "sha256": "3daeb11bba67564c1ab4d5ad84436b0c895b7b3324ae305f35ee7c6d47edbdea"
+    },
+    "question-7-8-monkey": {
+      "text": "Unlike an ape, this tree-climbing primate usually has a tail.",
+      "duration": 3.789,
+      "bytes": 46412,
+      "sha256": "7fe74bc8fc9ee6bd22598d48c15240261d64e1cff35176c9e97fdd6553d13f92"
+    },
+    "question-7-8-moon": {
+      "text": "It travels around Earth and reflects light from the Sun.",
+      "duration": 3.271458,
+      "bytes": 40364,
+      "sha256": "7aa5bb839de33dc5797d858024e71e2a359001f2bfb1dcf1140ee22830dac9f1"
+    },
+    "question-7-8-nine": {
+      "text": "What is five plus four?",
+      "duration": 1.557208,
+      "bytes": 19628,
+      "sha256": "5be124fc0e2dc2285d96df177756ee19a9a20d6300cd31b8b646e2dcfc5d9a7c"
+    },
+    "question-7-8-nineteen": {
+      "text": "What is ten plus nine?",
+      "duration": 1.575417,
+      "bytes": 19916,
+      "sha256": "c65ecfa11bfa73fcae622099d0d78d1050bf73564a22ed3e651dd2797111a486"
+    },
+    "question-7-8-octopus": {
+      "text": "This eight-armed sea animal can squeeze through small gaps because it has no bones.",
+      "duration": 4.502792,
+      "bytes": 55052,
+      "sha256": "16eca56f040a84cdc48325b63b40a2234a20d53919a0c71fa030052ac058f55c"
+    },
+    "question-7-8-one": {
+      "text": "What is two minus one?",
+      "duration": 1.495042,
+      "bytes": 19052,
+      "sha256": "0fef8a9bad9c1b94579421629b3cfb864957b010750aaa867d6129cb7f656a47"
+    },
+    "question-7-8-orange": {
+      "text": "Under its orange peel, this fruit separates into juicy sections.",
+      "duration": 4.092375,
+      "bytes": 50156,
+      "sha256": "777428247289cf2187b1879c79dc8552945816e5f416bdda7e5cb313d6f2cded"
+    },
+    "question-7-8-orange-color": {
+      "text": "Mix red and yellow paint to make this color.",
+      "duration": 2.67975,
+      "bytes": 33164,
+      "sha256": "27d12b4e2cc6408eaacb10b8a4d4dee1aa33db6750fb50c62ae263c26f0cecb8"
+    },
+    "question-7-8-ostrich": {
+      "text": "This largest living bird has two toes on each foot and can run very fast.",
+      "duration": 4.648625,
+      "bytes": 56780,
+      "sha256": "9a9792035ec82789ef1c86cbb84fde394e09fe0ae4e221e377b46218c0794354"
+    },
+    "question-7-8-otter": {
+      "text": "This sleek, long-tailed mammal has dense fur and uses its sensitive whiskers to help find prey in water.",
+      "duration": 6.070333,
+      "bytes": 73772,
+      "sha256": "8fbdae639a6f61f21ccdfe84f045f94296c45568347e06ab793e82a24c8503a2"
+    },
+    "question-7-8-owl": {
+      "text": "Many kinds of this round-faced bird hunt at night and fly very quietly.",
+      "duration": 4.354958,
+      "bytes": 53324,
+      "sha256": "ba4abc0b87336da001aff3b442e64171d533278862f8f735bb09f1e31b7e5401"
+    },
+    "question-7-8-ox": {
+      "text": "This animal is a trained working member of the cattle family.",
+      "duration": 3.426083,
+      "bytes": 42092,
+      "sha256": "ec7902d950c8129a45da769745d3cdd0c40303dcd88802259f33ccb8db2de01c"
+    },
+    "question-7-8-panda": {
+      "text": "This black-and-white bear uses an extra wrist bone to help hold bamboo.",
+      "duration": 4.160667,
+      "bytes": 51020,
+      "sha256": "b8b1f7ea81d70dde515640a8242c9559fa9d79ba7d6dbfbe81707650bc0352c6"
+    },
+    "question-7-8-parrot": {
+      "text": "This curved-beaked bird has two toes pointing forward and two pointing backward on each foot.",
+      "duration": 5.335292,
+      "bytes": 65132,
+      "sha256": "fb21c3e383d2c730992f8cf585158d9bfebd29fc538c8713bb19789f23bc276a"
+    },
+    "question-7-8-peacock": {
+      "text": "The male of this bird displays a long train of colorful feathers to attract a mate.",
+      "duration": 4.814333,
+      "bytes": 58796,
+      "sha256": "ded85375dd43494cca6b12404314e1a24ba9887275f35ec30e05a644f2d42ea3"
+    },
+    "question-7-8-pear": {
+      "text": "This fruit is wider at the bottom and narrower near its stem.",
+      "duration": 3.305,
+      "bytes": 40652,
+      "sha256": "487a6050a0f904baad782a06f2d51f1d39bb00fadfedab6f98cf0380c8e1448c"
+    },
+    "question-7-8-penguin": {
+      "text": "This flightless seabird uses its stiff, flat wings to move through the water.",
+      "duration": 4.331958,
+      "bytes": 53036,
+      "sha256": "8b1fb36616e2d6914c8f4bc49bc101b961001ced658cba6a3f533200d6114e9c"
+    },
+    "question-7-8-pig": {
+      "text": "This snouted farm animal can roll in mud to help keep its body cool.",
+      "duration": 3.881042,
+      "bytes": 47564,
+      "sha256": "180468f3cd1e6b558e9433c45776a9d6aba6dd3f7b712ffa12d1bb62e5442852"
+    },
+    "question-7-8-polar-bear": {
+      "text": "This Arctic bear has black skin beneath fur that looks white.",
+      "duration": 3.522708,
+      "bytes": 43244,
+      "sha256": "8225468f4a7be292f473325dd52be86bdc906a0a4f798b96ac8582d210bc1b5d"
+    },
+    "question-7-8-purple": {
+      "text": "Mix red and blue paint to make this color.",
+      "duration": 2.546583,
+      "bytes": 31724,
+      "sha256": "98c4c75c01792e0c0521919ccd8ea77309016f1460507620a58f33b680e17f94"
+    },
+    "question-7-8-rabbit": {
+      "text": "This long-eared animal has strong back legs for hopping.",
+      "duration": 3.224125,
+      "bytes": 39788,
+      "sha256": "4fcf58360200b9e496e2549b751651581b18585b2013d343a7f2c554d7486465"
+    },
+    "question-7-8-raccoon": {
+      "text": "This masked, ring-tailed mammal uses its sensitive front paws to explore food.",
+      "duration": 4.930792,
+      "bytes": 60236,
+      "sha256": "980dc6a5eb2b02eeeab3c9463f46a5f4c6c6a1962147ee396097b9033e0a142f"
+    },
+    "question-7-8-rat": {
+      "text": "This long-tailed rodent is the first animal in the Chinese zodiac.",
+      "duration": 3.847208,
+      "bytes": 47276,
+      "sha256": "ea6fd9b7488c04d9d696e5fbc5cf6b0ce721c4182fbe70610295d63117540770"
+    },
+    "question-7-8-rectangle": {
+      "text": "Its four corners are right angles, and it has two long sides and two short sides.",
+      "duration": 5.108417,
+      "bytes": 62252,
+      "sha256": "8213a364e41e3c70661e8a07488fbe62df5ffe576bf37d0f47c3c52db50be3dc"
+    },
+    "question-7-8-red": {
+      "text": "This is the color of the traffic light that tells cars to stop.",
+      "duration": 3.523583,
+      "bytes": 43244,
+      "sha256": "12634bcbcd6dbcfc8ba487d5c097a3a06991d232d619230972ad550252000b31"
+    },
+    "question-7-8-rhinoceros": {
+      "text": "The nose horns of this thick-skinned animal are made of keratin, like our fingernails.",
+      "duration": 4.815417,
+      "bytes": 58796,
+      "sha256": "c100ed432ea4093f5d2d5580e512238086cf6a63c306433b2c2923776532769e"
+    },
+    "question-7-8-rooster": {
+      "text": "This male chicken often crows to announce its presence.",
+      "duration": 3.241958,
+      "bytes": 40076,
+      "sha256": "fd2a93b9e9ae191e8d79307ed158af72a1ecce1c22b3bf0816e9d237dfd0bb22"
+    },
+    "question-7-8-seahorse": {
+      "text": "The father of this upright, curled-tail fish carries the eggs in a pouch.",
+      "duration": 4.463208,
+      "bytes": 54476,
+      "sha256": "78fe1c169ce798d2446ee9ac95e900fe5facdfe88718d3ec6c122af5922abb78"
+    },
+    "question-7-8-seal": {
+      "text": "This flippered sea mammal rests on land or ice and uses whiskers to sense movement in water.",
+      "duration": 5.407708,
+      "bytes": 65996,
+      "sha256": "e30e693bc239aa6eb221b280585b72cbe9c3b088c6b7b8414ae559ed2661107e"
+    },
+    "question-7-8-seven": {
+      "text": "What is four plus three?",
+      "duration": 1.481,
+      "bytes": 18764,
+      "sha256": "b747bf02ee8b1d228f42efa769aa9a6e9216b99399132438b9fa4876d5715abe"
+    },
+    "question-7-8-seventeen": {
+      "text": "What is nine plus eight?",
+      "duration": 1.511208,
+      "bytes": 19052,
+      "sha256": "3bc46b18f32ba6a09909ffa4e13376b27a4c87c5653e533b9f03d12b543a6858"
+    },
+    "question-7-8-shark": {
+      "text": "This gill-breathing fish has a skeleton made of cartilage instead of bone.",
+      "duration": 4.223292,
+      "bytes": 51596,
+      "sha256": "bdc7b8c46fe56a10c59a7d9f42b4e6d6f24ced5d0c473b1891c55f0da106fcc7"
+    },
+    "question-7-8-six": {
+      "text": "What is three plus three?",
+      "duration": 1.45825,
+      "bytes": 18476,
+      "sha256": "243c58a2cfa46f1b4f72d19e300cdc5f480dcd5eea407e8c1e34cd316dccdf55"
+    },
+    "question-7-8-sixteen": {
+      "text": "What is eight plus eight?",
+      "duration": 1.421333,
+      "bytes": 18188,
+      "sha256": "80fa682f45a272067d2030849a27dc6e971a8e9ba856afcc89f995f1065471d2"
+    },
+    "question-7-8-snake": {
+      "text": "This legless reptile flicks its forked tongue to collect scent particles.",
+      "duration": 4.363958,
+      "bytes": 53324,
+      "sha256": "0f6a7730ebf5ad7c3e7ce1c577547d39aa08c8fbfb9ab71a302e9af80f0c1ea4"
+    },
+    "question-7-8-square": {
+      "text": "It has four equal sides, and every corner is a right angle.",
+      "duration": 3.785958,
+      "bytes": 46412,
+      "sha256": "57e2503f7286f438cc1eabbcd54b856eda16825d21aa67944010bdaf739482b2"
+    },
+    "question-7-8-squirrel": {
+      "text": "This bushy-tailed rodent often hides nuts in many places for later meals.",
+      "duration": 4.484333,
+      "bytes": 54764,
+      "sha256": "3cc7bff96523f6511451de5790a635f61b2c2b3b015179798072c34ee01c6b41"
+    },
+    "question-7-8-star": {
+      "text": "Its outline goes in and out to make five outer points.",
+      "duration": 3.107,
+      "bytes": 38348,
+      "sha256": "f66bd077782f0c76a31239146e113a4ea9bd64cc5b5b0652b8732bd14ec55e7c"
+    },
+    "question-7-8-starfish": {
+      "text": "This star-shaped sea animal moves using tiny tube feet underneath its arms.",
+      "duration": 4.637167,
+      "bytes": 56780,
+      "sha256": "a6e02aa3cad5a65399b07723880fd41f3586ced4bcb8067bc4227de4f811a3ea"
+    },
+    "question-7-8-strawberry": {
+      "text": "This red fruit has a leafy top and tiny seed-like dots on its skin.",
+      "duration": 4.388292,
+      "bytes": 53612,
+      "sha256": "5ede2ba0548e1784b751a6f0e430c3ce4a7b4a5560e8cda408c7a41615bc4712"
+    },
+    "question-7-8-sun": {
+      "text": "This star gives Earth light and warmth that help plants grow.",
+      "duration": 3.289958,
+      "bytes": 40652,
+      "sha256": "054684da0a12bdc904fa238cbd76ca1f60093a9d36adc10806dddc443d1466b6"
+    },
+    "question-7-8-ten": {
+      "text": "What is five plus five?",
+      "duration": 1.627333,
+      "bytes": 20492,
+      "sha256": "8b617e77f394aff8a43966d238f723b1952f2b0630cdc5c21cc764373d666d6b"
+    },
+    "question-7-8-thirteen": {
+      "text": "What is seven plus six?",
+      "duration": 1.651333,
+      "bytes": 20780,
+      "sha256": "57280ddbab8923714e18aaf8a56e579f6499292e34ce0ea9c666b9ce03e59af3"
+    },
+    "question-7-8-three": {
+      "text": "What is two plus one?",
+      "duration": 1.397458,
+      "bytes": 17900,
+      "sha256": "d34a8c1e954e79acec1cd47bf02bfc6c9842e58ae46e20cf5150df9f5bcaeb6a"
+    },
+    "question-7-8-tiger": {
+      "text": "This large striped cat has a different stripe pattern on every individual.",
+      "duration": 4.353208,
+      "bytes": 53324,
+      "sha256": "d8423b1ebe3e79a1e2bbc00aff446e7d1367fdea9a331ef1c72c89cfe7e05869"
+    },
+    "question-7-8-tree": {
+      "text": "Its woody trunk supports branches, and its roots take in water.",
+      "duration": 3.9185,
+      "bytes": 48140,
+      "sha256": "6f819b3d3389208ae6b60addbf0730f94c3554552ff318eb7fe1f7cdae90765a"
+    },
+    "question-7-8-triangle": {
+      "text": "Count its straight sides: there are exactly three.",
+      "duration": 3.16525,
+      "bytes": 38924,
+      "sha256": "686cfd437abbc92da2b7cc7e23ec85e414e6ce4732a88bb01e35ca1122b5d2df"
+    },
+    "question-7-8-turtle": {
+      "text": "This reptile has a shell that is part of its body.",
+      "duration": 2.846333,
+      "bytes": 35180,
+      "sha256": "cce62aaeed02843ba0f2bf1c85682fd8e05723909be77be816597a673cca0957"
+    },
+    "question-7-8-twelve": {
+      "text": "What is six plus six?",
+      "duration": 1.650458,
+      "bytes": 20780,
+      "sha256": "311cba857079798f80752b7c444f013926b41bb00650272c6eb1a3356b347a80"
+    },
+    "question-7-8-two": {
+      "text": "What is one plus one?",
+      "duration": 1.457583,
+      "bytes": 18476,
+      "sha256": "010ea8a63601c808e194303fe144f649cd77c01e8e63199d5db95b0c01895ef1"
+    },
+    "question-7-8-whale": {
+      "text": "The blue kind of this enormous sea mammal is the largest animal alive today.",
+      "duration": 4.215875,
+      "bytes": 51596,
+      "sha256": "142937362abe4440fba2406f6a25fb33879081137cc6b098454a24be1dc48c1f"
+    },
+    "question-7-8-wolf": {
+      "text": "This wild dog relative howls to communicate with members of its pack.",
+      "duration": 4.213917,
+      "bytes": 51596,
+      "sha256": "afbd9395ac32b26010a5011dcba4f4f20d60794b7037d5ef519412d9a51b5305"
+    },
+    "question-7-8-woodpecker": {
+      "text": "This tree-tapping bird uses its stiff tail feathers to brace against a trunk.",
+      "duration": 4.442958,
+      "bytes": 54476,
+      "sha256": "0d20fdd4e1f24c61e14da2b8d853f055f0e0397ac52b6094523bf1afaf64a560"
+    },
+    "question-7-8-yellow": {
+      "text": "This bright color is on a lemon peel and a ripe banana peel.",
+      "duration": 3.761958,
+      "bytes": 46124,
+      "sha256": "ec3434a16e9e38927abb5f48631a90380d8b0baaddda68d19a2a6ae3874f340a"
+    },
+    "question-7-8-zebra": {
+      "text": "Every individual of this striped horse relative has a unique stripe pattern.",
+      "duration": 4.405625,
+      "bytes": 53900,
+      "sha256": "0e880e80eaaadd5d6a0cad6e1ceb8e31df750b5d473b6cce0a87c3333216b4cb"
+    },
+    "question-7-8-zero": {
+      "text": "What is one minus one?",
+      "duration": 1.469833,
+      "bytes": 18764,
+      "sha256": "f8504cd84d0008f6edb78d17af8e0fd8e80b77400479d008df6203e8d51fb413"
+    }
+  }
+}

@@ -1,0 +1,2576 @@
+{
+  "language": "zh-CN",
+  "engine": "edge",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "-8%",
+  "pitch": "+0Hz",
+  "processing": "silenceremove=start_periods=1:start_duration=0.02:start_threshold=-55dB:start_silence=0.04,areverse,silenceremove=start_periods=1:start_duration=0.02:start_threshold=-55dB:start_silence=0.08,areverse,loudnorm=I=-18:TP=-2:LRA=7,apad=pad_dur=0.12",
+  "sampleRate": 24000,
+  "bitrate": "96k",
+  "loudnessCorrection": "measured-gain-v1",
+  "profile": "db1546b728cb65ed",
+  "clips": {
+    "apple": {
+      "text": "苹果",
+      "duration": 0.817958,
+      "bytes": 10988,
+      "sha256": "f1d783146dba55e7412b390417fe2536237e9effc52da8296e96b13428832188"
+    },
+    "banana": {
+      "text": "香蕉",
+      "duration": 0.800917,
+      "bytes": 10700,
+      "sha256": "9a25db90255a90fc647834e44d0f1d22c0c52aed60417f8944b4796277cdc1b4"
+    },
+    "orange": {
+      "text": "橙子",
+      "duration": 0.748875,
+      "bytes": 10124,
+      "sha256": "39f135c8ff23f9f673ee8404687c6c6073a6a2566ee1e0bbdb43d2e41efb8038"
+    },
+    "strawberry": {
+      "text": "草莓",
+      "duration": 0.727833,
+      "bytes": 9836,
+      "sha256": "74aa1984b7f3060afc0377574364b903445b67c4dbcfae7f63f9eefe25921515"
+    },
+    "grapes": {
+      "text": "葡萄",
+      "duration": 0.740125,
+      "bytes": 9836,
+      "sha256": "213af1914bbd1fcfab85c0c79eb769d06a424b55e0f2219dd6943b6c97bfd914"
+    },
+    "pear": {
+      "text": "梨",
+      "duration": 0.487917,
+      "bytes": 6956,
+      "sha256": "045ca8a5743971f686108787d1dc560cf904727521a62f78a90c03207e965b85"
+    },
+    "rat": {
+      "text": "鼠",
+      "duration": 0.643917,
+      "bytes": 8684,
+      "sha256": "a805c3dab62d467004fc435043bf08e722cfdf7fc4fcf0375da87ecd3deb2fcb"
+    },
+    "ox": {
+      "text": "牛",
+      "duration": 0.527375,
+      "bytes": 7244,
+      "sha256": "ed5caf138b56351f1df80302f8454dc8ff147316d8f3b435a105cf902ba52d5d"
+    },
+    "tiger": {
+      "text": "虎",
+      "duration": 0.608667,
+      "bytes": 8396,
+      "sha256": "dc8db597cf9b68687328df19f2b14598d4a33469523ffca61a0b9eac14f444c6"
+    },
+    "rabbit": {
+      "text": "兔子",
+      "duration": 0.735667,
+      "bytes": 9836,
+      "sha256": "be11c2b77e056e78bd5fb734d511841abe2d3467fd8f4da9146e5d96e2fce57b"
+    },
+    "dragon": {
+      "text": "龙",
+      "duration": 0.507125,
+      "bytes": 7244,
+      "sha256": "e16b8c47a03895fdb10d80d9585db1de15ab6ab519b8254f6d5fb878784514c0"
+    },
+    "snake": {
+      "text": "蛇",
+      "duration": 0.627875,
+      "bytes": 8684,
+      "sha256": "8d29a76025f76f55ec760fe0d813f336067f81675d0fd73bcb7ae9267648d80f"
+    },
+    "horse": {
+      "text": "马",
+      "duration": 0.501333,
+      "bytes": 6956,
+      "sha256": "1d95490de0cb06a81bd60b281b6824f1fb44ddd4123c002b29c2625e27f05871"
+    },
+    "goat": {
+      "text": "山羊",
+      "duration": 0.838167,
+      "bytes": 10988,
+      "sha256": "456f5659b46c1bfee9dffaab33d97d8cb67d3dd0bed580aaa90faa97dbda03a0"
+    },
+    "monkey": {
+      "text": "猴子",
+      "duration": 0.743333,
+      "bytes": 9836,
+      "sha256": "bc850c16f245f036f68f384bf1ff1113211208daff85c259a520d4952e462b86"
+    },
+    "rooster": {
+      "text": "公鸡",
+      "duration": 0.730625,
+      "bytes": 9836,
+      "sha256": "a2eea736da7ab7e40ca000ae4879aef8530b8ea4aafd8b0865136ab6ae04d864"
+    },
+    "dog": {
+      "text": "狗",
+      "duration": 0.495333,
+      "bytes": 6956,
+      "sha256": "240fd67ac17b8ba29ab60605ed2da713c72e2de8dcb1bda5aebef1a4e375f016"
+    },
+    "pig": {
+      "text": "猪",
+      "duration": 0.514708,
+      "bytes": 7244,
+      "sha256": "2e56219e4f5dce096f9368cb61784ac2cd3a4764162b7a1aaf5c691aff32639d"
+    },
+    "cat": {
+      "text": "猫",
+      "duration": 0.505958,
+      "bytes": 7244,
+      "sha256": "6d054b23faf9de7f2e8064981022a2dc9e71ac69f55fd590855ece7eaac3b68b"
+    },
+    "lion": {
+      "text": "狮子",
+      "duration": 0.791167,
+      "bytes": 10412,
+      "sha256": "7f38f5be1d1030db0641aa173c4dc6a75e2ef7085749174b132a2c8072d8a156"
+    },
+    "elephant": {
+      "text": "大象",
+      "duration": 0.736667,
+      "bytes": 9836,
+      "sha256": "c2b41701309f301f1c201cea2a460c226bdace3cad35316e8c53536b732744f4"
+    },
+    "panda": {
+      "text": "大熊猫",
+      "duration": 0.911125,
+      "bytes": 11852,
+      "sha256": "5b341a1a0a878a8cac28abb2fd51008a10e40722c5955fb9a04bd549733abc3e"
+    },
+    "bear": {
+      "text": "棕熊",
+      "duration": 0.823667,
+      "bytes": 10988,
+      "sha256": "11d25b61d01643ac966bb46c2edd04b7dd411beedbc5df09f318530375934525"
+    },
+    "polar-bear": {
+      "text": "北极熊",
+      "duration": 0.982792,
+      "bytes": 12716,
+      "sha256": "4b4b99d1d4ddd9db7e222981783d1ff1a40bda43989fcf98382bb6d1f9aeac7b"
+    },
+    "fox": {
+      "text": "狐狸",
+      "duration": 0.740625,
+      "bytes": 9836,
+      "sha256": "e9c8cfe1f776aeab70374ef2faef4e096e77f788e8bcf36ae6b124d375db5d09"
+    },
+    "wolf": {
+      "text": "狼",
+      "duration": 0.501333,
+      "bytes": 6956,
+      "sha256": "0fadac55d9a9a1fd7d4f64c9afaf433ad366fb9544cb9742a61a38d5da84d3fd"
+    },
+    "giraffe": {
+      "text": "长颈鹿",
+      "duration": 0.98175,
+      "bytes": 12716,
+      "sha256": "66eb3c7ed693bd1162f89cc097e2220420db6b25895b2bd8a2dcda1bf24b5514"
+    },
+    "zebra": {
+      "text": "斑马",
+      "duration": 0.699917,
+      "bytes": 9548,
+      "sha256": "a975b4b7027756d521e8b745110e166fe718b6695819939e9f5da399332d228e"
+    },
+    "rhinoceros": {
+      "text": "犀牛",
+      "duration": 0.820167,
+      "bytes": 10988,
+      "sha256": "5a194bc037b61155ff574bc465ff06d508cf4e91cde3185c5e104e3ef558cbda"
+    },
+    "hippopotamus": {
+      "text": "河马",
+      "duration": 0.77,
+      "bytes": 10412,
+      "sha256": "4eeb21f50669d3c6ae3a0e8c286d27b0aab9fdcfaae659b03a00bf2ba34a58ed"
+    },
+    "kangaroo": {
+      "text": "袋鼠",
+      "duration": 0.796167,
+      "bytes": 10700,
+      "sha256": "99f52b20a1683c96fece8f143f8e1eed944046f9c46e380918ee891b27998316"
+    },
+    "koala": {
+      "text": "考拉",
+      "duration": 0.689167,
+      "bytes": 9260,
+      "sha256": "f6a998dde11998aa6ad435722f432ecaf30e36bd414222ab39619da698577145"
+    },
+    "deer": {
+      "text": "鹿",
+      "duration": 0.49225,
+      "bytes": 6956,
+      "sha256": "4d8c7abfa3f8f7b4b258583b6255c9e01c9755c57c367a2f8f807e0897c03df2"
+    },
+    "camel": {
+      "text": "骆驼",
+      "duration": 0.721958,
+      "bytes": 9836,
+      "sha256": "53358cbe32556b475f8f701916f01d8fe60cceb3fa68c1ba5507b24afd0a18aa"
+    },
+    "squirrel": {
+      "text": "松鼠",
+      "duration": 0.830917,
+      "bytes": 10988,
+      "sha256": "f9ef4d7e7a9892681cb63994f9d751076f59558872b2793f9a782b5b371ed784"
+    },
+    "hedgehog": {
+      "text": "刺猬",
+      "duration": 0.734583,
+      "bytes": 9836,
+      "sha256": "65c216c3334ee3638329dd75ec79e76e5b1219b45e6b559daec64a64dc76d42f"
+    },
+    "bat": {
+      "text": "蝙蝠",
+      "duration": 0.805083,
+      "bytes": 10700,
+      "sha256": "832042c1d26274038acb01ee7f0c45444291d389322f8d843c0e79e047f6e0eb"
+    },
+    "otter": {
+      "text": "水獭",
+      "duration": 0.835958,
+      "bytes": 10988,
+      "sha256": "4c1e91aed274cfa55f9861a16654a3153bf8cfae3c9d6570a039d19e1da27992"
+    },
+    "beaver": {
+      "text": "河狸",
+      "duration": 0.743208,
+      "bytes": 9836,
+      "sha256": "23be501bb61af64ab4101bdbf99ce05bb818d002144bf818f5c0089017d7d567"
+    },
+    "raccoon": {
+      "text": "浣熊",
+      "duration": 0.793958,
+      "bytes": 10700,
+      "sha256": "ea6a95b4f0a02de38cb0e490794cd9260714c99d4d851872a1a78a2908775b5a"
+    },
+    "gorilla": {
+      "text": "大猩猩",
+      "duration": 0.939958,
+      "bytes": 12428,
+      "sha256": "933591579908f89c6b274754131bbc8bb059a4caa0212bbc9fef62779963104c"
+    },
+    "duck": {
+      "text": "鸭子",
+      "duration": 0.748792,
+      "bytes": 10124,
+      "sha256": "f33927aad19038bb624b52c78f76e0ff9f601e2ca43d00e96027f1d4357ad528"
+    },
+    "goose": {
+      "text": "鹅",
+      "duration": 0.515958,
+      "bytes": 7244,
+      "sha256": "0c6d3f690bd81155919e8a82988a35c5e51b99c34a1afd4aa7d3ae7cbb3f6ea6"
+    },
+    "penguin": {
+      "text": "企鹅",
+      "duration": 0.740708,
+      "bytes": 9836,
+      "sha256": "3fe4b90a98ddfe4e02c4dd879854ab4b75388f53a31b98db20dd912fc9bc01ea"
+    },
+    "owl": {
+      "text": "猫头鹰",
+      "duration": 0.925542,
+      "bytes": 12140,
+      "sha256": "72509287f729978513859c50a010ebd0a32691ef34e45df6f11a81ac9426e691"
+    },
+    "eagle": {
+      "text": "鹰",
+      "duration": 0.500875,
+      "bytes": 6956,
+      "sha256": "081dd8a926ae777ce734b8f62c3464127fd7fabfe4202c3535ec9655ee42e25d"
+    },
+    "parrot": {
+      "text": "鹦鹉",
+      "duration": 0.7495,
+      "bytes": 10124,
+      "sha256": "a2a1b63235943dda194df85ba0b215a229087745da9ecb27447d79579d36479d"
+    },
+    "peacock": {
+      "text": "孔雀",
+      "duration": 0.814625,
+      "bytes": 10700,
+      "sha256": "b20b487b74ad8803b53e423a16e7fd795f87013d51ff18186652aa86ed2eae8a"
+    },
+    "flamingo": {
+      "text": "火烈鸟",
+      "duration": 0.967375,
+      "bytes": 12716,
+      "sha256": "3b533e9c5d0db4710f2c5950a4641bc75dcf2ce4d6c5bea4d39d2c50a0079f27"
+    },
+    "ostrich": {
+      "text": "鸵鸟",
+      "duration": 0.765708,
+      "bytes": 10124,
+      "sha256": "2ba7dda1f64bc6a358bb5a1feefa20568ea7cb1309f96deb830d27e4ba767ccd"
+    },
+    "woodpecker": {
+      "text": "啄木鸟",
+      "duration": 0.947958,
+      "bytes": 12428,
+      "sha256": "54d5fe328d5e1e448c06a5ae82c15d81eed2ddc007dec3cef1517cbd1d8636ca"
+    },
+    "dolphin": {
+      "text": "海豚",
+      "duration": 0.778083,
+      "bytes": 10412,
+      "sha256": "6cb6b44cd287b1ad4da6a8f70fb3fabc24c8df3a0743e1602e72a9caea4e484b"
+    },
+    "whale": {
+      "text": "鲸",
+      "duration": 0.50875,
+      "bytes": 7244,
+      "sha256": "a9f11d888f82b21fddd12dab51a2f7742a23b21ab4f99dc616a81cc2d7c77445"
+    },
+    "shark": {
+      "text": "鲨鱼",
+      "duration": 0.823917,
+      "bytes": 10988,
+      "sha256": "960bdcd43ec830bf663b83bb788f99e23261a78f89ac323b0a260b55fa6c422a"
+    },
+    "octopus": {
+      "text": "章鱼",
+      "duration": 0.751083,
+      "bytes": 10124,
+      "sha256": "61f9982af7c5c2eb6903d522b34d173017fe1c0fc96d87222da511be98d60fce"
+    },
+    "jellyfish": {
+      "text": "水母",
+      "duration": 0.817958,
+      "bytes": 10988,
+      "sha256": "f23371d91788940a5b0ce48481ea88805cf7c6953f66e78727505234fdee9ac0"
+    },
+    "seahorse": {
+      "text": "海马",
+      "duration": 0.775042,
+      "bytes": 10412,
+      "sha256": "8594a07453b4d216aca20bd948727be2c2c136121dd4cbd0e5c48b0edf802223"
+    },
+    "seal": {
+      "text": "海豹",
+      "duration": 0.740833,
+      "bytes": 9836,
+      "sha256": "9e96076f923f9aa5a06816ac678ce49af2b38690452035e4531a2db57aece988"
+    },
+    "crab": {
+      "text": "螃蟹",
+      "duration": 0.765167,
+      "bytes": 10124,
+      "sha256": "8af22c9bfa6ef4b1351edb81abe77f19b6d68da42bf8a0e330bbb9707f7be113"
+    },
+    "starfish": {
+      "text": "海星",
+      "duration": 0.789875,
+      "bytes": 10412,
+      "sha256": "b4cdc5fa45170785c772605c843c6150d1b2f07311ea11212fd2c9840e2cdb2d"
+    },
+    "turtle": {
+      "text": "乌龟",
+      "duration": 0.670583,
+      "bytes": 8972,
+      "sha256": "61addd724f5cf6b31273cfd93794801444607f3523c8575ff6dfd43042857e77"
+    },
+    "crocodile": {
+      "text": "鳄鱼",
+      "duration": 0.731875,
+      "bytes": 9836,
+      "sha256": "0cf548dfd482a779fbb40a317eb28ab5ede5e63e6209b01619ec49ccf720bfa9"
+    },
+    "frog": {
+      "text": "青蛙",
+      "duration": 0.7755,
+      "bytes": 10412,
+      "sha256": "17ef40557bbd5f1592748eeed5233f2116c234ed9fc730a41ec6cfa819e72b6a"
+    },
+    "lizard": {
+      "text": "蜥蜴",
+      "duration": 0.790917,
+      "bytes": 10412,
+      "sha256": "397bd9b70236f1a643aa1e731d9c145eaaf68ac9658f97361734546322cdfe01"
+    },
+    "butterfly": {
+      "text": "蝴蝶",
+      "duration": 0.783083,
+      "bytes": 10412,
+      "sha256": "4ef0e4aa4a8b6dd7c99733209c50f5c61a114ba9700422d4323f9f5fc6eaee82"
+    },
+    "bee": {
+      "text": "蜜蜂",
+      "duration": 0.767792,
+      "bytes": 10124,
+      "sha256": "209ae8457c5908fa33d5a4b875ceeb57faba34796a8ab13a7671493860d70b30"
+    },
+    "ladybug": {
+      "text": "瓢虫",
+      "duration": 0.833375,
+      "bytes": 10988,
+      "sha256": "f433257a4c864897ccf2a8ce55a10c7393759415771247052819035383861ed6"
+    },
+    "ant": {
+      "text": "蚂蚁",
+      "duration": 0.732958,
+      "bytes": 9836,
+      "sha256": "80a8630f8452dda45d7b8a60d34d2ae745edfc26d7d42f2115a852c0895a1ed1"
+    },
+    "red": {
+      "text": "红色",
+      "duration": 0.778042,
+      "bytes": 10412,
+      "sha256": "08b012ddbdaffe6d2c225272c4cdec48f65bc575d65cb7a19af0d04ef3041c6a"
+    },
+    "orange-color": {
+      "text": "橙色",
+      "duration": 0.803125,
+      "bytes": 10700,
+      "sha256": "b5b4dcf7bb4ea5f8c939c4721a325a779fe05fcbb2f4f83ed256853797e160b3"
+    },
+    "yellow": {
+      "text": "黄色",
+      "duration": 0.770708,
+      "bytes": 10412,
+      "sha256": "14f6fd11fea311d9bb5666ed91257b9721796e79a517e26a187405c8e9570ddf"
+    },
+    "green": {
+      "text": "绿色",
+      "duration": 0.764042,
+      "bytes": 10124,
+      "sha256": "e5e9ab35cca34142bdde871e82dc71ad4097682af9dcfb57f536eff24f668441"
+    },
+    "blue": {
+      "text": "蓝色",
+      "duration": 0.789083,
+      "bytes": 10412,
+      "sha256": "055a8f4bc17ff6b4271757b80f8be3236e795e14c2c91e8a2f19d0c69ab76202"
+    },
+    "purple": {
+      "text": "紫色",
+      "duration": 0.769958,
+      "bytes": 10412,
+      "sha256": "345f648e7e37b9c33bd6f84f1bbf3cd77a8a75bd1a13ed62395921d948d0b4b3"
+    },
+    "zero": {
+      "text": "零",
+      "duration": 0.520958,
+      "bytes": 7244,
+      "sha256": "d66d4ab1fc329947af47ff095d4446fab6147385383789dc089a0248d2cc5f8f"
+    },
+    "one": {
+      "text": "一",
+      "duration": 0.499417,
+      "bytes": 6956,
+      "sha256": "37370c8608c0a0ab32a44ec794f481c3d6696ffc085d0059046849802ce58404"
+    },
+    "two": {
+      "text": "二",
+      "duration": 0.546583,
+      "bytes": 7532,
+      "sha256": "20ef8ea7257d7091d2f058c9969a2c7e38815a3feeaef7a9f7cb4f2469f0079b"
+    },
+    "three": {
+      "text": "三",
+      "duration": 0.590875,
+      "bytes": 8108,
+      "sha256": "202304a0ee23d19b864b20da477162b2c050bc1981765d1c223fac31122925be"
+    },
+    "four": {
+      "text": "四",
+      "duration": 0.602833,
+      "bytes": 8396,
+      "sha256": "9b9c7baba91e1b05238bb8485ad36e8dab151589c858618e26832da88f994837"
+    },
+    "five": {
+      "text": "五",
+      "duration": 0.529958,
+      "bytes": 7532,
+      "sha256": "b7201a59cde2ea47636165538e5fc56f58dc7c378cc7d2e88b5fc207747b67f5"
+    },
+    "six": {
+      "text": "六",
+      "duration": 0.5275,
+      "bytes": 7244,
+      "sha256": "77700514b1e15ba72d898ed347c2b0ca2b97eb1dd0c8c1b72e2906218cf388d0"
+    },
+    "seven": {
+      "text": "七",
+      "duration": 0.566292,
+      "bytes": 7820,
+      "sha256": "13205b78b4c8a24cb7c5c34fdc86d472440ed57a99c4d8f0edfffb1fbdcdb5f7"
+    },
+    "eight": {
+      "text": "八",
+      "duration": 0.529958,
+      "bytes": 7532,
+      "sha256": "ab44b067894ec20737679b9e001c3620e342b8a47c28c558bf992f5e70342eed"
+    },
+    "nine": {
+      "text": "九",
+      "duration": 0.523708,
+      "bytes": 7244,
+      "sha256": "06ab2bd8923d5f9c499ad4648680873a303ce702eed2d0fa8999d645c1c30867"
+    },
+    "ten": {
+      "text": "十",
+      "duration": 0.621083,
+      "bytes": 8396,
+      "sha256": "94b6d43d83f8ef20c0dbbdb5eeb6f784cf87fc2e391bba37ec3cbf2c5a838649"
+    },
+    "eleven": {
+      "text": "十一",
+      "duration": 0.791167,
+      "bytes": 10412,
+      "sha256": "57fda696df567b5e1b8cec78095069614e39fd8aa33ada32bbdd3983caceff65"
+    },
+    "twelve": {
+      "text": "十二",
+      "duration": 0.75575,
+      "bytes": 10124,
+      "sha256": "6b6434dba07d95411e6c76a5fb222c7599cc659ea4b73d6233a931590379ea23"
+    },
+    "thirteen": {
+      "text": "十三",
+      "duration": 0.778167,
+      "bytes": 10412,
+      "sha256": "a87791fe9e48b2c2c33492f7fb0f0beed51e683a066c79ca978fc2d4f9298385"
+    },
+    "fourteen": {
+      "text": "十四",
+      "duration": 0.815208,
+      "bytes": 10700,
+      "sha256": "d63199034b8d5fc9b6ae20725b20129c302b750a555dec96412ba60354ea623a"
+    },
+    "fifteen": {
+      "text": "十五",
+      "duration": 0.812375,
+      "bytes": 10700,
+      "sha256": "48ab978898d50b522adafba0e3e1619e671d16d55361afb270741d161dd9a016"
+    },
+    "sixteen": {
+      "text": "十六",
+      "duration": 0.822917,
+      "bytes": 10988,
+      "sha256": "960e0c8a0304eed603fd51840369f223435a7a6a54377382d0043cc5a88219a7"
+    },
+    "seventeen": {
+      "text": "十七",
+      "duration": 0.833042,
+      "bytes": 10988,
+      "sha256": "22a700ac4867aa6f1edb0b42081e9097e7556b305335239dd2d6188260b2f9d5"
+    },
+    "eighteen": {
+      "text": "十八",
+      "duration": 0.764583,
+      "bytes": 10124,
+      "sha256": "287d9f860ea062168afee4c306bcf380d30ff8fd2bd791792f787e558e5ca1a8"
+    },
+    "nineteen": {
+      "text": "十九",
+      "duration": 0.819583,
+      "bytes": 10988,
+      "sha256": "76ae051039199d7ccf367c3af8f351899e8258070315835687692542a7668257"
+    },
+    "circle": {
+      "text": "圆形",
+      "duration": 0.814375,
+      "bytes": 10700,
+      "sha256": "1acdcf29451bfd8d2fee1e160eebf1696c49fca9caf5cb27f3b6dd785e5fcdc9"
+    },
+    "square": {
+      "text": "正方形",
+      "duration": 1.005417,
+      "bytes": 13004,
+      "sha256": "327d1bc4085e1e4d87a5dbf6137f06629aeb4f39360fc7759d692965713e01da"
+    },
+    "triangle": {
+      "text": "三角形",
+      "duration": 1.059917,
+      "bytes": 13868,
+      "sha256": "543c5d3daaa9b07c8c58d196c11f05ea75cc75fb13ea910b0f17746ca77cf31c"
+    },
+    "rectangle": {
+      "text": "长方形",
+      "duration": 1.030875,
+      "bytes": 13292,
+      "sha256": "aa57b82761c5890b4601bde8598285bc99331f8330eec2258551c766eba56f63"
+    },
+    "star": {
+      "text": "星形",
+      "duration": 0.867542,
+      "bytes": 11564,
+      "sha256": "5ea32e2b89d3baae4c90024a46cc1be9dec95d5788a396923988ec737b7c9e2d"
+    },
+    "heart": {
+      "text": "心形",
+      "duration": 0.873833,
+      "bytes": 11564,
+      "sha256": "22c9c7d8a28cfbe9f9910e3f3dda8f1e95ff373e22ee449d30a4e3e5206469bb"
+    },
+    "sun": {
+      "text": "太阳",
+      "duration": 0.749917,
+      "bytes": 10124,
+      "sha256": "0b57edd911151634650fbf847e7c72f7ae3e52f61091fdc0ff5f97b7dbea6b19"
+    },
+    "moon": {
+      "text": "月亮",
+      "duration": 0.708,
+      "bytes": 9548,
+      "sha256": "a5a3a8b1743586af069e1b2bb06b7cad565ac796abcb546dcfdd6970080e83e7"
+    },
+    "tree": {
+      "text": "树",
+      "duration": 0.58575,
+      "bytes": 8108,
+      "sha256": "df7c0248a75ecd8b300db064a50f27249785c5854bf2aa03785aa69a3a62d51d"
+    },
+    "flower": {
+      "text": "花",
+      "duration": 0.537333,
+      "bytes": 7532,
+      "sha256": "3158e49a70d2a8c507ff2cbb8a1f5e6f164a2c58f48200deedcd7aac815f98f3"
+    },
+    "house": {
+      "text": "房子",
+      "duration": 0.757708,
+      "bytes": 10124,
+      "sha256": "2e5666a7eb4695835b1f19ee6beb0b093837949dc05e201a50cbce1cba9ac76b"
+    },
+    "car": {
+      "text": "汽车",
+      "duration": 0.8115,
+      "bytes": 10700,
+      "sha256": "f1cfa6325ab09c6e471a939590e39de0e604d6ce10342786e0a7a592ec2eb9e4"
+    },
+    "welcome": {
+      "text": "欢迎，小小探险家！我们一起发现新事物吧。",
+      "duration": 4.649833,
+      "bytes": 56780,
+      "sha256": "cfe4b60a99e8e5f6484c5ddbc78c9a60dfe4cea19e6a7c3f6eba109c13c60274"
+    },
+    "well-done": {
+      "text": "太棒了！你做到了。",
+      "duration": 2.371292,
+      "bytes": 29420,
+      "sha256": "a147a76950eeddbbd09417f5ea34df5146792310ca500c8946e73c89733132d6"
+    },
+    "try-again": {
+      "text": "加油！我们再听一次。",
+      "duration": 2.591458,
+      "bytes": 32012,
+      "sha256": "6a6f12c7a2032db660b4b388eb624147a996a1a9a03b2b9772ffad3bd4559da3"
+    },
+    "question-3-4-ant": {
+      "text": "找出蚂蚁。",
+      "duration": 1.098292,
+      "bytes": 14156,
+      "sha256": "abf4d3acc04e91ea846829f8f3fd4dd751ac9a8b15e3ba6d32e3842489a7ab1e"
+    },
+    "question-3-4-apple": {
+      "text": "找出苹果。",
+      "duration": 1.182417,
+      "bytes": 15308,
+      "sha256": "9db3b04234f8ae1d952e0849ad2f9991ee0d96648fc2578c7b3bf604d249a31a"
+    },
+    "question-3-4-banana": {
+      "text": "找出香蕉。",
+      "duration": 1.150458,
+      "bytes": 14732,
+      "sha256": "85ddb1cdb2e2ded7b5a41c23f0ec538065a4c7a3f02c5979e62795673213cbf8"
+    },
+    "question-3-4-bat": {
+      "text": "找出蝙蝠。",
+      "duration": 1.195583,
+      "bytes": 15308,
+      "sha256": "9bfbee247d1decf2e97d2d2407bb93ed9b3748e7e5a7c621a96c8b417121ea9d"
+    },
+    "question-3-4-bear": {
+      "text": "找出棕熊。",
+      "duration": 1.196125,
+      "bytes": 15308,
+      "sha256": "d2059230d1a56763df9e17715c7d95e775e4c028bd69dd86c18a6a534157fc1b"
+    },
+    "question-3-4-beaver": {
+      "text": "找出河狸。",
+      "duration": 1.132667,
+      "bytes": 14732,
+      "sha256": "d71edf49227187a50ceb595b8267068ad9a071ae0e4120244635607dee354b6a"
+    },
+    "question-3-4-bee": {
+      "text": "找出蜜蜂。",
+      "duration": 1.149917,
+      "bytes": 14732,
+      "sha256": "97b059b8e1aad2fcea88af7c58c62ab951a6be8ebb2d814dd7893ac1153346f9"
+    },
+    "question-3-4-blue": {
+      "text": "找出蓝色的色块。",
+      "duration": 1.693375,
+      "bytes": 21356,
+      "sha256": "f9ce7c774aaa0fdb04081df28be8216d84727e77dcb572a9c8217fe771144644"
+    },
+    "question-3-4-butterfly": {
+      "text": "找出蝴蝶。",
+      "duration": 1.160417,
+      "bytes": 15020,
+      "sha256": "bd09480b6be35a35375c056b1bb976beab56f5bfffff66d66de9f7cc00744132"
+    },
+    "question-3-4-camel": {
+      "text": "找出骆驼。",
+      "duration": 1.084375,
+      "bytes": 14156,
+      "sha256": "ca50bc874bcc3905cd0264b5eb261975c28935a7c4b3f182c8b42f6b107b6298"
+    },
+    "question-3-4-car": {
+      "text": "找出汽车。",
+      "duration": 1.171083,
+      "bytes": 15020,
+      "sha256": "45a8f86b66140f35deb3b951fc81c13f888b0ba7e627975a837c447bcd0fbbb3"
+    },
+    "question-3-4-cat": {
+      "text": "找出猫。",
+      "duration": 0.890583,
+      "bytes": 11852,
+      "sha256": "3d62f3cebdbc245ee0c350bb56b55750fc6b38ed6a62ebaa4431435a78c3437c"
+    },
+    "question-3-4-circle": {
+      "text": "找出圆形。",
+      "duration": 1.201958,
+      "bytes": 15596,
+      "sha256": "5de9dfe220534d68e61ae84bc5100ece95addcd5fc2e2c5c48a180074ab704c7"
+    },
+    "question-3-4-crab": {
+      "text": "找出螃蟹。",
+      "duration": 1.13425,
+      "bytes": 14732,
+      "sha256": "06bc1605b0097c3f6de6402780c109e43c8695d93abcc8bd042ce823d28f63f6"
+    },
+    "question-3-4-crocodile": {
+      "text": "找出鳄鱼。",
+      "duration": 1.122708,
+      "bytes": 14444,
+      "sha256": "c2a5a52bb7c09a0bf90c029b0a8cecd27987fad19c589a7adb4a4ff96f1a12e5"
+    },
+    "question-3-4-deer": {
+      "text": "找出鹿。",
+      "duration": 0.894458,
+      "bytes": 11852,
+      "sha256": "68383570b66959a6694a3b1784edca7fd6298e3dad32228a5d9b202a3a79629e"
+    },
+    "question-3-4-dog": {
+      "text": "找出狗。",
+      "duration": 0.915083,
+      "bytes": 12140,
+      "sha256": "f3c7cee207915887794794c7fa36db10f69035a7b67160676a03e850ee972f17"
+    },
+    "question-3-4-dolphin": {
+      "text": "找出海豚。",
+      "duration": 1.198375,
+      "bytes": 15308,
+      "sha256": "6d839d134d95c4c32e603120d6437ce1fe71648883a3d1e4b982331e17af8819"
+    },
+    "question-3-4-dragon": {
+      "text": "找出龙。",
+      "duration": 0.942667,
+      "bytes": 12428,
+      "sha256": "9160fe66817ea84f44c60f3b32ce4f3850e674812d1b761b790abc102591872a"
+    },
+    "question-3-4-duck": {
+      "text": "找出鸭子。",
+      "duration": 1.14375,
+      "bytes": 14732,
+      "sha256": "48d8de74d5806a5660d0bb0dda5d3ead5c1ccdfa868cab4c1a471959e4e51f87"
+    },
+    "question-3-4-eagle": {
+      "text": "找出鹰。",
+      "duration": 0.889958,
+      "bytes": 11852,
+      "sha256": "cd23fc142aca7277a1a486af6fb067a4de263933676f1e39e2f85d9adc7469a6"
+    },
+    "question-3-4-eight": {
+      "text": "找出数字八。",
+      "duration": 1.292833,
+      "bytes": 16460,
+      "sha256": "721938fad3fabd242d2786e4259bb1b68da6741feb9202ec91bebffc5f44eeb8"
+    },
+    "question-3-4-eighteen": {
+      "text": "找出数字十八。",
+      "duration": 1.492417,
+      "bytes": 19052,
+      "sha256": "979c9ca8f57c12c2a08647dc95857dc9d510ab33cd783914ae0275644b3598e9"
+    },
+    "question-3-4-elephant": {
+      "text": "找出大象。",
+      "duration": 1.140958,
+      "bytes": 14732,
+      "sha256": "2b4c21be7e0b5821a0538bc291169bfb6ece5fd8f76534f45883fed32bcd757f"
+    },
+    "question-3-4-eleven": {
+      "text": "找出数字十一。",
+      "duration": 1.489958,
+      "bytes": 19052,
+      "sha256": "8c3b13f455a5641b3ad508a42c341ec1f591c17de9c1d1a39274a120c4e0f9f4"
+    },
+    "question-3-4-fifteen": {
+      "text": "找出数字十五。",
+      "duration": 1.533125,
+      "bytes": 19340,
+      "sha256": "1a1a574dbb1760658e21769bb53eaacdd3cf44d604b10cd86b904c23d3796dcb"
+    },
+    "question-3-4-five": {
+      "text": "找出数字五。",
+      "duration": 1.314667,
+      "bytes": 16748,
+      "sha256": "c44b3deb6f171af5c6053833a4041e734e5cc77377bbe54f514bfd488fe85930"
+    },
+    "question-3-4-flamingo": {
+      "text": "找出火烈鸟。",
+      "duration": 1.37,
+      "bytes": 17612,
+      "sha256": "01665dc4495338478ae462a00f12ddd9dab7fca0ceb52204a0723909422a7e23"
+    },
+    "question-3-4-flower": {
+      "text": "找出花。",
+      "duration": 0.940167,
+      "bytes": 12428,
+      "sha256": "c72d9471dfae1603b7f36f756ef1a506cd258b24964538bc58febf43eba8cddd"
+    },
+    "question-3-4-four": {
+      "text": "找出数字四。",
+      "duration": 1.315667,
+      "bytes": 16748,
+      "sha256": "cc0c2b706643ec72a06dc9b5f4870f646671c6b18c26d2964bacf93da98976c9"
+    },
+    "question-3-4-fourteen": {
+      "text": "找出数字十四。",
+      "duration": 1.561958,
+      "bytes": 19916,
+      "sha256": "c60d927335dcd1b1d85984c66ffc18ad6c2c16cc3db3d805555c428a34e7a5b6"
+    },
+    "question-3-4-fox": {
+      "text": "找出狐狸。",
+      "duration": 1.082292,
+      "bytes": 14156,
+      "sha256": "f0aa48b8d1246f3ac02c3ca1580dbc5d6a69c87933e05883a7c16ae8e7f2890e"
+    },
+    "question-3-4-frog": {
+      "text": "找出青蛙。",
+      "duration": 1.116375,
+      "bytes": 14444,
+      "sha256": "00f3a70cb3b1d32e8aefaeee53c3577877883c609fbc01c5573aa6b9ca81de1b"
+    },
+    "question-3-4-giraffe": {
+      "text": "找出长颈鹿。",
+      "duration": 1.327917,
+      "bytes": 17036,
+      "sha256": "3edbb30fc5791642e45ba0f24e5e28a8533e3c86f2c07596ed8fe43895bcfa02"
+    },
+    "question-3-4-goat": {
+      "text": "找出山羊。",
+      "duration": 1.202792,
+      "bytes": 15596,
+      "sha256": "a58fc6ca78c028dcba6d623c95e5572e2cb971ee730af1f2b28dce5a2533ff21"
+    },
+    "question-3-4-goose": {
+      "text": "找出鹅。",
+      "duration": 0.9545,
+      "bytes": 12428,
+      "sha256": "4e31dc94d65c7eccca88fa3f4f55e0ba5c7cd81072ed92371e6ecb870b19e136"
+    },
+    "question-3-4-gorilla": {
+      "text": "找出大猩猩。",
+      "duration": 1.369958,
+      "bytes": 17612,
+      "sha256": "89fac6daa339296b28722c2d4dcb5425a99a9401543cfdcd368ee4333f0d17eb"
+    },
+    "question-3-4-grapes": {
+      "text": "找出葡萄。",
+      "duration": 1.105958,
+      "bytes": 14444,
+      "sha256": "cd20860f135366e48933ecd3d3166116e7c46ea8ecb3a4b8361970d0d8295f0e"
+    },
+    "question-3-4-green": {
+      "text": "找出绿色的色块。",
+      "duration": 1.664583,
+      "bytes": 21068,
+      "sha256": "290f7d5499bd77e136bcc1e0772468adeb939b62a1dccb91ae6dafc522b08be5"
+    },
+    "question-3-4-heart": {
+      "text": "找出心形。",
+      "duration": 1.198042,
+      "bytes": 15308,
+      "sha256": "5785b5c8140559e96cf34dccc2d2e8920830ceeee220e3f5a716b0e7aadc21b2"
+    },
+    "question-3-4-hedgehog": {
+      "text": "找出刺猬。",
+      "duration": 1.121167,
+      "bytes": 14444,
+      "sha256": "2c2a57b1ecfe2b673f2fffbdeec60fb0c94d9121ac81ca55f44980aa9e4288eb"
+    },
+    "question-3-4-hippopotamus": {
+      "text": "找出河马。",
+      "duration": 1.133708,
+      "bytes": 14732,
+      "sha256": "387a9f7afeb7cfeabff97cc260cbad7e7ca80f2b96e4c202ed614a9331cde72d"
+    },
+    "question-3-4-horse": {
+      "text": "找出马。",
+      "duration": 0.919,
+      "bytes": 12140,
+      "sha256": "95d7ef7144ea697d84036623a9ead007ce550fcf373eff313b4b2e7b1ea9a16f"
+    },
+    "question-3-4-house": {
+      "text": "找出房子。",
+      "duration": 1.137208,
+      "bytes": 14732,
+      "sha256": "98b86141278ca4cc52a93703800e8a695ca25bed0528860b93644e8bf3960993"
+    },
+    "question-3-4-jellyfish": {
+      "text": "找出水母。",
+      "duration": 1.120125,
+      "bytes": 14444,
+      "sha256": "d11e195cf374a769314289dbdcac607c5d072cd7bcb67d519fbac9d5ad6b233a"
+    },
+    "question-3-4-kangaroo": {
+      "text": "找出袋鼠。",
+      "duration": 1.17225,
+      "bytes": 15020,
+      "sha256": "f656a38ee62881451e04543c61efb520566314cf8a3cda8256f26fc21db92cbb"
+    },
+    "question-3-4-koala": {
+      "text": "找出考拉。",
+      "duration": 1.103417,
+      "bytes": 14156,
+      "sha256": "5df181ed62c7944c17f8a8b275c019251df1b6a6ea0b97db51893c3204c99d65"
+    },
+    "question-3-4-ladybug": {
+      "text": "找出瓢虫。",
+      "duration": 1.230125,
+      "bytes": 15884,
+      "sha256": "4c8d2d13efebc46bbdcafbb38813ec9049d534e58bab73496cc508bfd1805f92"
+    },
+    "question-3-4-lion": {
+      "text": "找出狮子。",
+      "duration": 1.126208,
+      "bytes": 14444,
+      "sha256": "42241ec6647f9978f29288baee8abb0f362960ec1bc64ada0828ec24cb01a6ee"
+    },
+    "question-3-4-lizard": {
+      "text": "找出蜥蜴。",
+      "duration": 1.110083,
+      "bytes": 14444,
+      "sha256": "d4547729aeaa1728ce6f51284fecd3bb8681fef3ab2e2080bbb5e249031674e1"
+    },
+    "question-3-4-monkey": {
+      "text": "找出猴子。",
+      "duration": 1.099833,
+      "bytes": 14156,
+      "sha256": "2bf8b677147deeb4bbf36db578eed5f2fb5914b9bd3945853046d580323e2f26"
+    },
+    "question-3-4-moon": {
+      "text": "找出月亮。",
+      "duration": 1.105958,
+      "bytes": 14444,
+      "sha256": "1ad5669c339c81ee5374ed73d4722be96c7b94dd6234713b5c2c204470832e40"
+    },
+    "question-3-4-nine": {
+      "text": "找出数字九。",
+      "duration": 1.324542,
+      "bytes": 17036,
+      "sha256": "c06469790d65fbf76eddb946920ca9574af0ba54d5a949d2d718a6a0b3bb0d7e"
+    },
+    "question-3-4-nineteen": {
+      "text": "找出数字十九。",
+      "duration": 1.564333,
+      "bytes": 19916,
+      "sha256": "053dbe79e6cfbf79dabea62547ef5efd895b3212ff3609e9545c84a19382df81"
+    },
+    "question-3-4-octopus": {
+      "text": "找出章鱼。",
+      "duration": 1.154625,
+      "bytes": 15020,
+      "sha256": "5778b17a02920b54213d508aaac8913261136d8eaf41ac465be2db69bbd62226"
+    },
+    "question-3-4-one": {
+      "text": "找出数字一。",
+      "duration": 1.26975,
+      "bytes": 16172,
+      "sha256": "bca690e9646ce45fe0d7a0a0a6481892ab840777fad8642d8f706c69948f675d"
+    },
+    "question-3-4-orange": {
+      "text": "找出橙子。",
+      "duration": 1.124875,
+      "bytes": 14444,
+      "sha256": "3e99bd70cafaa9aa93d0f4dcffa109c66c477f4a1c8f31419ae1b585b01d9246"
+    },
+    "question-3-4-orange-color": {
+      "text": "找出橙色的色块。",
+      "duration": 1.742208,
+      "bytes": 21932,
+      "sha256": "b242100b86177544c838e741eefd9e4bfb4297405acd4866cc95f8473300ed9d"
+    },
+    "question-3-4-ostrich": {
+      "text": "找出鸵鸟。",
+      "duration": 1.1955,
+      "bytes": 15308,
+      "sha256": "491222b9325494a65edc052f0914714d32106c53c952af4b651090d1cb2cf201"
+    },
+    "question-3-4-otter": {
+      "text": "找出水獭。",
+      "duration": 1.18275,
+      "bytes": 15308,
+      "sha256": "514926a5f91099aee1a06af7ee557abd9efb3da48fd42e305e617ad0387eeeb8"
+    },
+    "question-3-4-owl": {
+      "text": "找出猫头鹰。",
+      "duration": 1.340167,
+      "bytes": 17036,
+      "sha256": "980729c5ff12859eca80930eb766c95cc39eae689cbbe9bac08d9822419156c6"
+    },
+    "question-3-4-ox": {
+      "text": "找出牛。",
+      "duration": 0.942958,
+      "bytes": 12428,
+      "sha256": "f9eb3e6b03252d177c0b5304bc1f2d1e2c31bf422e47148dfb49d5b39110498a"
+    },
+    "question-3-4-panda": {
+      "text": "找出大熊猫。",
+      "duration": 1.280792,
+      "bytes": 16460,
+      "sha256": "69321383845712293e9c26f6e9aa65ef9b3205976e218065783652d1a102b042"
+    },
+    "question-3-4-parrot": {
+      "text": "找出鹦鹉。",
+      "duration": 1.116667,
+      "bytes": 14444,
+      "sha256": "cd052d1ce67b9f68387df767dc605b6526fd70acaec01e61d9d265e531badc56"
+    },
+    "question-3-4-peacock": {
+      "text": "找出孔雀。",
+      "duration": 1.155583,
+      "bytes": 15020,
+      "sha256": "cb1f95e542674c0d45d27a153f0981fe2938a3b9b76ffa16b5ce4b9d6048a6c8"
+    },
+    "question-3-4-pear": {
+      "text": "找出梨。",
+      "duration": 0.921667,
+      "bytes": 12140,
+      "sha256": "b34827a33222d997be2dfb3d00471b8182befdf1bfd9a0f312572c57c14bcbb0"
+    },
+    "question-3-4-penguin": {
+      "text": "找出企鹅。",
+      "duration": 1.156625,
+      "bytes": 15020,
+      "sha256": "ab8b6032539938c8cb0a2f0da05b6168ab323c4d90f62eb58bc178adebbbe49d"
+    },
+    "question-3-4-pig": {
+      "text": "找出猪。",
+      "duration": 0.937958,
+      "bytes": 12428,
+      "sha256": "e70ca7a3d4066c7a7742ed6b906a4842b5bfe75c6e7b2ec8afd0198ea72123c9"
+    },
+    "question-3-4-polar-bear": {
+      "text": "找出北极熊。",
+      "duration": 1.396,
+      "bytes": 17900,
+      "sha256": "bc89093380baede972d24a3b1fee0244316d7b4341c42646884310339b440c83"
+    },
+    "question-3-4-purple": {
+      "text": "找出紫色的色块。",
+      "duration": 1.682,
+      "bytes": 21356,
+      "sha256": "6e5aefdd716a5ee8478d9247d44638dbf2600f94005a3992d818d6e79f8e48ea"
+    },
+    "question-3-4-rabbit": {
+      "text": "找出兔子。",
+      "duration": 1.105958,
+      "bytes": 14444,
+      "sha256": "0a13930b979f8ae87a7a63f24c34f0f2f17e7afe9dc8f16a15ec434e47a560e9"
+    },
+    "question-3-4-raccoon": {
+      "text": "找出浣熊。",
+      "duration": 1.206542,
+      "bytes": 15596,
+      "sha256": "1292ee90e4df98a55039174ec8d093ca35f33f6fd1863db0077e7ab20d992e34"
+    },
+    "question-3-4-rat": {
+      "text": "找出鼠。",
+      "duration": 1.00275,
+      "bytes": 13004,
+      "sha256": "d9580f632d8a31688d743be5e9d6e0e402b5c1a840f7af4ef09b5472c4b48e4c"
+    },
+    "question-3-4-rectangle": {
+      "text": "找出长方形。",
+      "duration": 1.420875,
+      "bytes": 18188,
+      "sha256": "820faf5917322360243162b49da1645da340cfc5264787655f988533b73d170d"
+    },
+    "question-3-4-red": {
+      "text": "找出红色的色块。",
+      "duration": 1.679667,
+      "bytes": 21068,
+      "sha256": "82df4801bfc5c61712f95b20e9ed7d5cc1cf5b710c81b6ace2ff74ad70f0fe22"
+    },
+    "question-3-4-rhinoceros": {
+      "text": "找出犀牛。",
+      "duration": 1.165833,
+      "bytes": 15020,
+      "sha256": "584a6bbb53a2bf11ca314835ad1c9dec4c658abf1800cd54fbbc4a70470a494f"
+    },
+    "question-3-4-rooster": {
+      "text": "找出公鸡。",
+      "duration": 1.089375,
+      "bytes": 14156,
+      "sha256": "18f19008d75d1514371d7f7da6b488d31a9cd515d46c8390172b6e77f588e0e9"
+    },
+    "question-3-4-seahorse": {
+      "text": "找出海马。",
+      "duration": 1.127417,
+      "bytes": 14444,
+      "sha256": "239f3548c985d98dc026e3e6cc9494a30fb4900212f2e6d712907d952f9fb894"
+    },
+    "question-3-4-seal": {
+      "text": "找出海豹。",
+      "duration": 1.130542,
+      "bytes": 14732,
+      "sha256": "b670ac8b41bd11699e4bd1e93c673a2f95440d987f3da195536f91015c3148f9"
+    },
+    "question-3-4-seven": {
+      "text": "找出数字七。",
+      "duration": 1.322125,
+      "bytes": 17036,
+      "sha256": "f52f6595717bf9236f4c8e0def5153529b816d8e747058bc2344dbb92f2b68da"
+    },
+    "question-3-4-seventeen": {
+      "text": "找出数字十七。",
+      "duration": 1.539375,
+      "bytes": 19628,
+      "sha256": "6ed25c3b4cd1bc67a003d043aa23218fbf8b79b1772116caab76ba296171a93f"
+    },
+    "question-3-4-shark": {
+      "text": "找出鲨鱼。",
+      "duration": 1.155875,
+      "bytes": 15020,
+      "sha256": "44d371efafb1b17eefb343ad4c9c486146b7069379b121a1e2d5087d376a6b34"
+    },
+    "question-3-4-six": {
+      "text": "找出数字六。",
+      "duration": 1.328625,
+      "bytes": 17036,
+      "sha256": "2301d8a97236c3126e6d7bcfd89d3c27dd53c7e57edc305d19f40e7f26943f6b"
+    },
+    "question-3-4-sixteen": {
+      "text": "找出数字十六。",
+      "duration": 1.546958,
+      "bytes": 19628,
+      "sha256": "eef027dcb02996d3c7c06f9d8d2e292e97e20e367c42cd53ffc6cc0fa85480f3"
+    },
+    "question-3-4-snake": {
+      "text": "找出蛇。",
+      "duration": 1.000958,
+      "bytes": 13004,
+      "sha256": "5c1a57d557dcd78b9a541e0ef614eda6aabe7f0b1e9861bab7118699458a056c"
+    },
+    "question-3-4-square": {
+      "text": "找出正方形。",
+      "duration": 1.394292,
+      "bytes": 17900,
+      "sha256": "df96f0d48bf4cac71da0db5d4a3db66b01bf390dc6e6dbdb2092f1bedfdcc45b"
+    },
+    "question-3-4-squirrel": {
+      "text": "找出松鼠。",
+      "duration": 1.175958,
+      "bytes": 15020,
+      "sha256": "600bbe757b6fecf95f9ee4b8df50ff2a03383d201b3e5981497a38d5cb7fee85"
+    },
+    "question-3-4-star": {
+      "text": "找出星形。",
+      "duration": 1.223708,
+      "bytes": 15596,
+      "sha256": "ad84c0aa5f4a4ce0729f98646d63be1bb648ee345e93fe799d4282b3d8b1e8a4"
+    },
+    "question-3-4-starfish": {
+      "text": "找出海星。",
+      "duration": 1.162708,
+      "bytes": 15020,
+      "sha256": "62e5b5464694496719b94d25e2147c14f307e86ef8155fb1f107dc96a427299a"
+    },
+    "question-3-4-strawberry": {
+      "text": "找出草莓。",
+      "duration": 1.141,
+      "bytes": 14732,
+      "sha256": "d90994cca737ddfe84df0474b433d471915247b784e7262ec5415ad5bc0fb4a2"
+    },
+    "question-3-4-sun": {
+      "text": "找出太阳。",
+      "duration": 1.136125,
+      "bytes": 14732,
+      "sha256": "77e03a406757ccf53afb8eb3a48dd9e100804bebbc7ca6863dff403fca6c49e3"
+    },
+    "question-3-4-ten": {
+      "text": "找出数字十。",
+      "duration": 1.384958,
+      "bytes": 17612,
+      "sha256": "94bdf123e4d2f5f26f31ae8dd1807026eea61b8ba3a507cac1955a414c9af30f"
+    },
+    "question-3-4-thirteen": {
+      "text": "找出数字十三。",
+      "duration": 1.510833,
+      "bytes": 19052,
+      "sha256": "f79635ed0a05d7de5bef8ff9132784997a6872528f28a40ee516d28951518b25"
+    },
+    "question-3-4-three": {
+      "text": "找出数字三。",
+      "duration": 1.293167,
+      "bytes": 16460,
+      "sha256": "317425d6802822a05e034f24fdea265833870c7472477ce6f3e2ab197073e375"
+    },
+    "question-3-4-tiger": {
+      "text": "找出虎。",
+      "duration": 0.995583,
+      "bytes": 13004,
+      "sha256": "dbe2ba0794dfe3ee54009fc04a3cd0ee9fd92b2c11e9ad872c95ef6ad9e94b13"
+    },
+    "question-3-4-tree": {
+      "text": "找出树。",
+      "duration": 0.950917,
+      "bytes": 12428,
+      "sha256": "dabe46e16d4ad9d07b4211b5719902e28608813780052bac9a5338bae1eb67a8"
+    },
+    "question-3-4-triangle": {
+      "text": "找出三角形。",
+      "duration": 1.469292,
+      "bytes": 18764,
+      "sha256": "0aecbae8a6875764777a73cc99b3cfe418e001047075f6637651fd2e4c80d987"
+    },
+    "question-3-4-turtle": {
+      "text": "找出乌龟。",
+      "duration": 1.059833,
+      "bytes": 13868,
+      "sha256": "1cb0e43bc5003136fab85ba31a18f5f477b17e793d9104a27d510fb8bebde2f2"
+    },
+    "question-3-4-twelve": {
+      "text": "找出数字十二。",
+      "duration": 1.487292,
+      "bytes": 18764,
+      "sha256": "c0550bf240352129fb51800cb1fd693126529b0e56987412ee2576798683e0a7"
+    },
+    "question-3-4-two": {
+      "text": "找出数字二。",
+      "duration": 1.27075,
+      "bytes": 16172,
+      "sha256": "afefdc56ffba4e19e733ad3d369578ae88b6ad13343e1022727106e3464c5b78"
+    },
+    "question-3-4-whale": {
+      "text": "找出鲸。",
+      "duration": 0.901792,
+      "bytes": 11852,
+      "sha256": "85eb2743aacf61d1eeb921ce5eb9931d7b8c93646e5028550b77987e3623d805"
+    },
+    "question-3-4-wolf": {
+      "text": "找出狼。",
+      "duration": 0.916708,
+      "bytes": 12140,
+      "sha256": "4f55cc3ee03bad507967529bcee7f5d7b46c9369ea114cabbea0de61e24ea48c"
+    },
+    "question-3-4-woodpecker": {
+      "text": "找出啄木鸟。",
+      "duration": 1.336583,
+      "bytes": 17036,
+      "sha256": "5cf96e9dbc82e380dbbdf1639372d796466892e49b9043eca2ae160f0cb53f2b"
+    },
+    "question-3-4-yellow": {
+      "text": "找出黄色的色块。",
+      "duration": 1.702875,
+      "bytes": 21356,
+      "sha256": "07e79438c66f989d55225a5b48dda7ed4a7f165474e4a82faffbd6220e598da8"
+    },
+    "question-3-4-zebra": {
+      "text": "找出斑马。",
+      "duration": 1.090042,
+      "bytes": 14156,
+      "sha256": "e3c70c798d1b4cb0c4d30cd8768d095a93f574b288ad2787ea4b7b9f2ae7325d"
+    },
+    "question-3-4-zero": {
+      "text": "找出数字零。",
+      "duration": 1.38575,
+      "bytes": 17612,
+      "sha256": "4c347799e07794875528c281167537f8c60f14cb99cd64fac6521129a3a3295d"
+    },
+    "question-5-6-ant": {
+      "text": "它是一种小小的昆虫，触角弯弯的，腰很细，常常排成队走。",
+      "duration": 5.922833,
+      "bytes": 72044,
+      "sha256": "171468bdafe36cc08a8c9234cfa93a720f0e3b403a87d65917b6f64ef372e746"
+    },
+    "question-5-6-apple": {
+      "text": "它是一种圆圆的红色水果。",
+      "duration": 2.36825,
+      "bytes": 29420,
+      "sha256": "0aa589863b36d7dfb6dfb04094c78ce790b839a996b079543c20f95ddfa491db"
+    },
+    "question-5-6-banana": {
+      "text": "它是一种长长的、弯弯的黄色水果。",
+      "duration": 3.322,
+      "bytes": 40940,
+      "sha256": "8297444777b0ceae3336d86d665405954b918d5a0282c040c4b3614cb18538ed"
+    },
+    "question-5-6-bat": {
+      "text": "它是一种有毛的哺乳动物，翅膀由薄薄的皮膜组成。",
+      "duration": 4.629125,
+      "bytes": 56492,
+      "sha256": "e2072f0f43339772d7b69744a1020d0670b01861110ad691c643271229d68ee7"
+    },
+    "question-5-6-bear": {
+      "text": "它是一种毛色棕棕的大熊，有圆圆的耳朵和大大的熊掌。",
+      "duration": 5.19125,
+      "bytes": 63404,
+      "sha256": "6cbd978d2d56cb43264c670d2c3c96b8e991d7ec06ac08bfb022c6d0d1a7a71f"
+    },
+    "question-5-6-beaver": {
+      "text": "它有大大的门牙，宽宽扁扁的尾巴像一把桨。",
+      "duration": 4.277667,
+      "bytes": 52460,
+      "sha256": "f4317a1e546ff106003b42898280734b02027c0f91c662ba8349fd2897de80da"
+    },
+    "question-5-6-bee": {
+      "text": "它是一种毛茸茸、嗡嗡叫的昆虫，身上有黄黑条纹，喜欢飞到花朵上。",
+      "duration": 6.598083,
+      "bytes": 80108,
+      "sha256": "a1fcc3b7ad3b59feaec3641a64a3f3d48caf049038f4e88f1b26f5c4c20621f3"
+    },
+    "question-5-6-blue": {
+      "text": "这是晴朗白天天空的颜色。",
+      "duration": 2.560792,
+      "bytes": 31724,
+      "sha256": "46526801055ff3a7c303a05f5174c88c797110dbafa6122f2a2b103e3333818d"
+    },
+    "question-5-6-butterfly": {
+      "text": "它是一种身体细细的昆虫，有四片大大的彩色翅膀。",
+      "duration": 4.876833,
+      "bytes": 59660,
+      "sha256": "7e7d2a2346928d567272de69e16b44b40293fd6fd42b1eb13b31879931496f19"
+    },
+    "question-5-6-camel": {
+      "text": "它有长长的腿和背上的驼峰，能在沙漠里行走。",
+      "duration": 4.623667,
+      "bytes": 56492,
+      "sha256": "2618689bca81d39582b5c1bb227be06d416609b3c05c1bf14a49d9c046b312fb"
+    },
+    "question-5-6-car": {
+      "text": "它有四个车轮，可以载着人出行。",
+      "duration": 2.921917,
+      "bytes": 36044,
+      "sha256": "4783349b351cd13d55aecbad17f15870deebe05fdb873e8ea1767deb8e88a187"
+    },
+    "question-5-6-cat": {
+      "text": "它是一种会喵喵叫的小宠物。",
+      "duration": 2.545958,
+      "bytes": 31724,
+      "sha256": "8374d1456ecaa3f81151d6ebb5ac330be009db73d9c93c1238ea2f49ccd36aa7"
+    },
+    "question-5-6-circle": {
+      "text": "它圆圆的，没有角。",
+      "duration": 1.984167,
+      "bytes": 24812,
+      "sha256": "f4c9a56c3bb2346ac6d2c121ae9e2f9f100789473735b8d3d3768cc6beddf0f5"
+    },
+    "question-5-6-crab": {
+      "text": "它有宽宽的硬壳和十条腿，最前面的一对长着大钳子。",
+      "duration": 5.252,
+      "bytes": 63980,
+      "sha256": "b574020358511893bfb808aee7aa6f8ed6502c47cbde2049061e0e5b386b939a"
+    },
+    "question-5-6-crocodile": {
+      "text": "它是一种身体长长的爬行动物，有鳞片、强壮的尾巴和长满牙齿的长嘴巴。",
+      "duration": 6.99,
+      "bytes": 85004,
+      "sha256": "9b8854792e6af618b4425f1bd56b77b76117a858ea71cab649aeaa916b674186"
+    },
+    "question-5-6-deer": {
+      "text": "它是一种身形修长、有蹄子的动物，图中它的头上长着树枝一样的角。",
+      "duration": 6.593625,
+      "bytes": 80108,
+      "sha256": "94054ae840e97837c7e01377dc55e831c8bf2a690acfaf4c3535c97700ed62d9"
+    },
+    "question-5-6-dog": {
+      "text": "它是一种会汪汪叫的宠物。",
+      "duration": 2.289917,
+      "bytes": 28556,
+      "sha256": "2b4fa699e3d333be2e84699785492bfede0c62441291104435132a517c06686c"
+    },
+    "question-5-6-dolphin": {
+      "text": "它是一种身体流线型的海洋哺乳动物，嘴巴向前突出，嘴角弯弯的。",
+      "duration": 6.138833,
+      "bytes": 74636,
+      "sha256": "a8977d5daf45731b3a8df82a6b2acaedb74cb1f4e6df8be773ba44f0f7971c20"
+    },
+    "question-5-6-dragon": {
+      "text": "它是中国神话里的生灵，有长长的弯曲身体、角和爪子。",
+      "duration": 5.4265,
+      "bytes": 66284,
+      "sha256": "c52de5828cb0103b4dee8cdaee1e8d51e95276c498a657fcb9a629dbf3d110d2"
+    },
+    "question-5-6-duck": {
+      "text": "它是一种水鸟，嘴巴宽宽扁扁的，会嘎嘎叫。",
+      "duration": 4.322625,
+      "bytes": 53036,
+      "sha256": "793105eae4c84bc676446932efcf0d8aa5c3df95ca0b7fe77bd2211e440e6c10"
+    },
+    "question-5-6-eagle": {
+      "text": "图中这只鸟有白色的头、宽大的棕色翅膀和黄色的钩状嘴。",
+      "duration": 5.83575,
+      "bytes": 71180,
+      "sha256": "c64455578726e65513420e40cd240bf1b30e895a84a0776be1943612d3a814aa"
+    },
+    "question-5-6-eight": {
+      "text": "这是数字八。",
+      "duration": 1.242167,
+      "bytes": 15884,
+      "sha256": "bb3142a7a2105796b8d99d81d62beb0075c1543a240cb8c9073f5f55b99cd051"
+    },
+    "question-5-6-eighteen": {
+      "text": "这是数字十八。",
+      "duration": 1.45775,
+      "bytes": 18476,
+      "sha256": "0702b400a2602789098ca38ff2b7835b6c217848665a35c17630683dd72d6004"
+    },
+    "question-5-6-elephant": {
+      "text": "它的身体很大，鼻子很长。",
+      "duration": 2.601583,
+      "bytes": 32300,
+      "sha256": "48c4ef3eaa88e655cd7e778c5471173ff23e51d6d49b62b2c09270c7edcb329f"
+    },
+    "question-5-6-eleven": {
+      "text": "这是数字十一。",
+      "duration": 1.490125,
+      "bytes": 19052,
+      "sha256": "d9391d964e480e7fe7fcada5ee4dcf07a07b0fac2e1475bdcc27763c947050b9"
+    },
+    "question-5-6-fifteen": {
+      "text": "这是数字十五。",
+      "duration": 1.535167,
+      "bytes": 19340,
+      "sha256": "6f68e53648a00c8ab48378fe8c08dd56411735f34cdb0e24e8311a5e2773dedc"
+    },
+    "question-5-6-five": {
+      "text": "这是数字五。",
+      "duration": 1.312458,
+      "bytes": 16748,
+      "sha256": "44855fd2e01a33235bb7e710f9514db78173ed3d96ac20fc0e5faa6e0ac54e41"
+    },
+    "question-5-6-flamingo": {
+      "text": "它是一种粉红色的鸟，腿很长，脖子弯弯的。",
+      "duration": 4.245917,
+      "bytes": 51884,
+      "sha256": "e1fc731ecb672cfe2b44bea7ceed08c041fe11112988c3c256fb3878ab6b7c3b"
+    },
+    "question-5-6-flower": {
+      "text": "它有彩色的花瓣，下面有细细的茎。",
+      "duration": 3.277875,
+      "bytes": 40364,
+      "sha256": "3a13772e6bb7939766301cb226d9cb916ad1c6128b727257a1bbbd8fb6f27746"
+    },
+    "question-5-6-four": {
+      "text": "这是数字四。",
+      "duration": 1.287167,
+      "bytes": 16460,
+      "sha256": "d78728025f91f6f9731c7be6487fdc0e10adb4eb199d39d4ca7b16a2a36a4019"
+    },
+    "question-5-6-fourteen": {
+      "text": "这是数字十四。",
+      "duration": 1.53475,
+      "bytes": 19340,
+      "sha256": "b52f8e3444932dfda62dccb4f9df24a9933cae21eb0eecdf3ef20e3057d817e7"
+    },
+    "question-5-6-fox": {
+      "text": "它有尖尖的耳朵、橙色的毛和蓬松的尾巴，尾巴尖是白色的。",
+      "duration": 5.826083,
+      "bytes": 70892,
+      "sha256": "b83e2cd36b2919fa6ee924bfaf9b8980f4a4f3880b5866fc04c15072098e8adf"
+    },
+    "question-5-6-frog": {
+      "text": "它的皮肤光滑湿润，后腿长长的，常在池塘边跳跃。",
+      "duration": 5.175958,
+      "bytes": 63116,
+      "sha256": "acb3a29a172e0f77e4b1dadf75ceae0bad981300338df4c00e68d5296a5a5bd9"
+    },
+    "question-5-6-giraffe": {
+      "text": "它有非常长的脖子，身上有一块块棕色斑纹。",
+      "duration": 4.07375,
+      "bytes": 49868,
+      "sha256": "f8862d8135779874d520220d11c364032fa1921100d9677d5a1d3703729e82ee"
+    },
+    "question-5-6-goat": {
+      "text": "它是一种家畜，常常长着胡须和弯弯的角。",
+      "duration": 4.188083,
+      "bytes": 51308,
+      "sha256": "9aff1a2e6ba72ab7afa30a2a6aa1d60768f7e7593d9e6d2132309a405f902924"
+    },
+    "question-5-6-goose": {
+      "text": "它是一种脖子长长、会发出响亮叫声的水鸟，图中它的羽毛是白色的。",
+      "duration": 6.560667,
+      "bytes": 79820,
+      "sha256": "e8eea8d8a461f44b845df43a96c55d90cb38ff0bfd4669494c5aa5be1a7e6d18"
+    },
+    "question-5-6-gorilla": {
+      "text": "它是一种身形很大的猿，毛色深，胸膛宽，没有尾巴。",
+      "duration": 5.211292,
+      "bytes": 63692,
+      "sha256": "ca58a5fd46accced1bd2ce37286822d28a02d54f59722bc39bed5dce40e6f54c"
+    },
+    "question-5-6-grapes": {
+      "text": "这些紫色的小水果一颗颗连在一起，长成一串。",
+      "duration": 4.598625,
+      "bytes": 56204,
+      "sha256": "7553ab1562185e4b6e6c2b2fb4e91f535c507e8543ff0dc62534389dd315eb4c"
+    },
+    "question-5-6-green": {
+      "text": "这是新鲜小草的颜色。",
+      "duration": 2.0785,
+      "bytes": 25964,
+      "sha256": "337406b347c2af9e4e818b3d6486be9e42937b22b0ff3605986a5e8fc3d73590"
+    },
+    "question-5-6-heart": {
+      "text": "它的上面有两个圆圆的鼓包，下面有一个尖角。",
+      "duration": 4.16975,
+      "bytes": 51020,
+      "sha256": "2a868930643017059814076c0a288783cfa49e0a7f71fa0507b0f61271a08658"
+    },
+    "question-5-6-hedgehog": {
+      "text": "它是一种小型哺乳动物，背上长满短短的尖刺。",
+      "duration": 4.334583,
+      "bytes": 53036,
+      "sha256": "eb2075290fc4b7ec8b0fa75a271923e91c6c1adde181dc9e772efaa8d585f148"
+    },
+    "question-5-6-hippopotamus": {
+      "text": "它的身体又大又圆，嘴巴很宽，喜欢在河水里休息。",
+      "duration": 4.919042,
+      "bytes": 59948,
+      "sha256": "b2beb8148c77b3092843bf734dd42cb2b261c2bab3dcf610d60d1b11bb701d46"
+    },
+    "question-5-6-horse": {
+      "text": "它有蹄子和长长的鬃毛，图中它的毛是棕色的，没有条纹。",
+      "duration": 5.548375,
+      "bytes": 67724,
+      "sha256": "12fb248760ab502e12cd06e4f16189a2fcd07add7f3b769a5f393096e4c81431"
+    },
+    "question-5-6-house": {
+      "text": "它是一种可以让人住在里面的建筑。",
+      "duration": 2.991708,
+      "bytes": 36908,
+      "sha256": "943d788ea6e53020691ff78fad52c049ca92d9a36da13d3a9909fdacb8b2feab"
+    },
+    "question-5-6-jellyfish": {
+      "text": "它的身体软软的，像透明的小伞，下面垂着触手。",
+      "duration": 4.748667,
+      "bytes": 57932,
+      "sha256": "6dc24b646b1bd8d6cdbe00701b7bbc9f22390d65a8debd99c9386a2abba0347f"
+    },
+    "question-5-6-kangaroo": {
+      "text": "它有强壮的后腿，擅长跳跃，妈妈会把宝宝装在育儿袋里。",
+      "duration": 5.556042,
+      "bytes": 67724,
+      "sha256": "b9701de981a39d507a8e534a81550985020c8c444f21a7692a6f5df3809ba111"
+    },
+    "question-5-6-koala": {
+      "text": "它有毛茸茸的圆耳朵和大大的深色鼻子，喜欢待在桉树上。",
+      "duration": 5.645417,
+      "bytes": 68876,
+      "sha256": "3aa8d42b1d2edc2060ec17cf6989583b5b228dae8b4ce0dd521cec18c4f80d93"
+    },
+    "question-5-6-ladybug": {
+      "text": "它是一种圆圆的小甲虫，图中它的红色翅壳上有黑点。",
+      "duration": 4.993958,
+      "bytes": 61100,
+      "sha256": "776b31e59f9d19c12981dddf94148a4ee7ae914470ead0894214d3b4311239e5"
+    },
+    "question-5-6-lion": {
+      "text": "它是一种大型野生猫科动物，图中它的脖子周围有一圈长毛。",
+      "duration": 5.715208,
+      "bytes": 69740,
+      "sha256": "2f0a12d54cab11ca6cfdcb8b16301f22241ff2c17c9dbdfc6b8423ca39fff6e0"
+    },
+    "question-5-6-lizard": {
+      "text": "它是一种小型爬行动物，有干燥的鳞片、四条腿和长长的尾巴。",
+      "duration": 6.132625,
+      "bytes": 74636,
+      "sha256": "695f627408466fd32dfdc6a8aed363b391c569961c8e3d63d6a42cb7fc0ce47b"
+    },
+    "question-5-6-monkey": {
+      "text": "它有能抓握的手和长长的尾巴，会爬树。",
+      "duration": 3.820458,
+      "bytes": 46988,
+      "sha256": "69858592c9fab3988262573249d4462ff1079b57092cf6cbd07f5867d1d90c1a"
+    },
+    "question-5-6-moon": {
+      "text": "图中它弯弯的，像一把小镰刀。",
+      "duration": 2.873708,
+      "bytes": 35468,
+      "sha256": "dbd1bf9fd4a4a7102cd29e8b6fc68df12e825f1a23c7149c1ee604a44e0526f9"
+    },
+    "question-5-6-nine": {
+      "text": "这是数字九。",
+      "duration": 1.315458,
+      "bytes": 16748,
+      "sha256": "c0382a8e0fd43744e53d809568672a9682a7a2fd61a5ea4acf156967d71cdc2c"
+    },
+    "question-5-6-nineteen": {
+      "text": "这是数字十九。",
+      "duration": 1.562792,
+      "bytes": 19916,
+      "sha256": "6e31bc604bd73292c10e352412114643bb021713b1cc306d4f2c308f71374695"
+    },
+    "question-5-6-octopus": {
+      "text": "它是一种身体软软的海洋动物，有八条长着吸盘的腕。",
+      "duration": 4.877667,
+      "bytes": 59660,
+      "sha256": "29ba9832765bf9ffcdc144974ff6f8b50d409a3be353a7611f624bfd0f56c06f"
+    },
+    "question-5-6-one": {
+      "text": "这是数字一。",
+      "duration": 1.2555,
+      "bytes": 16172,
+      "sha256": "27b0ab24a80daecd8ce9094b659e730d9b97634136d4155db43f6c27dd977824"
+    },
+    "question-5-6-orange": {
+      "text": "它是一种圆圆的水果，果皮是橙色的。",
+      "duration": 3.577958,
+      "bytes": 44108,
+      "sha256": "ce18e0e0ceee6811a1baa3d5be1e85266ce92bdf4360db17b364d87dd96a63e4"
+    },
+    "question-5-6-orange-color": {
+      "text": "这是胡萝卜的颜色。",
+      "duration": 1.777958,
+      "bytes": 22508,
+      "sha256": "b90454851c3b0999859ddea9c956f73163ee82edb21c1a2d5f57a0ea637d7f1c"
+    },
+    "question-5-6-ostrich": {
+      "text": "它是一种不会飞的大鸟，脖子长长的、几乎没有羽毛，双腿很会跑。",
+      "duration": 6.382792,
+      "bytes": 77516,
+      "sha256": "0769ac9812dfa07125582640cc87252d87abfb5a2a8abd340d97208418fc10f9"
+    },
+    "question-5-6-otter": {
+      "text": "它是一种身形细长、会游泳的毛毛动物，有胡须、短腿和逐渐变细的长尾巴。",
+      "duration": 7.43125,
+      "bytes": 90188,
+      "sha256": "bb03ebaccb93f283596184e09a37a4cf591567b52bb3421b96ef66a6bb072811"
+    },
+    "question-5-6-owl": {
+      "text": "它是一种大眼睛朝前看、脸盘圆圆的鸟。",
+      "duration": 3.7815,
+      "bytes": 46412,
+      "sha256": "89be3d8fbc0aca01784e6a2283886f23576f7775d73b391f529a0699c2676487"
+    },
+    "question-5-6-ox": {
+      "text": "它是一种有蹄子和角的强壮家畜，常常帮助人们拉犁耕地。",
+      "duration": 5.475667,
+      "bytes": 66860,
+      "sha256": "3c96dcf3127576f9a6b0c0c24abe7b390bc3a33e2f5941c2b8a4ca12f598d68a"
+    },
+    "question-5-6-panda": {
+      "text": "它是一种黑白相间、爱吃竹子的熊。",
+      "duration": 3.403083,
+      "bytes": 41804,
+      "sha256": "06f2a98f8b67395922ab4e868fde17c07a9a9a793f249d8ff04c5acaa4db345d"
+    },
+    "question-5-6-parrot": {
+      "text": "它是一种羽毛鲜艳、嘴巴弯弯的鸟，有些还能模仿人说话。",
+      "duration": 5.278583,
+      "bytes": 64268,
+      "sha256": "104d7ffb6ff98fee38e308382187c33a3b3b2e02668be7ca098e222ae75f93ba"
+    },
+    "question-5-6-peacock": {
+      "text": "它是一种能展开彩色大扇子一样长羽毛的鸟，羽毛上有眼睛一样的斑纹。",
+      "duration": 6.575458,
+      "bytes": 79820,
+      "sha256": "a5f5b5e222ff5d55648f5c82cd07361800ddd8e1effd1c6e92d320f31006a330"
+    },
+    "question-5-6-pear": {
+      "text": "它是一种绿色水果，上面窄，下面宽。",
+      "duration": 3.762708,
+      "bytes": 46124,
+      "sha256": "67431020f6c5f790445cacc2b8c12949515a1238e4d244d22266919f17086e31"
+    },
+    "question-5-6-penguin": {
+      "text": "它是一种黑白相间的鸟，不会飞，能用像鳍一样的翅膀游泳。",
+      "duration": 5.569958,
+      "bytes": 68012,
+      "sha256": "2e8250b24c8dd4cc1521a8a19f8ac13f6073910aca363c5437087fb24fb826a0"
+    },
+    "question-5-6-pig": {
+      "text": "它是一种有圆圆鼻子的家畜，会哼哼叫。",
+      "duration": 3.725833,
+      "bytes": 45836,
+      "sha256": "5eb5331b0daa2e7f3d8d5a674afe5c8983ec3570a83974e16dba57a54216e8b5"
+    },
+    "question-5-6-polar-bear": {
+      "text": "它是一种生活在北极海冰附近的大白熊。",
+      "duration": 3.653125,
+      "bytes": 44972,
+      "sha256": "93fc0bacc9a8827af112b1739ff896c40bf866547785043579984868d2619e8a"
+    },
+    "question-5-6-purple": {
+      "text": "这是我们图片里葡萄的颜色。",
+      "duration": 2.347083,
+      "bytes": 29132,
+      "sha256": "332a970aa6ce8d16d21f96f2dbc5e81e1a43089c22ec123fed423237a534465b"
+    },
+    "question-5-6-rabbit": {
+      "text": "它有长长的耳朵和毛茸茸的小尾巴。",
+      "duration": 3.337958,
+      "bytes": 41228,
+      "sha256": "eec3f6cd9a8d327c74b837ed80dc5e520fe266c2a00be87aca4dc38cd514766b"
+    },
+    "question-5-6-raccoon": {
+      "text": "它的眼睛周围像戴着黑眼罩，尾巴上有一圈圈深色条纹。",
+      "duration": 5.490625,
+      "bytes": 66860,
+      "sha256": "042e20ed6964bc25b491d80c1c323afceecea222ad65618c47ef38a1f37b2c56"
+    },
+    "question-5-6-rat": {
+      "text": "它是一种小小的啮齿动物，鼻子尖尖的，长尾巴上几乎没有毛。",
+      "duration": 5.882042,
+      "bytes": 71756,
+      "sha256": "59cc5e3f24879e6d3c1b9cf50f803d20a548b84aedfeb296932a931e6345e5c8"
+    },
+    "question-5-6-rectangle": {
+      "text": "图中这个图形有两条长边和两条短边。",
+      "duration": 3.956375,
+      "bytes": 48428,
+      "sha256": "0357dbcbee7d54ab87de1b2a7a4b73f0b334406c0241957d751ed000072339c0"
+    },
+    "question-5-6-red": {
+      "text": "这是成熟草莓的颜色。",
+      "duration": 2.078125,
+      "bytes": 25964,
+      "sha256": "3fd9afa8b3ca3eab8b16ac674724297c98bdb830b77807c8a01fcea90816f6ee"
+    },
+    "question-5-6-rhinoceros": {
+      "text": "它的身体沉沉的，皮肤很厚，鼻子上长着一只或两只角。",
+      "duration": 5.371125,
+      "bytes": 65420,
+      "sha256": "3e685213c3ff622adfb5e1cd17de57943bcfa40d4dccbcb514caeceea4237bd1"
+    },
+    "question-5-6-rooster": {
+      "text": "它是一种头顶红鸡冠的家禽，会喔喔啼叫。",
+      "duration": 3.943875,
+      "bytes": 48428,
+      "sha256": "c298d816964a378bc69f811c5c4cd627e1f6f5f6123a6de7331b9aa69c5bbc0c"
+    },
+    "question-5-6-seahorse": {
+      "text": "它是一种直立游泳的小鱼，头部像马，尾巴卷卷的。",
+      "duration": 4.610792,
+      "bytes": 56492,
+      "sha256": "fef170bb825df2bca08877c635f5fd368038056367fcef2fcfc64b5149848b86"
+    },
+    "question-5-6-seal": {
+      "text": "它是一种有胡须和鳍状肢的海洋哺乳动物，头上没有突出的耳廓。",
+      "duration": 5.940917,
+      "bytes": 72332,
+      "sha256": "ec2745186999cd65a8f4cb91c55bfbb9b5f3cf0ba48fe83be2c5d6c4d3daf616"
+    },
+    "question-5-6-seven": {
+      "text": "这是数字七。",
+      "duration": 1.309708,
+      "bytes": 16748,
+      "sha256": "fd86ad80e907e7812a546709ef37425f7cb6b7e45b60882df17fe4ec3d685c92"
+    },
+    "question-5-6-seventeen": {
+      "text": "这是数字十七。",
+      "duration": 1.551042,
+      "bytes": 19628,
+      "sha256": "02270d3a99993b05620580a6174c21c3d340ace9ee6ee4e90334d6eb6c9d2248"
+    },
+    "question-5-6-shark": {
+      "text": "它是一种身体流线型的鱼，身体两侧有鳃裂，背上有尖尖的鳍。",
+      "duration": 5.91825,
+      "bytes": 72044,
+      "sha256": "627e929812d647f1486916d6d899b88be11c0f2a801ad3d2a47b2ab738b216e1"
+    },
+    "question-5-6-six": {
+      "text": "这是数字六。",
+      "duration": 1.27,
+      "bytes": 16172,
+      "sha256": "6462f8eaa7c16d25b0e5703d03fb55cdf6b631b1a643ea01bae659c5bf162309"
+    },
+    "question-5-6-sixteen": {
+      "text": "这是数字十六。",
+      "duration": 1.49925,
+      "bytes": 19052,
+      "sha256": "0b05e1f0ab5da8f7932fdf22add9245c3658ea56b4893d60a7b2ef01961dde5b"
+    },
+    "question-5-6-snake": {
+      "text": "它的身体长长的，身上有鳞片，没有腿。",
+      "duration": 3.958875,
+      "bytes": 48428,
+      "sha256": "ea8550b91562f53626ef8d8ae0990c0245d9d20eed43d8f8c2558df75e80b2fe"
+    },
+    "question-5-6-square": {
+      "text": "它有四条一样长的直边，还有四个角。",
+      "duration": 3.229,
+      "bytes": 39788,
+      "sha256": "fed3c6d5308edad3ae4e7e3ba22eb37f1a0ff00e1146ed405f82b559299ee9ac"
+    },
+    "question-5-6-squirrel": {
+      "text": "它是一种会爬树的小动物，蓬松的尾巴常常翘到背上。",
+      "duration": 5.086458,
+      "bytes": 61964,
+      "sha256": "adb08d5f39afd0ab3a663de6f4d0a936ba1facdfe68a233134f1c0bd7dd40823"
+    },
+    "question-5-6-star": {
+      "text": "这个图形有五个向外伸出的尖角。",
+      "duration": 3.146083,
+      "bytes": 38924,
+      "sha256": "57aaa87bdb594eb91253cc482a37b440b4097f8e68f0b7f6de8ce34ca88ebd0e"
+    },
+    "question-5-6-starfish": {
+      "text": "它是一种像星星的海洋动物，通常有五条腕。",
+      "duration": 4.052167,
+      "bytes": 49580,
+      "sha256": "772205b74d4fa33545417549de70739a5a46472c584b233d8d1ba37eb0fdee6a"
+    },
+    "question-5-6-strawberry": {
+      "text": "它是一种红色水果，表面有许多小点点。",
+      "duration": 3.976417,
+      "bytes": 48716,
+      "sha256": "7d6c6c01d3bdf05b778a6149ea3f4b7efff4e11fed429f2ceb678616f883d9dd"
+    },
+    "question-5-6-sun": {
+      "text": "它是一颗明亮的恒星，给我们带来白天的光。",
+      "duration": 3.839,
+      "bytes": 46988,
+      "sha256": "977afe7bae0e84b3e05595d05c56e23dc0de9a6db1de6a99446bf12df0b54ce2"
+    },
+    "question-5-6-ten": {
+      "text": "这是数字十。",
+      "duration": 1.371333,
+      "bytes": 17612,
+      "sha256": "6f5d0c2b57113c1c6d0a87a4d4117ba9808f56e80440dccd654e0316546ef146"
+    },
+    "question-5-6-thirteen": {
+      "text": "这是数字十三。",
+      "duration": 1.510542,
+      "bytes": 19052,
+      "sha256": "820e86300ae0f445f15ce8f7c5560ee9f95ae7fc1b791479fd35c4f11b1a1f74"
+    },
+    "question-5-6-three": {
+      "text": "这是数字三。",
+      "duration": 1.294667,
+      "bytes": 16460,
+      "sha256": "21e2f4ea03107e7e01d390ada3fe6619ab33aa01de58427623fbc692d164f41a"
+    },
+    "question-5-6-tiger": {
+      "text": "它是一种大型野生猫科动物，橙色的毛上有黑色条纹。",
+      "duration": 5.283667,
+      "bytes": 64556,
+      "sha256": "1b62e9d5979b4fefeaf9687a6e2407d70c50195cdc6bc04863c7de669ac17d7b"
+    },
+    "question-5-6-tree": {
+      "text": "它有高高的树干，树枝上长着叶子。",
+      "duration": 3.355208,
+      "bytes": 41228,
+      "sha256": "b5b74c30756cf5543b3f2db2e70e39e90c4170ceb102c0cc8e5a277060018bc0"
+    },
+    "question-5-6-triangle": {
+      "text": "它有三条直边，还有三个角。",
+      "duration": 2.638,
+      "bytes": 32588,
+      "sha256": "c7e3d90f31eac8168e0e1235c03542c9b3fc2467c34b991c4d4121330b53ac19"
+    },
+    "question-5-6-turtle": {
+      "text": "它有四条腿，背上有硬硬的壳。",
+      "duration": 2.979,
+      "bytes": 36908,
+      "sha256": "ba90fda92c04d46e7439900b7b4abd39a81aca10c6475da17f9857c97138a579"
+    },
+    "question-5-6-twelve": {
+      "text": "这是数字十二。",
+      "duration": 1.465958,
+      "bytes": 18764,
+      "sha256": "fab3e1d9b94ea43459731b96ecbd0ebf31628b4144e91b27ce0e475a7e7e501d"
+    },
+    "question-5-6-two": {
+      "text": "这是数字二。",
+      "duration": 1.249958,
+      "bytes": 16172,
+      "sha256": "3f807b10f8957e0964cd7774c7ebdf95520e068c46cb6523f90bb8a9ef84171d"
+    },
+    "question-5-6-whale": {
+      "text": "它是一种体型巨大的海洋哺乳动物，有鳍状肢和宽宽的水平尾巴。",
+      "duration": 6.023792,
+      "bytes": 73196,
+      "sha256": "d67c5c9396d2f373aa3247358ed01d9146c9f6dfcfd5e1a133c1d7b2fda29cc1"
+    },
+    "question-5-6-wolf": {
+      "text": "它是一种灰色的野生犬科动物，会发出长长的嚎叫。",
+      "duration": 4.720667,
+      "bytes": 57644,
+      "sha256": "6aa8a8d1f82fd6297ffcf0356c8b9e518d37dd6d6194e13bde082b87cd0a7c90"
+    },
+    "question-5-6-woodpecker": {
+      "text": "它是一种嘴巴像小凿子、会敲击树干的鸟。",
+      "duration": 4.179125,
+      "bytes": 51308,
+      "sha256": "2d9aa758a85e8ce9c26fe1df66274e9b29f59d327c9f7006e042fd6f72d0f065"
+    },
+    "question-5-6-yellow": {
+      "text": "这是成熟香蕉果皮的颜色。",
+      "duration": 2.549917,
+      "bytes": 31724,
+      "sha256": "184ce46f49678603edbfe88d98d32335967c92d91666e4e5bd40840cc557ab6f"
+    },
+    "question-5-6-zebra": {
+      "text": "它的样子像马，身上有黑白相间的条纹。",
+      "duration": 3.961958,
+      "bytes": 48716,
+      "sha256": "c7d82aa2829ad3beff4f057ba874864128342e23a0f004776571175fc1bbe1cd"
+    },
+    "question-5-6-zero": {
+      "text": "这是数字零。",
+      "duration": 1.352833,
+      "bytes": 17324,
+      "sha256": "2c9658592be631f6e6f89df25a1d8fa520ff09e72ff1dce5509c520b259f6109"
+    },
+    "question-7-8-ant": {
+      "text": "这种细腰的昆虫会留下气味路线，帮助同巢的伙伴找到食物。",
+      "duration": 5.864667,
+      "bytes": 71468,
+      "sha256": "dea4b7a5027b3ca7c939db14241024d775b588d085e6859ad5c6cd199d43f890"
+    },
+    "question-7-8-apple": {
+      "text": "这种水果圆圆的，吃起来脆脆的，果核里有小小的种子。",
+      "duration": 5.158,
+      "bytes": 62828,
+      "sha256": "411cb31c6e5c569856282676c9ce5ed1d39c05c0ab98c5a3c45d28e749ed584d"
+    },
+    "question-7-8-banana": {
+      "text": "剥开它长长的黄色果皮，就能看到软软的果肉。",
+      "duration": 4.338375,
+      "bytes": 53036,
+      "sha256": "160a1ef952d8ca3164b819595cfe2061a3f531fc4ac4e407773e5bf1c45f247a"
+    },
+    "question-7-8-bat": {
+      "text": "这一类动物是唯一能够真正振翅飞行的哺乳动物。",
+      "duration": 4.335042,
+      "bytes": 53036,
+      "sha256": "cd8879e5255777c4182a08e03bd95e88973ce7a913f3464bae304da397280688"
+    },
+    "question-7-8-bear": {
+      "text": "这种棕色毛发的熊，肩部肌肉很强壮，能帮助它挖掘食物。",
+      "duration": 5.668458,
+      "bytes": 69164,
+      "sha256": "a240821a38b3d3ef9f8ad3141490a00e64da349decc476a7f59923c5c308f2d2"
+    },
+    "question-7-8-beaver": {
+      "text": "这种扁尾巴的啮齿动物能用牙齿咬断树枝，还会修建水坝。",
+      "duration": 5.55475,
+      "bytes": 67724,
+      "sha256": "51cfabe4d22e55fe3dc441bbd8636fdfb3161fcdf7dfecb745d9a8f3cba77a67"
+    },
+    "question-7-8-bee": {
+      "text": "这种毛茸茸、有条纹的昆虫，会在花朵之间传递花粉，酿蜜的种类住在蜂巢里。",
+      "duration": 7.808417,
+      "bytes": 94796,
+      "sha256": "442641b970542697de101310b4c8bf6b2d98a1d3f7eb9f3ae733d639d53e6c50"
+    },
+    "question-7-8-blue": {
+      "text": "把这种颜色的颜料和黄色颜料混在一起，就能调出绿色。",
+      "duration": 5.392792,
+      "bytes": 65708,
+      "sha256": "59766ba80f204034da9d3c1efd8cb208cb7fa75adf3ab30037794fb0f1b042f6"
+    },
+    "question-7-8-butterfly": {
+      "text": "这种彩色翅膀的昆虫，小时候是毛毛虫，会在蛹里发生变化。",
+      "duration": 5.990083,
+      "bytes": 72908,
+      "sha256": "32516836fc198ced7d97e687e2d93b3a17a5bf8f109e2d4286dbfea274686c76"
+    },
+    "question-7-8-camel": {
+      "text": "这种沙漠旅行者把脂肪储存在背上的驼峰里，储存的不是水。",
+      "duration": 5.930833,
+      "bytes": 72332,
+      "sha256": "4c07660e5417b464eb54c0a551e7b13bcc29947bdaddb78c52099ee358bc4740"
+    },
+    "question-7-8-car": {
+      "text": "它靠四个车轮在道路上行驶，能把人送到不同的地方。",
+      "duration": 4.902625,
+      "bytes": 59948,
+      "sha256": "84fbb67ffc54c5a31215ef8f8de8fe7e6e4a09c2968f7a75cc42ace0c76709d6"
+    },
+    "question-7-8-cat": {
+      "text": "这种小宠物长着胡须，还会发出呼噜声。",
+      "duration": 3.710708,
+      "bytes": 45548,
+      "sha256": "6f6f5b3096e5eb7e4ba4aca5d3e6e98a741c1130988bf6544f30ab95f63379b5"
+    },
+    "question-7-8-circle": {
+      "text": "这个圆圆的图形没有直边，也没有角。",
+      "duration": 3.589542,
+      "bytes": 44108,
+      "sha256": "09058b220515a034c7c619c85eddc71b270b2c484ad796fa5250eaf8033adf97"
+    },
+    "question-7-8-crab": {
+      "text": "这种有钳子的甲壳动物常常横着走路，长大时还会蜕壳。",
+      "duration": 5.659042,
+      "bytes": 68876,
+      "sha256": "88943a10cda69f772f067c76780b221794b1b02e09e83c9442c89a361b5e4182"
+    },
+    "question-7-8-crocodile": {
+      "text": "这种河流爬行动物有长长的、满是牙齿的嘴巴，能把身体藏在水下，只露出眼睛和鼻孔。",
+      "duration": 8.432458,
+      "bytes": 102284,
+      "sha256": "d2c4167bb32b70fe877372baa75fd57f45c71f9f81356ed173767d3724542d94"
+    },
+    "question-7-8-deer": {
+      "text": "这种有蹄子动物的大多数种类，雄性会长出分叉的角，角也会定期脱落。",
+      "duration": 7.060875,
+      "bytes": 85868,
+      "sha256": "7952f74cb6e591709cd669912805e2b17717dfbb362125f0195dc3782ebcb444"
+    },
+    "question-7-8-dog": {
+      "text": "这种宠物会汪汪叫，鼻子很灵，喜欢闻一闻周围的东西。",
+      "duration": 5.335667,
+      "bytes": 65132,
+      "sha256": "fc974332d7b764ed84064f3460384b1bbe24420445b52eed037df3f2c3cdaabc"
+    },
+    "question-7-8-dolphin": {
+      "text": "这种嘴巴向前突出的海洋哺乳动物，会用咔嗒声和回声帮助寻找鱼。",
+      "duration": 6.549167,
+      "bytes": 79532,
+      "sha256": "612b4d4fc64c3c714eb85904d359c383bf608ec4482b8cdce1f9d6701128c995"
+    },
+    "question-7-8-dragon": {
+      "text": "这种中国神话里的生灵出现在故事和节日舞蹈中，它不是真实的动物。",
+      "duration": 6.29525,
+      "bytes": 76652,
+      "sha256": "e05e075ec5920da759d83f376147393104c4d8c526a7612e24dffc84dd8b2877"
+    },
+    "question-7-8-duck": {
+      "text": "这种会嘎嘎叫的鸟，脚上有蹼，游泳时像小桨一样划水。",
+      "duration": 5.491125,
+      "bytes": 66860,
+      "sha256": "ce19c243631db0fba6bd06a9b0d50f5a6bd80d43677f3156a9133ff29ed25133"
+    },
+    "question-7-8-eagle": {
+      "text": "这种白头、棕色翅膀的猛禽，能用敏锐的视力从高空寻找下方的食物。",
+      "duration": 6.822708,
+      "bytes": 82988,
+      "sha256": "346f4719d2a348c24c9dc3ba9527c39bda682194b4952d8faef4c7313d07bc3c"
+    },
+    "question-7-8-eight": {
+      "text": "四加四等于几？",
+      "duration": 1.57675,
+      "bytes": 19916,
+      "sha256": "bf09290b0327f782d647b6daed19ef42ba52722a280fec6b56a171b85f33c34b"
+    },
+    "question-7-8-eighteen": {
+      "text": "九加九等于几？",
+      "duration": 1.531958,
+      "bytes": 19340,
+      "sha256": "f18c02fc43268d611a857030ea9ac06a1e0d894b5b5f130ed9090afd93df137c"
+    },
+    "question-7-8-elephant": {
+      "text": "这种动物能用长鼻子闻气味、吸水喝，还能卷起东西。",
+      "duration": 5.258042,
+      "bytes": 64268,
+      "sha256": "4c29d475dd235b0891e1e49a30e6b3596193a361250e6e80addc6c49d9fd1bd5"
+    },
+    "question-7-8-eleven": {
+      "text": "六加五等于几？",
+      "duration": 1.504958,
+      "bytes": 19052,
+      "sha256": "384678dfc6397dcafb5a4ca337ce5789494081fb800c838b56c6232eac335aa4"
+    },
+    "question-7-8-fifteen": {
+      "text": "八加七等于几？",
+      "duration": 1.54325,
+      "bytes": 19628,
+      "sha256": "5f71efc999cb901c309531ebb3461f72652b5285492b3be581ca6e47978192d3"
+    },
+    "question-7-8-five": {
+      "text": "四加一等于几？",
+      "duration": 1.534833,
+      "bytes": 19340,
+      "sha256": "6d5a976234ba44da8aed7072d175af26a3bd09c0b3a23e4e837a6fcbb1c3d67d"
+    },
+    "question-7-8-flamingo": {
+      "text": "这种长腿水鸟的粉红色，来自食物里的色素。",
+      "duration": 4.281333,
+      "bytes": 52460,
+      "sha256": "a6c9d2cdad1b3c38cf16986312ad7b164b411690e44535c553608b0722697448"
+    },
+    "question-7-8-flower": {
+      "text": "它的花瓣能帮助吸引蜜蜂和蝴蝶。",
+      "duration": 3.187917,
+      "bytes": 39212,
+      "sha256": "3fe6b2ba6f33208ac2d33c06996a796d116587a4c8cc16fe0961d09d5a7db2c6"
+    },
+    "question-7-8-four": {
+      "text": "二加二等于几？",
+      "duration": 1.528625,
+      "bytes": 19340,
+      "sha256": "abdd61f23be4c41c78dfbf8fb9c2e54ab63f577c5a93094920fa6c911a0502c8"
+    },
+    "question-7-8-fourteen": {
+      "text": "七加七等于几？",
+      "duration": 1.596542,
+      "bytes": 20204,
+      "sha256": "4125204a18d58115cd341f15bf46d8f189508c46f3399f6482286262e3ac5cef"
+    },
+    "question-7-8-fox": {
+      "text": "这种橙色的犬科动物，能用尾巴尖白白的蓬松长尾巴给自己保暖。",
+      "duration": 6.204,
+      "bytes": 75500,
+      "sha256": "fe9b222f41e205b2c77132af5cd30a52b82388d69bf8c446ec8151c4b5accad3"
+    },
+    "question-7-8-frog": {
+      "text": "这种会跳跃的两栖动物，小时候是有尾巴、没有腿的小蝌蚪。",
+      "duration": 5.558042,
+      "bytes": 67724,
+      "sha256": "1b17e93a06f945a7fefadd31786d21a2f90b2338929bb3034d8c418f3a6af6ef"
+    },
+    "question-7-8-giraffe": {
+      "text": "它是现存最高的陆地动物，能用长脖子够到树上高处的叶子。",
+      "duration": 5.674792,
+      "bytes": 69164,
+      "sha256": "32549f6279f21d1d548188393c6927ffa4bfa7674951d841bd7c69424beb4f15"
+    },
+    "question-7-8-goat": {
+      "text": "这种常常长着胡须的家畜，分开的蹄子能帮助它攀爬岩石山坡。",
+      "duration": 6.225333,
+      "bytes": 75788,
+      "sha256": "1de82b24034c574cb7a719eb6e7f18887d63a59b427ffc064ddb4030aa24dc45"
+    },
+    "question-7-8-goose": {
+      "text": "这种长脖子、叫声响亮的家禽，有许多野生亲戚会排成人字形迁徙。",
+      "duration": 6.838542,
+      "bytes": 82988,
+      "sha256": "2711161cf1e1152315b15515d8b120ee9a2fbe7cdab34e79e97aded30ff94f1e"
+    },
+    "question-7-8-gorilla": {
+      "text": "它是现存最大的猿，常常用指关节撑地行走，主要吃植物。",
+      "duration": 5.614208,
+      "bytes": 68300,
+      "sha256": "6e22429c6051b420d03b9a6bf0cb9597a3f7c7040525266fee843d13e8cd79d5"
+    },
+    "question-7-8-grapes": {
+      "text": "这些小小的圆水果成串地长在藤上。",
+      "duration": 3.502542,
+      "bytes": 42956,
+      "sha256": "b429e593335115485919a713bbe1dc9d8bf2de59ee60f19e2aad2c5ece82f876"
+    },
+    "question-7-8-green": {
+      "text": "把蓝色和黄色颜料混在一起，就能调出这种颜色。",
+      "duration": 4.636875,
+      "bytes": 56780,
+      "sha256": "d4a647f282789ffc90e2860295cea4a79878fe86e3d636d33c797fabc5d1e91b"
+    },
+    "question-7-8-heart": {
+      "text": "它的上半部分像两个圆圆的小山丘，下面合成一个尖角。",
+      "duration": 5.174333,
+      "bytes": 63116,
+      "sha256": "6dc49ea5554d891a6694406f3d3cfb3c582d1d2d4cff7ba23b5e87360310a5cf"
+    },
+    "question-7-8-hedgehog": {
+      "text": "这种背上有刺的小型哺乳动物，能缩成一个球，保护柔软的肚子。",
+      "duration": 5.876625,
+      "bytes": 71468,
+      "sha256": "76e0dcf06768c78141c916d8ddba6aeada4f70e1d2565b3176404cc321e550d3"
+    },
+    "question-7-8-hippopotamus": {
+      "text": "这种大嘴巴的河流哺乳动物，白天常待在水里，晚上到陆地上吃草。",
+      "duration": 6.388333,
+      "bytes": 77804,
+      "sha256": "69062bfd8aef6298ef2484985c211d1fe436449eb69923aead76d9c4e26ace6f"
+    },
+    "question-7-8-horse": {
+      "text": "这种家养动物有蹄子和长长的鬃毛，它的宝宝叫马驹。",
+      "duration": 5.241375,
+      "bytes": 63980,
+      "sha256": "29aee04fdfa36a0db8e9698c13176e0ff3bf3f7a45ec9c2d98e1c676640d892f"
+    },
+    "question-7-8-house": {
+      "text": "这种建筑有屋顶、墙壁和房间，可以让人住在里面。",
+      "duration": 5.054,
+      "bytes": 61676,
+      "sha256": "d8121c5e7ba18d7bff988221e53dedd79d21d5fc2a44221bcd7cc9c198d7652e"
+    },
+    "question-7-8-jellyfish": {
+      "text": "这种伞状的海洋动物没有大脑、心脏和骨头。",
+      "duration": 4.310958,
+      "bytes": 52748,
+      "sha256": "35fa940c0ac43e7fcf365ce883c6c8edf397aacf4587d7ae07d415ce8874590c"
+    },
+    "question-7-8-kangaroo": {
+      "text": "这种澳大利亚动物用大大的后腿跳跃，还会用强壮的尾巴保持平衡。",
+      "duration": 6.355292,
+      "bytes": 77228,
+      "sha256": "c3cec3d384cded342b4652e802f372115ad825dd55b8d8fcc80ff0bc5d140d01"
+    },
+    "question-7-8-koala": {
+      "text": "这种住在澳大利亚树上的动物主要吃桉树叶，是有袋类动物，不是熊。",
+      "duration": 6.472458,
+      "bytes": 78668,
+      "sha256": "795c9dbad01e20b8968cec828c3e91da3e068d2041d79f195bd1660f175a095a"
+    },
+    "question-7-8-ladybug": {
+      "text": "这种有斑点的小甲虫，许多种类会吃啃食花园植物的蚜虫。",
+      "duration": 5.493042,
+      "bytes": 66860,
+      "sha256": "d1dee462918bceb8333ac2720b01bd86b63c0a0920075e6ca0fd29061797fc63"
+    },
+    "question-7-8-lion": {
+      "text": "这种大型野生猫科动物，雄性通常在头和脖子周围长着浓密的鬃毛。",
+      "duration": 6.601958,
+      "bytes": 80396,
+      "sha256": "e2446ee5c35176dcd0d17e89c92b1c92bb80ec1bd3aa2ac64c37e84121ea855b"
+    },
+    "question-7-8-lizard": {
+      "text": "这种四条腿、身上有鳞片的小型爬行动物，有些种类能断开尾巴逃离危险。",
+      "duration": 7.315458,
+      "bytes": 88748,
+      "sha256": "f7369d1f90b49c9a039d4d76d60ce60664f36065fc69429d0d2fccc257ede0d9"
+    },
+    "question-7-8-monkey": {
+      "text": "这种会爬树的灵长类动物通常有尾巴，而猿没有尾巴。",
+      "duration": 5.1245,
+      "bytes": 62540,
+      "sha256": "e23edfa55f9978885da6e65ba9fe7e326314be9547ba303dea31d811602572fd"
+    },
+    "question-7-8-moon": {
+      "text": "它绕着地球转，我们看到的月光是它反射的太阳光。",
+      "duration": 4.812417,
+      "bytes": 58796,
+      "sha256": "594204a316c13f504c36dea95bc5bc03fcd6220735dd0f02593605b42b6040b6"
+    },
+    "question-7-8-nine": {
+      "text": "五加四等于几？",
+      "duration": 1.519708,
+      "bytes": 19340,
+      "sha256": "b31dd324911bc3d99cdef47ac4389279bbf79802b25fd6fd340981f8cd2441d8"
+    },
+    "question-7-8-nineteen": {
+      "text": "十加九等于几？",
+      "duration": 1.566375,
+      "bytes": 19916,
+      "sha256": "2a6912b00624a7303c7bfeaca469a63623817c97752596ddd622256b36ec417f"
+    },
+    "question-7-8-octopus": {
+      "text": "这种有八条腕的海洋动物没有骨头，能挤过狭小的缝隙。",
+      "duration": 5.131125,
+      "bytes": 62540,
+      "sha256": "97dacf2da367a2fde9c207154e5a0407bc120dfb0515caa010190f13707d59f8"
+    },
+    "question-7-8-one": {
+      "text": "二减一等于几？",
+      "duration": 1.486375,
+      "bytes": 18764,
+      "sha256": "f4e75a6cc7a209da9673f6721ab60095abb58aeaf2e908b25e010c5c43bc9610"
+    },
+    "question-7-8-orange": {
+      "text": "剥开橙色的果皮，里面的果肉可以分成一瓣一瓣，汁水很多。",
+      "duration": 5.894625,
+      "bytes": 71756,
+      "sha256": "cfd91904f00ae547a527837459004039dfdb09325d563720e0352b5c0fe1636a"
+    },
+    "question-7-8-orange-color": {
+      "text": "把红色和黄色颜料混在一起，就能调出这种颜色。",
+      "duration": 4.613375,
+      "bytes": 56492,
+      "sha256": "05754930a3fb0643b5ec517b08cf004e6dd1cb66233fbde412105304cd159bb8"
+    },
+    "question-7-8-ostrich": {
+      "text": "它是现存最大的鸟，每只脚只有两根脚趾，能跑得很快。",
+      "duration": 5.494708,
+      "bytes": 66860,
+      "sha256": "1fa615c75f63cfa13a2d92f09b1a051f977c09e6bcedee439dfb11b10475ed31"
+    },
+    "question-7-8-otter": {
+      "text": "这种身体灵活、长尾巴的哺乳动物有浓密的毛，会用灵敏的胡须帮助寻找水里的猎物。",
+      "duration": 7.939833,
+      "bytes": 96236,
+      "sha256": "1329b0c0ec658f9c020f04f44b6496aec9b849efe91b4ba9f2559c5be226ed42"
+    },
+    "question-7-8-owl": {
+      "text": "这种圆脸鸟的许多种类会在夜晚捕猎，飞行时声音很轻。",
+      "duration": 5.540083,
+      "bytes": 67436,
+      "sha256": "7d1ae2691329deaf2c9284ba2800025058308228ae934a89aa42b73ad54e4b8b"
+    },
+    "question-7-8-ox": {
+      "text": "它是牛这一类家畜中经过训练、可以帮助人们干活的动物。",
+      "duration": 5.220542,
+      "bytes": 63692,
+      "sha256": "734c8891951fbbf7b38965c44ef906a6492f63ad22d8a7ea8e33cb2f2a3e9658"
+    },
+    "question-7-8-panda": {
+      "text": "这种黑白相间的熊，手腕上有一块特别的骨头，能帮助它握住竹子。",
+      "duration": 6.161333,
+      "bytes": 74924,
+      "sha256": "6cd4c697d90f98d668a4dba6fc856e494dc5fd081a1d317a09f320384e50b05d"
+    },
+    "question-7-8-parrot": {
+      "text": "这种弯嘴鸟的每只脚上，有两根脚趾朝前，两根脚趾朝后。",
+      "duration": 5.675042,
+      "bytes": 69164,
+      "sha256": "522d164c895d1afc616181067b6e1e569e88315e9fe8088e459dcdb70134dc6d"
+    },
+    "question-7-8-peacock": {
+      "text": "这种鸟的雄性会展示长长的彩色尾屏，吸引伴侣。",
+      "duration": 4.707917,
+      "bytes": 57644,
+      "sha256": "3611592227a16ce61a0c02742e96deba23d1d09422baa5591e84b753dbb5d435"
+    },
+    "question-7-8-pear": {
+      "text": "这种水果的下半部分比较宽，靠近果柄的地方比较窄。",
+      "duration": 4.853958,
+      "bytes": 59372,
+      "sha256": "4eacbf3e6bfc72ebd8f66030e973395ace02733123477a3bf089f58dc851a41f"
+    },
+    "question-7-8-penguin": {
+      "text": "这种不会飞的海鸟，会用坚硬扁平的翅膀在水中前进。",
+      "duration": 5.178583,
+      "bytes": 63116,
+      "sha256": "4c7170d58b455cd8cebebe1c3429bfb95df85db6e94c451c0f6e4255f1ddd4b4"
+    },
+    "question-7-8-pig": {
+      "text": "这种有圆鼻子的家畜会在泥里打滚，帮助身体降温。",
+      "duration": 4.90825,
+      "bytes": 59948,
+      "sha256": "265ad4873e15d9e4f6600fcfc61845f745f3ffe63c0ef1febca97e09c0239525"
+    },
+    "question-7-8-polar-bear": {
+      "text": "这种生活在北极的熊，看起来白白的毛发下面藏着黑色的皮肤。",
+      "duration": 5.967292,
+      "bytes": 72620,
+      "sha256": "77254e4d8f1abbc459f68cb23a4bb7c586a96ca4f52d1534a78131a759cf2e0e"
+    },
+    "question-7-8-purple": {
+      "text": "把红色和蓝色颜料混在一起，就能调出这种颜色。",
+      "duration": 4.622083,
+      "bytes": 56492,
+      "sha256": "4bf362c67fec695f16f30391c14c5a4458ba6cf851c7271b27d4d70c92b604c5"
+    },
+    "question-7-8-rabbit": {
+      "text": "这种长耳朵动物的后腿很有力，能帮助它蹦蹦跳跳。",
+      "duration": 4.7385,
+      "bytes": 57932,
+      "sha256": "1089f5fd6dfc9a650c687403fb9e37d708f2caf3f16d305193dfce0615f238f7"
+    },
+    "question-7-8-raccoon": {
+      "text": "这种戴着黑眼罩、尾巴有环纹的哺乳动物，会用灵敏的前爪探索食物。",
+      "duration": 6.40375,
+      "bytes": 77804,
+      "sha256": "2d82b2158829209512819abb2e5206c5b500f58248976d06d4c32d388c70dde7"
+    },
+    "question-7-8-rat": {
+      "text": "这种长尾巴的啮齿动物排在十二生肖的第一位。",
+      "duration": 4.211875,
+      "bytes": 51596,
+      "sha256": "89825d4289e6b665b269362374151587b833386924fe9edfbeebd81c33705cd9"
+    },
+    "question-7-8-rectangle": {
+      "text": "图中这个图形的四个角都是直角，有两条长边和两条短边。",
+      "duration": 5.844833,
+      "bytes": 71180,
+      "sha256": "20d0f1f7f766fc57e07ee2da684d24affb387bf8c59d5728df74ea8c391f7fd3"
+    },
+    "question-7-8-red": {
+      "text": "交通信号灯亮起这种颜色时，车辆要停下来。",
+      "duration": 4.436792,
+      "bytes": 54188,
+      "sha256": "84aa2598c98eeb90a59815326d4e0f36cb69972065fa4ade8ead7f268d80d3e3"
+    },
+    "question-7-8-rhinoceros": {
+      "text": "这种厚皮动物鼻子上的角由角蛋白组成，和我们指甲里的材料相似。",
+      "duration": 6.348333,
+      "bytes": 77228,
+      "sha256": "9d853f4674e4dbb24ecb33291c6f7cbf3248c825e8871b16021c60e572eb58a2"
+    },
+    "question-7-8-rooster": {
+      "text": "它是雄性的鸡，常常通过啼叫告诉周围它在这里。",
+      "duration": 5.032958,
+      "bytes": 61388,
+      "sha256": "3332e0348cd81616633ff47efbe597f1a0a4a9f3fdcbc19dde147da0dd3f9b09"
+    },
+    "question-7-8-seahorse": {
+      "text": "这种直立游泳、卷尾巴的小鱼，由爸爸用育儿袋照顾鱼卵。",
+      "duration": 5.507458,
+      "bytes": 67148,
+      "sha256": "5a396d809d7857ce8cb3f6736ece8518cee66477c0465a0d3f2bee69493c7e4c"
+    },
+    "question-7-8-seal": {
+      "text": "这种长着鳍状肢的海洋哺乳动物，会在陆地或冰上休息，用胡须感知水里的动静。",
+      "duration": 7.631875,
+      "bytes": 92492,
+      "sha256": "edff922b89bbc1a41fda520cd517290fc40452f1ee791424c47c75ade9d3d9c5"
+    },
+    "question-7-8-seven": {
+      "text": "四加三等于几？",
+      "duration": 1.60075,
+      "bytes": 20204,
+      "sha256": "a2a03aba9c20255d2cf243c17736d0b954d0958a5024adaa4b507ae5773d9ca1"
+    },
+    "question-7-8-seventeen": {
+      "text": "九加八等于几？",
+      "duration": 1.529,
+      "bytes": 19340,
+      "sha256": "a46a071fc5187aa1793db8492c96066263d951c4009018d7ec94079981e45c8e"
+    },
+    "question-7-8-shark": {
+      "text": "这种用鳃呼吸的鱼，骨架由软骨组成，而不是硬骨。",
+      "duration": 4.86,
+      "bytes": 59372,
+      "sha256": "6e81de7aea99a8242dc7244feae05d698ee5069e65b5541176fe7d964b4498fe"
+    },
+    "question-7-8-six": {
+      "text": "三加三等于几？",
+      "duration": 1.600917,
+      "bytes": 20204,
+      "sha256": "a3a293894a841bbfc6c6c9a44fd03292409878bb7da8eb1f087755d7a228bed2"
+    },
+    "question-7-8-sixteen": {
+      "text": "八加八等于几？",
+      "duration": 1.493167,
+      "bytes": 19052,
+      "sha256": "c7837f777a0157ab47fa215fede3bf83db3f8ded7da0165fdd4b3f0c132d3252"
+    },
+    "question-7-8-snake": {
+      "text": "这种没有腿的爬行动物会伸出分叉的舌头，收集气味信息。",
+      "duration": 5.439333,
+      "bytes": 66284,
+      "sha256": "b731944b66cb6f7f9f18551598b0622b18cf3cabedccdf84a4282a69158e0179"
+    },
+    "question-7-8-square": {
+      "text": "它的四条边一样长，四个角都是直角。",
+      "duration": 3.426583,
+      "bytes": 42092,
+      "sha256": "d758e44c6b81af0c9c649c56e249a93105424aec9cfeea1a0abd80a76319e07e"
+    },
+    "question-7-8-squirrel": {
+      "text": "这种蓬松尾巴的啮齿动物，常常把坚果藏在不同的地方，留着以后吃。",
+      "duration": 6.505958,
+      "bytes": 79244,
+      "sha256": "0d272b65d7895ca1043f717cf6c6bede93213e7fd7884b69ebd23ba487b3d844"
+    },
+    "question-7-8-star": {
+      "text": "它的边一会儿向外、一会儿向里，形成五个向外的尖角。",
+      "duration": 4.688167,
+      "bytes": 57356,
+      "sha256": "ccccb7e842deade32c18862f57941b615c952cf12a18e984be0075e054de09b8"
+    },
+    "question-7-8-starfish": {
+      "text": "这种星星形状的海洋动物，靠腕下方的小管足移动。",
+      "duration": 4.781375,
+      "bytes": 58508,
+      "sha256": "b2c57cd43f1f9f2440d464f6f99966c57da9994abfe4e95164dee70ff31cab15"
+    },
+    "question-7-8-strawberry": {
+      "text": "这种红色水果顶上有绿色小叶子，表面有像种子一样的小点点。",
+      "duration": 5.995333,
+      "bytes": 72908,
+      "sha256": "aaba08629722691b070e0bde54c930f95aa6df21bc75216458ef1b1620a67ea2"
+    },
+    "question-7-8-sun": {
+      "text": "这颗恒星给地球带来光和温暖，帮助植物生长。",
+      "duration": 4.818125,
+      "bytes": 58796,
+      "sha256": "16d1b061d5060b920b584735de5d1b333b1bd684eff6a413c665ffb10cc4d844"
+    },
+    "question-7-8-ten": {
+      "text": "五加五等于几？",
+      "duration": 1.487,
+      "bytes": 18764,
+      "sha256": "affed88b0d74c722b6cc267fa62f8dd0222ba60df748a78b7779c035b909a9b4"
+    },
+    "question-7-8-thirteen": {
+      "text": "七加六等于几？",
+      "duration": 1.558958,
+      "bytes": 19628,
+      "sha256": "3fa62ba58267a3ee77156666ae7a2951b49b1f9f36935f239816edc6eb0bce95"
+    },
+    "question-7-8-three": {
+      "text": "二加一等于几？",
+      "duration": 1.503208,
+      "bytes": 19052,
+      "sha256": "c57266fa5c8137a921078c366d79cad3f680b8c894a871597e4dc9be151a5c85"
+    },
+    "question-7-8-tiger": {
+      "text": "这种大型猫科动物身上有条纹，每一只的条纹图案都不一样。",
+      "duration": 5.434625,
+      "bytes": 66284,
+      "sha256": "c825cc90961224091b74a5a5c6d1df0a0985d2e34eca9eb2c80107b77d92a7e6"
+    },
+    "question-7-8-tree": {
+      "text": "它的木质树干支撑着树枝，地下的根能吸收水分。",
+      "duration": 5.042083,
+      "bytes": 61676,
+      "sha256": "3be9fb85b3c32e99f41438c5861bf52b75a0cb35c3aae4a97cf8cd66ad56effd"
+    },
+    "question-7-8-triangle": {
+      "text": "数一数这个图形的直边，刚好有三条。",
+      "duration": 3.462125,
+      "bytes": 42668,
+      "sha256": "6d4723edb3f1290a4014def347b6483ae173f9e4840dde0847227c5f9c3989fd"
+    },
+    "question-7-8-turtle": {
+      "text": "这种爬行动物背着壳，壳也是它身体的一部分。",
+      "duration": 4.015667,
+      "bytes": 49292,
+      "sha256": "5dde98db8a5b099a4a6d755ad24eecbaae874eebc62d56eaa698172d24cea9a7"
+    },
+    "question-7-8-twelve": {
+      "text": "六加六等于几？",
+      "duration": 1.548958,
+      "bytes": 19628,
+      "sha256": "07ff2608a5e8a68ab1224e7f94ccf4e74b9f7e6cd7317630dd340a143beb86e5"
+    },
+    "question-7-8-two": {
+      "text": "一加一等于几？",
+      "duration": 1.525458,
+      "bytes": 19340,
+      "sha256": "b59d8c1e7c98cd4d4203294d3c89198c133ba83caaef8c82d98f78f43aca29b8"
+    },
+    "question-7-8-whale": {
+      "text": "这种巨大海洋哺乳动物中的蓝色种类，是今天地球上最大的动物。",
+      "duration": 5.969458,
+      "bytes": 72620,
+      "sha256": "46768a7c86a325d1085771e0ddf6f840819473a792e329ec8336d3a179949b5c"
+    },
+    "question-7-8-wolf": {
+      "text": "这种野生的犬科动物通过嚎叫，与狼群里的同伴交流。",
+      "duration": 5.107125,
+      "bytes": 62252,
+      "sha256": "22030e3a7cb2abbade6d1fb0f1f1f645f318919ddb0947d07b28a46447835190"
+    },
+    "question-7-8-woodpecker": {
+      "text": "这种会敲击树干的鸟，能用硬硬的尾羽支撑身体，靠在树干上。",
+      "duration": 6.067,
+      "bytes": 73772,
+      "sha256": "b96b07514e5e91edde4b8f0ad563be7309be240d26a73801d261fc5d8e43dc2d"
+    },
+    "question-7-8-yellow": {
+      "text": "柠檬皮和成熟的香蕉皮，都有这种明亮的颜色。",
+      "duration": 4.420833,
+      "bytes": 54188,
+      "sha256": "328578d5347a9a41be42af332e1c3ecce015843e386a917df702df2c7c7f26f9"
+    },
+    "question-7-8-zebra": {
+      "text": "这种马的亲戚身上有条纹，每一只的黑白条纹图案都不一样。",
+      "duration": 5.439625,
+      "bytes": 66284,
+      "sha256": "1e5e32ec321f9198cbb0f813eb6edf208fff83675a7f6aa391521f9193bf63ae"
+    },
+    "question-7-8-zero": {
+      "text": "一减一等于几？",
+      "duration": 1.489958,
+      "bytes": 19052,
+      "sha256": "a8d7ec8329022492182cb5273feb65b36104ea09b39af191cf2e33195b9059f6"
+    }
+  }
+}

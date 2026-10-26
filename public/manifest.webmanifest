@@ -1,0 +1,17 @@
+{
+  "name": "Little World — 小小世界",
+  "short_name": "Little World",
+  "description": "Listen, explore, and play in English or Chinese. 中英文认知启蒙，适合 3–8 岁。",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8f8f2",
+  "theme_color": "#f8f8f2",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
