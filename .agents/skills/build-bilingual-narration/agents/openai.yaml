@@ -1,0 +1,4 @@
+interface:
+  display_name: '双语语音素材制作'
+  short_description: '从课程生成自然中英文录音，校正短词音量并验证完整离线素材'
+  default_prompt: '使用 $build-bilingual-narration 更新指定内容的中英文语音，复用已有生成器并检查音量、时长和离线播放。'

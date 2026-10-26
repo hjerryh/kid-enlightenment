@@ -66,6 +66,26 @@ Chrome 测试使用系统 Google Chrome。没有 Chrome 时先安装 Chrome，�
 
 一次验证两个浏览器：`npm run build && npx playwright test`。手机测试使用浏览器的移动视口和触摸模拟；WebKit 测试用于验证 Safari 引擎行为，不代表已在实体 iPad 或 iPhone 上验收。
 
+## 项目内 Skills
+
+以下技能保存在 `.agents/skills/`，随项目一起版本管理。它们记录本项目可复用的操作方法，实际实现继续维护在 `scripts/`、`src/` 和 `tests/`，无需安装到个人全局目录。
+
+| 技能                                                                  | 适用任务                                                       |
+| --------------------------------------------------------------------- | -------------------------------------------------------------- |
+| [儿童认知内容扩充](.agents/skills/expand-kids-curriculum/SKILL.md)    | 扩充词条或主题，同步中英文、分龄题目、插图、语音和学习进度兼容 |
+| [双语语音素材制作](.agents/skills/build-bilingual-narration/SKILL.md) | 更换声线、补充新内容录音、校正短词音量并验证发布素材           |
+| [PWA 离线验收](.agents/skills/verify-offline-pwa/SKILL.md)            | 按改动选择触屏、双语、音频、缓存及断网播放检查                 |
+
+支持仓库级技能发现的客户端可按任务自动选用，也可以显式调用：
+
+```text
+使用 $expand-kids-curriculum 给水果主题增加 10 种水果，保持旧进度可用。
+使用 $build-bilingual-narration 更新本次新增词条的中文录音。
+使用 $verify-offline-pwa 验证这次改动的中英文切换和断网播放。
+```
+
+如果当前会话尚未发现新技能，可以直接要求读取对应的 `SKILL.md` 路径。迁移到其他项目时，先核对课程结构、生成器接口和测试入口；这些技能不附带重复的应用源码，也不默认执行发布或推送。
+
 ## 资源与维护
 
 - `src/data/curriculum.ts`：六个主题及全部 106 个概念的统一入口。

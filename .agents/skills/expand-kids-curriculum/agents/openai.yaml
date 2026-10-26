@@ -1,0 +1,4 @@
+interface:
+  display_name: '儿童认知内容扩充'
+  short_description: '扩充中英文认知词条、分龄题目与插画，检查分类和旧进度兼容'
+  default_prompt: '使用 $expand-kids-curriculum 扩充指定的认知主题，同步中英文、插图和分龄练习，并保留已有进度。'

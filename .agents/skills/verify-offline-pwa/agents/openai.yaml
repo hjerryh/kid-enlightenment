@@ -1,0 +1,4 @@
+interface:
+  display_name: 'PWA 离线验收'
+  short_description: '验证触屏布局、双语音频、离线缓存与学习进度，区分模拟和真机结果'
+  default_prompt: '使用 $verify-offline-pwa 验证当前改动涉及的双语学习和离线播放流程，并记录通过项与未验证项。'
